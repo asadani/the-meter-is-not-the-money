@@ -1,0 +1,62 @@
+lens: market
+name: Market and competitive
+use_when: >
+  Market sizing, competitor analysis, pricing, product positioning, industry
+  trends, customer segments, go-to-market questions.
+
+tiers:
+  T1: >
+    Primary disclosure and primary observation. Regulatory filings, audited
+    financials, published price lists, the product itself, terms of service,
+    procurement records, a survey you ran.
+  T2: >
+    Statistical agencies, trade associations publishing method, regulators, and
+    analyst research that states its sample, definition, and methodology.
+  T3: >
+    Established trade press and business journalism with named reporting, and
+    analyst commentary without a full published method.
+  T4: >
+    Vendor-commissioned research, press releases, funding announcements, market
+    size figures with no stated method, and the endlessly recycled "$X billion by
+    2030" number.
+
+recency:
+  default_window_years: 2
+  note: >
+    Pricing and positioning change quietly and without announcement. A price
+    page is evidence of today only; record the access date and treat anything
+    over a quarter old as needing recapture.
+
+strong_evidence: >
+  A number traceable to a filing or a stated methodology, where you can see the
+  definition of what was counted. Market figures differ by 5x depending on whether
+  adjacent categories are included -- the definition matters more than the number.
+
+traps:
+  - "A market size figure that every source repeats and no source computed."
+  - "Vendor-commissioned research presented as independent analysis."
+  - "Comparing figures built on different definitions of the market."
+  - "Survivorship bias: the companies that failed are not in the dataset."
+  - "Treating a funding round as evidence of traction."
+  - "Self-reported customer counts, seat counts, and ARR."
+
+preferred_sources:
+  - Regulatory filings and company disclosures
+  - Statistical agencies and regulators
+  - Published pricing and terms, captured directly
+  - Trade associations that publish their methodology
+
+# --- adjustments for this project ---
+recency_override:
+  window: "deal facts must be sourced to 2026-08-14 or later; market/pricing
+    evidence to 2026 where possible, 2025 acceptable for structural claims."
+  why: >
+    The triggering event is ten days old at time of scoping. Anything written
+    about OpenRouter before 2026-08-16 describes an independent company and
+    cannot speak to the combined entity. Model pricing pages change without
+    announcement and must carry an access date.
+extra_traps:
+  - "The announcement post is T4 on strategy even when T1 on the fact of the deal."
+  - "Confusing what Stripe SAYS the deal is for with what the deal is for."
+  - "OpenRouter's own published token-volume and model-count figures are self-reported."
+  - "Reported price varies by source ($7B / $7.5B / $8B+) - do not average them, attribute them."

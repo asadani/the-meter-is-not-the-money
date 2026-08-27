@@ -1,0 +1,283 @@
+
+Pricing · Cloudflare AI Gateway docs
+Skip to content
+Documentation Index
+Fetch the complete documentation index at: https://developers.cloudflare.com/ai-gateway/llms.txt
+Use this file to discover all available pages before exploring further.
+Docs
+Directory
+API
+SDKs
+Changelog
+Search
+Ctrl
+K
+Log in
+Dashboard
+AI Gateway
+/
+Overview
+Getting started
+Models
+Using AI Gateway
+REST API
+Workers Bindings
+Unified API (OpenAI compat)
+Deprecated
+Provider Native
+Workers AI
+Amazon Bedrock
+Anthropic
+Azure OpenAI
+Baseten
+Cartesia
+Cerebras
+Cohere
+Deepgram
+DeepSeek
+ElevenLabs
+Fal AI
+Google AI Studio
+Google Vertex AI
+Groq
+HuggingFace
+Ideogram
+Mistral AI
+OpenAI
+OpenRouter
+Parallel
+Perplexity
+Replicate
+xAI
+Web Search
+WebSockets API
+Beta
+Overview
+Realtime WebSockets API
+Non-realtime WebSockets API
+Features
+Overview
+Unified Billing
+Caching
+Spend limits
+Beta
+Rate limiting
+Dynamic routing
+Beta
+Overview
+Using a dynamic route
+JSON Configuration
+Data Loss Prevention (DLP)
+Beta
+Overview
+Set up Data Loss Prevention (DLP)
+Guardrails
+Beta
+Overview
+Set up Guardrails
+Supported model types
+Usage considerations
+Configuration
+BYOK (Store Keys)
+Beta
+Custom costs
+Custom Providers
+Beta
+Manage gateways
+Request handling
+Authenticated Gateway
+Custom domains
+Cloudflare Access
+Observability
+Costs
+User Insights
+Custom metadata
+OpenTelemetry
+Analytics
+Logging
+Overview
+Workers Logpush
+Integrations
+Vercel AI SDK
+Agents ↗
+Set up Workers AI with AI Gateway
+Coding agents
+Overview
+Claude Code
+Claude Desktop
+GitHub Copilot CLI
+OpenAI Codex
+Pi
+Tutorials
+Platform
+Overview
+Limits
+Troubleshooting
+Pricing
+Audit logs
+Changelog
+Header Glossary
+REST API reference ↗
+API
+MCP server
+MCP
+Architectures
+Agent resources
+Agent setup ↗
+Cloudflare Skills ↗
+Code Mode MCP Server ↗
+Domain-specific MCP Servers ↗
+MCP
+AI Gateway llms.txt ↗
+AI Gateway llms-full.txt ↗
+Cloudflare Docs llms.txt ↗
+Cloudflare Docs llms-full.txt ↗
+Home
+/
+AI Gateway
+/
+Platform
+/
+Pricing
+Pricing
+Last updated 
+May 19, 2026
+|
+Copy as Markdown
+|
+View as Markdown
+|
+Agent setup
+Overview
+Persistent logs
+ Log storage limits
+Data Loss Prevention (DLP)
+Guardrails
+Unified Billing
+Logpush
+Pricing notes
+AI Gateway is available to use on all plans.
+AI Gateway's core features available today are offered for free, and all it takes is a Cloudflare account and one line of code to 
+get started
+. Core features include: dashboard analytics, caching, and rate limiting.
+We will continue to build and expand AI Gateway. Some new features may be additional core features that will be free while others may be part of a premium plan. We will announce these as they become available.
+You can monitor your usage in the AI Gateway dashboard.
+Persistent logs
+Persistent logs are available on all plans. Log storage limits vary by plan.
+Log storage limits
+Plan
+Log storage limit
+Workers Free
+100,000 logs total across all gateways
+Workers Paid
+10,000,000 logs per gateway
+For more details on log storage behavior and automatic log deletion, refer to 
+Limits
+ and 
+Logging
+.
+Data Loss Prevention (DLP)
+DLP scanning in AI Gateway is free on all plans. Accounts without a Zero Trust subscription have access to two predefined 
+DLP profiles
+: Financial Information and Social / Insurance / National Identifier Numbers.
+DLP profiles are shared at the account level with 
+Cloudflare One
+. If your account has a Zero Trust subscription that includes DLP, the full set of profiles — including all predefined profiles, custom profiles, integration profiles, DLP datasets, and OCR — is automatically available in AI Gateway.
+Guardrails
+Guardrails
+ evaluates prompts and responses using 
+@cf/meta/llama-guard-3-8b
+ on Workers AI. Usage is billed as 
+Workers AI
+ token-based inference — cost scales with the length of the prompts and responses being evaluated.
+Unified Billing
+A 5% fee is applied to all credits purchased through 
+Unified Billing
+. For example, a $100 credit purchase will result in a $105 charge. Inference pricing from providers is passed through with no markup — you pay the same per-token rates as you would directly with the provider.
+Logpush
+Logpush is only available on the Workers Paid plan.
+Paid plan
+Requests
+10 million / month, +$0.05/million
+Pricing notes
+Prices subject to change. If you are an Enterprise customer, reach out to your account team to confirm pricing details.
+Previous
+Troubleshooting
+Next
+Audit logs
+Was this helpful?
+Yes
+No
+Edit page
+Report issue
+On this page
+Overview
+Persistent logs
+Log storage limits
+Data Loss Prevention (DLP)
+Guardrails
+Unified Billing
+Logpush
+Pricing notes
+Edit page
+Report issue
+Getting started
+Plans
+Contact sales
+Partners
+Find a partner
+Startups
+Under attack?
+Domain name search
+Company
+About
+Careers
+Investors
+Press
+Press kit
+Global network
+Public interest
+Project Galileo
+Athenian Project
+Cloudflare for Campaigns
+Project Fairshot
+Impact/ESG
+Compliance
+Compliance resources
+Trust Hub
+Data Protection
+Responsible AI
+Transparency report
+Report abuse
+Resources
+App innovation report
+Cloudflare Radar
+Case studies
+Status
+Support
+Events
+Blog
+Developers
+Documentation
+Learning center
+Community
+Solutions
+SSE and SASE platform
+Cloudflare AI Cloud
+AI Security
+Frontend Development Platform
+Multi-Tenant Platform Development
+Web Security Platform
+Start Building
+Log In
+© 2026 Cloudflare, Inc.
+Privacy policy
+|
+Report security issues
+|
+Terms of use
+|
+Trademark
+|
+Your privacy choices
+Docs

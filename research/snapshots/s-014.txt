@@ -1,0 +1,364 @@
+Skip to content
+Documentation Index
+Fetch the complete documentation index at: https://developers.cloudflare.com/ai-gateway/llms.txt
+Use this file to discover all available pages before exploring further.
+
+DocsDirectoryAPISDKsChangelog
+
+SearchCtrlK
+
+Log inDashboard
+
+AI Gateway
+
+/
+
+Overview
+
+Getting started
+
+Models
+
+Using AI Gateway
+
+REST API
+
+Workers Bindings
+
+Unified API (OpenAI compat)Deprecated
+
+Provider Native
+
+Workers AI
+
+Amazon Bedrock
+
+Anthropic
+
+Azure OpenAI
+
+Baseten
+
+Cartesia
+
+Cerebras
+
+Cohere
+
+Deepgram
+
+DeepSeek
+
+ElevenLabs
+
+Fal AI
+
+Google AI Studio
+
+Google Vertex AI
+
+Groq
+
+HuggingFace
+
+Ideogram
+
+Mistral AI
+
+OpenAI
+
+OpenRouter
+
+Parallel
+
+Perplexity
+
+Replicate
+
+xAI
+
+Web Search
+
+WebSockets APIBeta
+
+Overview
+
+Realtime WebSockets API
+
+Non-realtime WebSockets API
+
+Features
+
+Overview
+
+Unified Billing
+
+Caching
+
+Spend limitsBeta
+
+Rate limiting
+
+Dynamic routingBeta
+
+Overview
+
+Using a dynamic route
+
+JSON Configuration
+
+Data Loss Prevention (DLP)Beta
+
+Overview
+
+Set up Data Loss Prevention (DLP)
+
+GuardrailsBeta
+
+Overview
+
+Set up Guardrails
+
+Supported model types
+
+Usage considerations
+
+Configuration
+
+BYOK (Store Keys)Beta
+
+Custom costs
+
+Custom ProvidersBeta
+
+Manage gateways
+
+Request handling
+
+Authenticated Gateway
+
+Custom domains
+
+Cloudflare Access
+
+Observability
+
+Costs
+
+User Insights
+
+Custom metadata
+
+OpenTelemetry
+
+Analytics
+
+Logging
+
+Overview
+
+Workers Logpush
+
+Integrations
+
+Vercel AI SDK
+
+Agents ↗
+
+Set up Workers AI with AI Gateway
+
+Coding agents
+
+Overview
+
+Claude Code
+
+Claude Desktop
+
+GitHub Copilot CLI
+
+OpenAI Codex
+
+Pi
+
+Tutorials
+
+Platform
+
+Overview
+
+Limits
+
+Troubleshooting
+
+Pricing
+
+Audit logs
+
+Changelog
+
+Header Glossary
+
+REST API reference ↗API
+
+MCP serverMCP
+
+Architectures
+
+Agent resources
+
+Agent setup ↗
+
+Cloudflare Skills ↗
+
+Code Mode MCP Server ↗
+
+Domain-specific MCP Servers ↗MCP
+
+AI Gateway llms.txt ↗
+
+AI Gateway llms-full.txt ↗
+
+Cloudflare Docs llms.txt ↗
+
+Cloudflare Docs llms-full.txt ↗
+
+Home
+
+/AI Gateway
+
+Cloudflare AI Gateway
+
+Last updated Apr 20, 2026|Copy as Markdown|View as Markdown|Agent setup
+
+OverviewFeaturesRelated productsMore resources
+
+Observe and control your AI applications.
+
+Available on all plans
+
+Cloudflare's AI Gateway allows you to gain visibility and control over your AI apps. By connecting your apps to AI Gateway, you can gather insights on how people are using your application with analytics and logging and then control how your application scales with features such as caching, rate limiting, as well as request retries, model fallback, and more. Better yet - it only takes one line of code to get started.
+
+Check out the Get started guide to learn how to configure your applications with AI Gateway.
+
+Features
+
+Models
+
+Explore all AI models available through AI Gateway, including OpenAI, Anthropic, Google, and more.
+
+Browse models
+
+Analytics
+
+View metrics such as the number of requests, tokens, and the cost it takes to run your application.
+
+View Analytics
+
+Logging
+
+Gain insight on requests and errors.
+
+View Logging
+
+Caching
+
+Serve requests directly from Cloudflare's cache instead of the original model provider for faster requests and cost savings.
+
+Use Caching
+
+Rate limiting
+
+Control how your application scales by limiting the number of requests your application receives.
+
+Use Rate limiting
+
+Request retry and fallback
+
+Improve resilience by defining request retry and model fallbacks in case of an error.
+
+Use Request retry and fallback
+
+Your favorite providers
+
+Workers AI, Anthropic, Google Gemini, OpenAI, Replicate, and more work with AI Gateway.
+
+Use Your favorite providers
+
+Related products
+
+Workers AI
+
+Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network.
+
+Vectorize
+
+Build full-stack AI applications with Vectorize, Cloudflare's vector database. Adding Vectorize enables you to perform tasks such as semantic search, recommendations, anomaly detection or can be used to provide context and memory to an LLM.
+
+More resources
+
+Developer Discord
+
+Connect with the Workers community on Discord to ask questions, show what you
+are building, and discuss the platform with other developers.
+
+Use cases
+
+Learn how you can build and deploy ambitious AI applications to Cloudflare's
+global network.
+
+@CloudflareDev
+
+Follow @CloudflareDev on Twitter to learn about product announcements, and
+what is new in Cloudflare Workers.
+
+NextGetting started
+
+Was this helpful?
+
+YesNo
+
+Edit pageReport issue
+
+On this page
+
+Overview
+
+Features
+
+Related products
+
+More resources
+
+Edit pageReport issue
+
+Getting started
+PlansContact salesPartnersFind a partnerStartupsUnder attack?Domain name search
+
+Company
+AboutCareersInvestorsPressPress kitGlobal network
+
+Public interest
+Project GalileoAthenian ProjectCloudflare for CampaignsProject FairshotImpact/ESG
+
+Compliance
+Compliance resourcesTrust HubData ProtectionResponsible AITransparency reportReport abuse
+
+Resources
+App innovation reportCloudflare RadarCase studiesStatusSupportEventsBlog
+
+Developers
+DocumentationLearning centerCommunity
+
+Solutions
+SSE and SASE platformCloudflare AI CloudAI SecurityFrontend Development PlatformMulti-Tenant Platform DevelopmentWeb Security Platform
+
+Start BuildingLog In
+
+© 2026 Cloudflare, Inc.
+
+Privacy policy| Report security issues| Terms of use| Trademark
+|
+Your privacy choices
+
+Docs

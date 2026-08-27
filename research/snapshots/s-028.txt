@@ -1,0 +1,207 @@
+
+PYMNTS | Stripe’s OpenRouter Bid 70 Times Company’s Annual Revenue
+PYMNTS Intelligence
+The Prompt Economy
+Newswire
+Events
+SUBSCRIBE
+Partner With PYMNTS
+About
+Contact
+PYMNTS TV
+Search
+Today
+B2B
+Retail
+Fintech
+AI | The Prompt Economy
+Crypto | Digital Assets
+Regulation
+Trendscapes
+Data Lab
+More 
+Topics
+Artificial Intelligence
+Connected Car
+Buy Now Pay Later
+Banking
+Cloud
+Cross-Border Payments
+Gig-Economy
+Grocery & Pharmacy
+Healthcare Payments
+Insurtech
+Small & Medium Businesses
+Social Platforms
+Subscription Commerce
+Travel
+TechREG®
+Real-Time Payments
+Restaurants
+EMEA
+Featured
+Trackers
+Proprietary Data Studies
+Research Framework
+SEE ALSO:
+Editor's Picks
+Opinion
+Newswire Announcements
+CE100 Index
+Working Capital & Liquidity
+Competition Policy International
+A PYMNTS Company
+Stay Current
+Events
+Subscribe
+Newswire
+Advertise with Us
+Search PYMNTS
+PYMNTS
+PYMNTS Intelligence
+The Prompt Economy
+Newswire
+Events
+SUBSCRIBE
+Partner With PYMNTS
+Explore
+PYMNTS TV
+Today
+B2B
+Retail
+Fintech
+AI | The Prompt Economy
+Crypto | Digital Assets
+Regulation
+Trendscapes
+Data Lab
+Artificial Intelligence
+Connected Car
+Buy Now Pay Later
+Banking
+Cloud
+Cross-Border Payments
+Gig-Economy
+Grocery & Pharmacy
+Healthcare Payments
+Insurtech
+Small & Medium Businesses
+Social Platforms
+Subscription Commerce
+Travel
+TechREG®
+Real-Time Payments
+Restaurants
+EMEA
+Company
+About
+Contact
+                                      Stripe’s OpenRouter Bid 70 Times Company’s Annual Revenue                    
+-->
+By
+PYMNTS
+ | 
+July 29, 2026
+Share:
+ -->
+ | 
+Listen to Article
+Listen
+Pause
+-->
+Last week saw 
+reports
+ that 
+Stripe
+ is considering 
+buying
+ artificial intelligence startup 
+OpenRouter
+ for $10 billion.
+Get the Full Story
+Complete the form to unlock this article and enjoy unlimited free access to all PYMNTS content — no additional logins required.
+yes
+Subscribe to our daily newsletter, PYMNTS Today.
+By completing this form, you agree to receive marketing communications from PYMNTS and to the sharing of your information with our sponsor, if applicable, in accordance with our 
+Privacy Policy
+ and 
+Terms and Conditions
+.
+Δ
+If the deal goes through at that amount, Stripe would be paying roughly 70 times OpenRouter’s annualized revenue, The Information 
+reported
+ Wednesday (July 29), citing an unnamed source.
+OpenRouter is generating roughly $140 million in annualized revenue, a three-fold increase since April, the report said. Costs have been low for the startup, which helps app developers access hundreds of AI models.
+However, the price Stripe floated is high compared to other AI acquisitions when calculated as a multiple of forward revenue, according to the report.
+When 
+SpaceX
+ spent $60 billion to 
+acquire
+ AI coding app 
+Cursor
+, for example, the latter company was generating $2.7 billion in annualized revenue in March, meaning SpaceX was paying around 22 times Cursor’s forward revenue, the report said.
+We’d love to be your 
+preferred source for news
+.
+Please add us to your preferred sources list so our news, data and interviews show up in your feed. Thanks!
+      Add as Preferred Source
+Although OpenRouter is smaller than Cursor, it “likely has better economics,” as its costs for serving its model-routing product were 28.5% of its revenue, meaning it was bringing in $100 million in annualized gross profit, according to the report.
+“With a roughly 70% gross profit margin, OpenRouter was near the level of high-performing, publicly traded software firms in that regard,” the report said.
+Stripe’s bid for OpenRouter placed it among a larger group of companies trying to “build, buy or open their own version of AI model routing,” with Cursor, 
+Meta
+ and 
+Ramp
+ all embarking on similar efforts the same week, PYMNTS 
+reported
+ Monday (July 27).
+“For a payments company like Stripe, the routing layer is valuable for a reason that has little to do with AI cost savings,” the report said. “It sits one step upstream of a problem FinTech companies already spend heavily trying to solve: billing AI usage accurately.”
+Unpredictable AI pricing is the chief barrier to adoption for 46% of IT leaders, according to the report, which cited Stripe’s research. AI infrastructure costs have risen from around 10% of a typical AI company’s budget to as much as 35% to 40% as usage scales, per industry 
+analysis
+ from billing platform 
+Flexprice
+.
+“Long before an invoice gets generated, something has already decided which model answers a request and what it will cost,” the report said. “Whoever owns that decision owns the first move in every transaction that follows. A simple question still doesn’t cost the same to answer as a hard one, and increasingly, neither does owning the software that decides which is which.”
+For all PYMNTS AI coverage, subscribe to the daily 
+AI Newsletter
+.
+            Recommended          
+                  Stripe’s OpenRouter Bid 70 Times Company’s Annual Revenue                
+                  Increase Debuts Bank to Help FinTechs Build Financial Products                
+                  BNY Adds Blockchain Capabilities to Transfer Agency Business                
+                  Oregon Says BNPL Providers Need State Lending Licenses                
+See More In:
+acquisitions
+, 
+artificial intelligence
+, 
+News
+, 
+PYMNTS News
+, 
+startups
+, 
+Stripe
+, 
+What's Hot
+            Trending News        
+                    Splitit CEO Says Payments Firms Must Build for AI, Not Just Use It                
+                    FGV Capital Says AI Startup Rock Stars Need Different VC Roadies                
+                    Three Charts Show Who Wants a Federal Bank Charter and Why                
+            The Big Story        
+                    FGV Capital Says AI Startup Rock Stars Need Different VC Roadies                
+            Featured News        
+                    Splitit CEO Says Payments Firms Must Build for AI, Not Just Use It                
+                    Three Charts Show Who Wants a Federal Bank Charter and Why                
+                    62% of Financially Improving Households Have a Savings Cushion                
+                    Targeted Rewards Could Close Credit Unions’ 21-Point Wallet Gap                
+                    Oumi Want Every Enterprise to Build Its Own AI Brain                
+                    Banks Adopt AI and Stablecoins Faster Than Compliance Can Keep Up                
+                    Amazon Clothing Share Doubles as Walmart Loses Ground                
+Subscribe
+Get PYMNTS Today, AI, B2B and more.
+CONTINUE
+View all newsletters.
+Strategic B2B Partnerships
+Partner With PYMNTS
+Own the conversation. Drive demand.
+Start a Conversation →

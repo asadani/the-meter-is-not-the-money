@@ -1,0 +1,332 @@
+Pricing Docs About Blog
+Log in Book a demo
+
+May 21, 2026
+
+The Top 10 AI Gateways for the Multi-Model Future (2026)
+
+There are only two constants in AI: change and gateways. With new models released every week across an ever-shifting cast of providers, AI gateways provide a stable control plane that allows individuals and enterprises to adapt to continuous change in the AI landscape with speed, reliability, and security.
+
+Most gateways started as unified model access layers, but over time they have grown to include billing, governance, observability, and security. The category has also fragmented as gateways differ meaningfully in what they optimize for, and choosing the wrong one can be one of the most expensive mistakes in AI infrastructure you can make. That’s why we’ve compiled this list of the leading AI model gateways in 2026: we cover what each is best at, what it’s weaknesses are, and how to think about composing a gateway stack for the multi-model future.
+
+Not Diamond is an intelligent model router, not a gateway—we integrate with any gateway to recommend when to use which model, improving accuracy while reducing cost. This gives us an informed but neutral view of the market, and we have hands on experience with all the gateways in this list. For a deeper dive on how intelligent routing and gateways differ, see our comprehensive guide to model routing.
+
+What an AI gateway does
+
+An AI gateway provides a unified API interface to multiple LLM providers. In addition, some gateways offer additional functionality:
+
+Billing: payment processing
+
+Cost controls: budgets, quotas, rate limits
+
+Governance: RBAC, audit logs, policy enforcement, key management
+
+Observability: logging, tracing, evals
+
+Caching: prompt and response caches
+
+Security: PII redaction, data residency, zero data retention
+
+Fallback and failover: reliability across providers
+
+No gateway does all of these equally well, and the most mature enterprise stacks are typically composed of two layers: an infrastructure gateway that standardizes policy and observability, and a routing layer that sits on top of the gateway to handle model selection intelligently.
+
+The list
+
+We’ve researched and tested the market, taking into account common deployment patterns and our own practical experience working with each tool over the past two years. Here's how the leading AI gateways stack up in 2026.
+
+1. OpenRouter
+
+Best for: Developers and teams who want the widest possible model catalog behind a single API and billing layer.
+
+OpenRouter is the de facto marketplace for LLMs: hundreds of models from dozens of providers and an OpenAI-compatible interface that drops in with a two-line code change. It pioneered the unified-key, unified-billing pattern and is still the easiest place to spin up multi-provider access in an afternoon.
+
+Pros
+
+Unmatched breadth of models and providers, refreshed almost in real time as new releases ship
+
+Strong provider failover and high baseline uptime
+
+OpenAI-compatible endpoints make adoption trivial in existing codebases
+
+Strong integrations with observability providers for end-to-end production application lifecycles
+
+Cons
+
+Not open source or self-hostable
+
+5.5% platform fee on inference means cost scales with volume
+
+Not Diamond powers OpenRouter's Auto mode. Every request routed through openrouter/auto is powered by our router, picking the best model for the prompt under quality and cost constraints.
+
+2. Vercel AI Gateway
+
+Best for: Next.js and Vercel-hosted applications.
+
+Vercel AI Gateway exposes hundreds of models through a single endpoint with built-in failovers, unified billing, and best-in-class developer experience for the AI SDK. It's a natural fit for product teams shipping AI features on Vercel and Next.js, and the feature velocity has been high since launch.
+
+Pros
+
+Excellent DX: one API key, AI SDK v5/v6 integration, model leaderboards, and fast iteration
+
+Unified billing and observability across providers, with BYOK support and budgets
+
+Built-in fallbacks during provider outages keep apps up without custom retry code
+
+Tightly integrated with Vercel Workflows, Flags, and the rest of the AI Cloud surface
+
+Cons
+
+Most natural when the rest of the stack is Vercel-centric, but less aligned with other languages
+
+SaaS-only, no enterprise or self-hosted option
+
+3. Portkey
+
+Best for: Production observability, governance and guardrails.
+
+Portkey is one of the most mature enterprise AI gateways, unifying access to thousands of LLMs with OTEL-compliant observability, a deep guardrails ecosystem, and a configs-as-code control surface. Its core is governance: logs, traces, policies, and the admin experience to manage them at scale.
+
+Pros
+
+Open source and self-hostable: the Gateway is MIT-licensed on GitHub and can be run locally with npx @portkey-ai/gateway
+
+360° observability with 40+ metrics per request, full traces, and a polished analytics dashboard
+
+Broadest guardrails integration footprint in the category (Patronus, Lasso, Pangea AI Guard, and others) for PII, prompt injection, and content safety
+
+Mature enterprise surface: SOC 2, virtual keys, RBAC, hybrid and air-gapped deployments, Prometheus metrics
+
+Configs-as-code make load balancing, fallbacks, and semantic caching reproducible across environments
+
+Cons
+
+Pricing scales with enterprise volume; the deeper the feature footprint, the higher the bill
+
+Guardrails ecosystem integrations are broad but integrating multiple vendors adds operational surface area
+
+Configuration depth has a real learning curve; teams that stop tuning the configs stop capturing the value
+
+4. TrueFoundry
+
+Best for: Enterprises that want a Kubernetes-native AI gateway as part of a broader ML platform.
+
+TrueFoundry is an enterprise AI gateway supporting 1,000+ models through an OpenAI-compatible interface, built around governance, guardrails, on-prem deployment, and integrated observability. It deploys inside customer VPCs with config cached in memory and <5ms benchmarked gateway overhead.
+
+Pros
+
+Self-hostable in customer VPC or on-prem, with low gateway-induced latency under load
+
+SaaS offering allows smaller teams to get up and running quickly and scale over time
+
+Enterprise governance: RBAC, rate limiting, guardrails, audit logging, SSO integrations
+
+Sits inside a wider MLOps platform if you already use TrueFoundry for training and deployments
+
+Cons
+
+Heavier footprint may be unnecessary if you don't plan to use the broader platform
+
+Less well-known than incumbent gateways and hyperscaler-native options
+
+5. LiteLLM
+
+Best for: Self-hosted, open-source teams and enterprises.
+
+LiteLLM is the open-source unified LLM API: a Python SDK and proxy server that calls hundreds of LLMs in OpenAI format, with virtual keys, spend tracking, guardrails, load balancing, and an admin dashboard out of the box.
+
+Pros
+
+Open source with a very active community (1,000+ contributors), deployable on your infra / VPC
+
+Wide provider coverage and OpenAI-compatible interface across SDK and proxy modes
+
+Production-ready proxy primitives: virtual keys, cost tracking, RBAC, admin UI, audit logging
+
+Can preserve data locality when self-hosted, assuming your providers, logs, and callbacks are also configured locally/private
+
+Cons
+
+Self-hosting burden falls on the platform team. You handle HA, upgrades, Redis/Postgres, security patching, monitoring, and incident response
+
+Load-bearing modules run to thousands of lines with heavy branches; expect friction when auditing and contributing fixes
+
+The March 2026 supply chain attack has raised scrutiny on LiteLLM’s threat model and security posture
+
+6. Kong AI Gateway
+
+Best for: Enterprises already standardizing on Kong for API management.
+
+Kong extends its established API gateway into the AI layer with PII sanitization, prompt guards, semantic caching, ACLs, MCP support, and tight integration with Bedrock and other enterprise stacks. Kong offers one control plane for HTTP APIs, AI traffic, MCP servers, and A2A connectivity.
+
+Pros
+
+Open-core; Kong Gateway is open source, but advanced AI Gateway features are paid add-ons / Enterprise
+
+Natural fit if Kong is already the API gateway of record; same operational model, same RBAC, Enterprise-grade audit trail
+
+Strong governance primitives: PII sanitization, prompt guards, rate limiting, compliance plugins.
+
+Single control plane for AI, APIs, MCP, and agent-to-agent traffic
+
+Established enterprise support, contracts, and partner ecosystem (AWS, Bedrock, and others)
+
+Cons
+
+Add-on pricing can penalize experimentation for small teams
+
+Heavier operational footprint than AI-native gateways for teams not already on Kong
+
+7. Cloudflare AI Gateway
+
+Best for: Teams already deep in the Cloudflare ecosystem.
+
+Cloudflare AI Gateway runs on Cloudflare’s edge with low gateway-induced latency and free core features like analytics, caching, and rate limiting across all plans. Recent releases added unified billing, BYOK key storage, dynamic routing, DLP, and an expanded model catalog spanning 14–20+ providers plus Workers AI.
+
+Pros
+
+Globally distributed at the edge with low gateway-induced latency
+
+Core gateway features are free, with higher log retention and DLP available through paid limits/add-ons
+
+Tight integration with Workers AI, Vectorize, and the broader Cloudflare developer platform
+
+Built-in DLP, BYOK secure key storage, and unified billing across providers
+
+Cons
+
+No self-hosted option
+
+Provider catalog is growing, but still narrower than other options
+
+8. Amazon Bedrock
+
+Best for: Enterprises standardizing on AWS for AI inference and governance
+
+Bedrock is AWS’s managed foundation model service. The AgentCore stack adds Gateway, Runtime, Memory, Identity, and Observability for agentic workloads, making Bedrock function as both a model layer and a gateway for AWS-native teams.
+
+Pros
+
+Deep AWS integration: IAM, VPC endpoints / PrivateLink, KMS, CloudTrail, and CloudWatch fit directly into the AWS control plane
+
+Strong compliance and security benefits for enterprises already running on AWS
+
+AgentCore Gateway adds MCP-compatible tool access and OAuth-secured authorization, while the broader AgentCore stack adds managed observability
+
+Committed-use and reserved-capacity pricing are available through Bedrock tiers and Provisioned Throughput; enterprise terms typically flow through AWS account teams
+
+Cons
+
+Model catalog is limited, less comprehensive than OpenRouter or others
+
+Latency variability and throttling show up in practitioner complaints once workloads scale beyond a PoC
+
+Most useful for teams already standardized on AWS; harder to justify in multi-cloud setups
+
+9. Maxim (Bifrost)
+
+Best for: teams that want an open-source high-performance gateway tightly coupled to evaluation and observability.
+
+Bifrost is Maxim AI's open-source AI gateway, written in Go for low-latency, high-throughput workloads. It exposes 1,000+ models through an OpenAI-compatible API and is reported by Maxim at ∼11µs overhead at 5,000 RPS. The closed-loop integration with Maxim’s evaluation and observability platform allows gateway traffic to flow directly into eval and quality workflows.
+
+Pros
+
+Excellent runtime performance: microsecond-level overhead and high sustained throughput.
+
+Open source and self-hostable, with broad provider coverage.
+
+Tight integration with Maxim’s evaluation and observability suite, with a natural path into its broader agent-quality platform.
+
+Hierarchical budget management, semantic caching, and fine-grained cost controls out of the box.
+
+Cons
+
+Smaller community and ecosystem than other options.
+
+Strongest as part of the wider Maxim platform; less compelling as a standalone gateway.
+
+10. Stripe AI Gateway (coming soon)
+
+Best for: AI products that need to monetize token usage, not just consume it.
+
+Stripe’s LLM token billing, in private preview as of early 2026, can route requests through Stripe’s AI Gateway to OpenAI, Anthropic, and Google, meter usage per customer, and feed Stripe Billing automatically. Markups, usage tiers, and credit-style plans can be configured directly in Stripe.
+
+Pros
+
+Native Stripe Billing integration: pass through token costs with a configurable markup automatically.
+
+Per-customer metering segmented by model and token type (input, output, cached).
+
+First-class fit for usage-based AI products that already run billing on Stripe.
+
+Partners with existing gateways like OpenRouter, Vercel, and Cloudflare for teams that don’t want to switch their inference layer.
+
+Cons
+
+Based on currently available public documentation
+
+Designed primarily around billing rather than governance, observability, or guardrails
+
+Hosted Stripe service only; no on-prem or VPC options
+
+How to choose
+
+The right gateway is the one that addresses the pain you have today, composed with whatever you'll need next. Here are a few heuristics that can help guide your decisions:
+
+If breadth of model coverage is the requirement, OpenRouter, Portkey, TrueFoundry, or LiteLLM offer the widest catalogs.
+
+If you are looking for self-hosted enterprise deployment, Portkey, TrueFoundry, or LiteLLM are the strongest open-source / Kubernetes-native options.
+
+If visibility and guardrails are the primary gap, Portkey or Maxim's Bifrost will close it fastest.
+
+If your stack is Vercel-centric, use the Vercel AI Gateway.
+
+If your organization has already standardized on a cloud or API control plane, lean on the native option—Kong, Cloudflare, or Bedrock—rather than bolting on a separate proxy.
+
+If you need to charge customers for token usage with a margin, use Stripe's AI Gateway.
+
+Many mature enterprises end up composing a stack rather than picking a single product: an inference gateway for unified access, an observability layer, a billing layer, and—for teams that have outgrown static model selection—a separate routing layer on top.
+
+What to look for in 2026
+
+As the category matures, the evaluation criteria that distinguish gateways will continue evolving. Over the next twelve months we encourage developers and enterprises to evaluate gateways across these dimensions:
+
+Provider portability. Move traffic between providers to create leverage across contracts as the model landscape keeps repricing
+
+Enterprise deployment. VPC, BYOK, and ZDR will only become more important table stakes for enterprise production workloads
+
+Observability depth. Per-request traces, cost and latency analytics, per-team segmentation, and OTEL compatibility
+
+Governance and cost controls. RBAC, virtual keys, hierarchical budgets, hard ceilings, and audit trails
+
+Agentic workflow support. Session-level context, prompt-cache awareness, long-context handling, tool-use, and MCP support are now first-order concerns
+
+Security and guardrails. PII redaction, prompt-injection defenses, DLP, and a clean threat model around the proxy itself
+
+Performance under load. Sub-10ms overhead at production RPS, with mechanisms for failover during provider incidents
+
+The gateway category is still consolidating. Some products will specialize and deepen; others will converge toward general-purpose infrastructure and compete on distribution. Either way, the gateway itself is becoming a commodity layer—most of the differentiation in 2026 is moving up the stack into evaluation, observability, billing, and routing.
+
+Not Diamond: intelligent model routing
+
+Model routing is the practice of intelligently choosing the best model at the lowest cost for each incoming AI request, rather than using a single model for every request. In other words, a gateway gives you access to models, and a router determines which one to use. Intelligent model routing can radically improve cost efficiency, reliability, and accuracy over long-horizon workloads. (For a deeper dive on what routing actually is and how it differs from a gateway, see our comprehensive guide to model routing.)
+
+The enterprises that get the most out of both categories treat them as first-class and compose them:
+
+The gateway handles the traffic—auth, normalization, policy, observability, billing.
+
+The router decides where the traffic goes—picking the best model for each request with respect to your quality and cost objectives.
+
+Composing them well is the difference between a stack that scales with the model landscape and one that has to be rebuilt every time the landscape moves. Many of the gateways above offer static, rules-based routing for fallbacks and load-balancing, but a truly intelligent routing layer—one that's accuracy-driven, cache-aware, and vendor-neutral—sits on top of the gateway and stays portable across whichever provider has the best price-performance frontier this quarter.
+
+We’ve built Not Diamond as the intelligence layer that works with your existing gateway and model stack. Increasing accuracy and cost-efficiency is precisely the point of a multi-model strategy, and so we’ve built tooling that automates and accelerates these goals as the model landscape continuously evolves.
+
+If you want to learn more about model gateway options or how intelligent model routing can fit in, reach out and we can dive deeper.
+
+Do more with less
+
+Let the machine build the machine
+
+Talk to us
+
+Pricing About Docs Blog Careers Legal

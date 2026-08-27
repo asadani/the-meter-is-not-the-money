@@ -1,0 +1,19 @@
+phase: reported
+question: >
+  Does Stripe's acquisition of OpenRouter make sense as the purchase of a metering
+  and settlement layer for AI compute, and is a provider-agnostic token credit
+  buildable on top of it?
+lens: market
+started: 2026-08-26T11:47:46Z
+updated: 2026-08-26T12:16:37Z
+workspace_note: >
+  Lives in routingmaxxing/ alongside the pre-existing
+  "AI Routing Ecosystem Analysis.docx". Note that deep-research-report.md in this
+  directory is a generic research-methodology document, not routing material.
+verdict: PASS
+gate:
+  hard_failures: 0
+  warnings: 17
+  sources: 30
+  claims: 57
+deliverable: .research/report.md

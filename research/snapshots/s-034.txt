@@ -1,0 +1,1493 @@
+
+      Federal Register
+       :: 
+      Bank Secrecy Act Regulations-Definitions and Other Regulations Relating to Prepaid Access
+  Skip to Content
+            Home
+      Sections
+            Money
+            Environment
+            World
+            Science & Technology
+            Business & Industry
+            Health & Public Welfare
+      Browse
+Agencies
+Topics (CFR Indexing Terms)
+Dates
+Public Inspection
+Presidential Documents
+      Search
+        Document Search
+        Advanced Document Search
+        Public Inspection Search
+        FR Index
+      Reader Aids
+Reader Aids Home
+Office of the Federal Register Announcements
+Using FederalRegister.Gov
+Understanding the Federal Register
+Recent Site Updates
+Federal Register & CFR Statistics
+Videos & Tutorials
+Developer Resources
+Government Policy and OFR Procedures
+      My FR
+My Account
+My Clipboard
+My Comments
+My Subscriptions
+Sign In / Sign Up
+            Site Feedback
+Search the Federal Register
+Legal Status
+            This site displays a prototype of a “Web 2.0” version of the daily
+            Federal Register. It is not an official legal edition of the Federal
+            Register, and does not replace the official print version or the official
+            electronic version on GPO’s govinfo.gov.
+            The documents posted on this site are XML renditions of published Federal
+            Register documents. Each document posted on the site includes a link to the
+            corresponding official PDF file on govinfo.gov. This prototype edition of the
+            daily Federal Register on FederalRegister.gov will remain an unofficial
+            informational resource until the Administrative Committee of the Federal
+            Register (ACFR) issues a regulation granting it official legal status.
+            For complete information about, and access to, our official publications
+            and services, go to
+              About the Federal Register
+             on NARA's archives.gov.
+            The OFR/GPO partnership is committed to presenting accurate and reliable
+            regulatory information on FederalRegister.gov with the objective of
+            establishing the XML-based Federal Register as an ACFR-sanctioned
+            publication in the future. While every effort has been made to ensure that
+            the material on FederalRegister.gov is accurately displayed, consistent with
+            the official SGML-based PDF version on govinfo.gov, those relying on it for
+            legal research should verify their results against an official edition of
+            the Federal Register. Until the ACFR grants it official status, the XML
+            rendition of the daily Federal Register on FederalRegister.gov does not
+            provide legal notice to the public or judicial notice to the courts.
+Legal Status
+  Rule
+modal#escClose"
+      data-suggestions-target="modal">
+modal#forceClose">
+             Enter a search term or FR citation e.g. 
+suggestions#fillExample"
+                  class="example badge badge-info">88 FR 382
+suggestions#fillExample"
+                  class="example badge badge-info desktop-only">30 FR 7878
+suggestions#fillExample"
+                  class="example badge badge-info">2024-13208
+suggestions#fillExample"
+                  class="example badge badge-info">USDA
+suggestions#fillExample"
+                  class="example badge badge-info desktop-only">09/05/24
+suggestions#fillExample"
+                  class="example badge badge-info">RULE
+suggestions#fillExample"
+                  class="example badge badge-info desktop-only">0503-AA39
+suggestions#fillExample"
+                  class="example badge badge-info desktop-only">SORN
+              Choosing an item from
+full text search results
+              will bring you to those results. Pressing enter in the search box
+              will also bring you to search results.
+              Choosing an item from
+suggestions
+              will bring you directly to the content. 
+              Background and more details are available in the
+Search & Navigation
+              guide.
+suggestions#goDefault">
+suggestions#modal"
+          placeholder="Enter a search term or CFR reference (eg. fishing or 1 CFR 1.1)"
+          type="text"
+          data-suggestions-target="nonModalInput"
+          name="conditions[term]"
+          id="suggestion">
+suggestions#go">
+suggestions#go">
+    Bank Secrecy Act Regulations-Definitions and Other Regulations Relating to Prepaid Access
+      A Rule by 
+the 
+Financial Crimes Enforcement Network
+ on 
+07/29/2011
+Published Document: 2011-19116 (76 FR 45403)
+This document has been published in the 
+Federal Register
+. Use the PDF linked in the document sidebar for the official electronic format.
+Published Document: 2011-19116 (76 FR 45403)
+Document Details
+Published Content - Document Details
+Agencies
+Department of the Treasury
+Financial Crimes Enforcement Network
+CFR
+31 CFR 1010
+31 CFR 1022
+Document Citation
+          76 FR 45403
+Document Number
+          2011-19116
+Document Type
+Rule
+Pages
+          45403-45420
+          (18 pages)
+Publication Date
+07/29/2011
+RIN
+1506-AB07
+Published Content - Document Details
+PDF
+Official Content
+View printed version (PDF)
+Official Content
+Document Details
+Published Content - Document Details
+Agencies
+Department of the Treasury
+Financial Crimes Enforcement Network
+CFR
+31 CFR 1010
+31 CFR 1022
+Document Citation
+          76 FR 45403
+Document Number
+          2011-19116
+Document Type
+Rule
+Pages
+          45403-45420
+          (18 pages)
+Publication Date
+07/29/2011
+RIN
+1506-AB07
+Published Content - Document Details
+Document Dates
+Published Content - Document Dates
+Effective Date
+2011-09-27
+Dates Text
+Effective Date: This rule is effective September 27, 2011.
+Published Content - Document Dates
+Table of Contents
+Enhanced Content - Table of Contents
+      This table of contents is a navigational tool, processed from the
+      headings within the legal text of Federal Register documents.
+      This repetition of headings to form internal navigation links
+      has no substantive legal effect.
+AGENCY:
+ACTION:
+SUMMARY:
+DATES:
+FOR FURTHER INFORMATION CONTACT:
+SUPPLEMENTARY INFORMATION:
+I. Statutory and Regulatory Background
+A. In General
+B. Prior Regulation of Stored Value
+II. Notice of Proposed Rulemaking
+A. General Considerations
+B. Reconciling Varied Stakeholder Positions
+C. The Definition of “Provider of Prepaid Access”
+1. Comments on the Definition
+2. Determining the Provider by Agreement
+3. Retaining the NPRM Provider Criteria
+D. Sellers of Prepaid Access
+E. Prepaid Programs and Exclusions
+1. In General
+2. Closed Loop Prepaid Access
+3. Government Funded Prepaid Access
+4. Flexible Spending and Dependent Care Funded Prepaid Access 
+5. Limited Exclusions 
+III. Section-by-Section Analysis 
+ A. Definition of Provider of Prepaid Access 
+1. In General
+2. Considerations for Provider Determination 
+3. Prepaid Program 
+B. Definition of Seller of Prepaid Access 
+C. Definition of Prepaid Access
+D. Definition of Closed Loop Prepaid Access
+E. Anti-Money Laundering Programs for Money Services Businesses
+F. Reports by Money Services Businesses of Suspicious Transactions
+G. Registration of Money Services Businesses
+H. Records Required To Be Maintained By Money Services Businesses
+IV. Regulatory Flexibility Act
+A. Impact on Providers of Prepaid Access
+2. Description of the Projected Reporting and Recordkeeping Requirements of the Rule
+3. AML Program Requirement in General
+4. Currency Transaction Reporting
+5. Suspicious Activity Reporting
+6. Customer Identification Information Collection and Retention
+7. Transaction Records Generated in the Ordinary Course of Business
+8. Registration of Providers
+B. Impact on Sellers of Prepaid Access
+1. Estimate of the Number of Small Entities To Which the Rule Will Apply
+2. Description of the Projected Reporting and Recordkeeping Requirements of the Rule
+C. Certification
+V. Paperwork Reduction Act Notices
+A. AML Program for Providers and Sellers of Prepaid Access
+B. Customer Identification Requirement for Providers and Sellers of Prepaid Access
+C. SAR Filing for Providers and Sellers of Prepaid Access
+D. Registration of Providers of Prepaid Access
+E. Recordkeeping and Retrieval Requirement
+VI. 
+Executive Order 12866
+ and 
+Executive Order 13563
+VII. Unfunded Mandates Act of 1995 Statement
+List of Subjects in 
+31 CFR Parts 1010
+ and 
+1022
+Authority and Issuance
+PART 1010—GENERAL PROVISIONS
+PART 1022—RULES FOR MONEY SERVICES BUSINESSES
+Footnotes
+Enhanced Content - Table of Contents
+Public Comments
+Enhanced Content - Public Comments
+This feature is not available for this document.
+Enhanced Content - Public Comments
+Regulations.gov Data
+Enhanced Content - Regulations.gov Data
+Additional information is not currently available for this document.
+Enhanced Content - Regulations.gov Data
+Sharing
+Enhanced Content - Sharing
+Shorter Document URL
+https://www.federalregister.gov/d/2011-19116
+Email
+          Email this document to a friend
+Enhanced Content - Sharing
+Print
+Enhanced Content - Print
+Print this document
+Enhanced Content - Print
+Document Statistics
+Enhanced Content - Document Statistics
+      Document page views are updated periodically throughout the day and are
+      cumulative counts for this document. Counts are subject to sampling,
+      reprocessing and revision (up or down) throughout the day.
+Page views
+        5,182
+        as of
+        08/26/2026 at  8:15 am EDT
+Enhanced Content - Document Statistics
+Other Formats
+Enhanced Content - Other Formats
+      This document is also available in the following formats:
+JSON
+Normalized attributes and metadata
+XML
+Original full text XML
+MODS
+Government Publishing Office metadata
+      More information and documentation can be found in our
+developer tools pages
+.
+Enhanced Content - Other Formats
+Published Document: 2011-19116 (76 FR 45403)
+This document has been published in the 
+Federal Register
+. Use the PDF linked in the document sidebar for the official electronic format.
+Document Headings
+                    Document headings vary by document type but may contain
+                    the following:
+                      the agency or agencies that issued and signed a document
+                      the number of the CFR title and the number of each part
+                      the document amends, proposes to amend, or is directly
+                      related to
+                      the agency docket number / agency internal file number
+                      the RIN which identifies each regulatory action listed in
+                      the Unified Agenda of Federal Regulatory and Deregulatory
+                      Actions
+                    See the
+                      Document Drafting Handbook
+                    for more details.
+Department of the Treasury
+Financial Crimes Enforcement Network
+31 CFR Parts 1010 and 1022
+RIN 1506-AB07
+AGENCY:
+Financial Crimes Enforcement Network (“FinCEN”), Treasury.
+ACTION:
+Final rule.
+SUMMARY:
+FinCEN is issuing this final rule to amend the Bank Secrecy Act (“BSA”) regulations applicable to Money Services Businesses (“MSB”) with regard to stored value. More specifically, this final rule amends the regulations by: renaming “stored value” as “prepaid access” and defining that term; deleting the terms “issuer” and “redeemer” of stored value; imposing suspicious activity reporting, customer information and transaction information recordkeeping requirements on both providers and sellers of prepaid access, and, additionally, a registration requirement on providers only; and exempting certain categories of prepaid access products and services posing lower risks of money laundering and terrorist financing from certain requirements. These changes address regulatory gaps that have resulted from the proliferation of prepaid innovations over the last twelve years and their increasing use as an accepted payment method.
+DATES:
+Effective Date:
+                         This rule is effective September 27, 2011.
+Compliance Date:
+                         The compliance date for 
+31 CFR 1022.380
+ is January 29, 2012.
+FOR FURTHER INFORMATION CONTACT:
+FinCEN, Regulatory Policy and Programs Division at (800) 949-2732 and select Option 1.
+SUPPLEMENTARY INFORMATION:
+I. Statutory and Regulatory Background
+A. In General
+                    The BSA, Titles I and II of Public Law 91-508, as amended, codified at 
+12 U.S.C. 1829b
+ and 
+1951-1959
+, and 
+31 U.S.C. 5311-5314
+ and 
+5316-5332
+, authorizes the Secretary of the Treasury (the “Secretary”) to issue regulations requiring financial institutions to keep records and file reports that the Secretary determines “have a high degree of usefulness in criminal, tax, or regulatory investigations or proceedings, or in the conduct of intelligence or counterintelligence matters, including analysis to protect against international 
+      (
+ printed page 45404)
+                    terrorism.” 
+[
+1
+] 
+                     The Secretary's authority to administer the BSA and its implementing regulations has been delegated to the Director of FinCEN.
+[
+2
+] 
+                     FinCEN has interpreted the BSA through implementing regulations (“BSA regulations” or “BSA rules”) that appear at 
+31 CFR Chapter X
+.
+[
+3
+] 
+                    FinCEN has defined the BSA term “financial institution” to include a “money services business,” 
+[
+4
+] 
+                     (“MSB”) a category that includes: a dealer in foreign exchange; a check casher; an issuer, seller, or redeemer of traveler's checks, money orders, or stored value; and money transmitter.
+[
+5
+] 
+                     FinCEN is authorized to deem any business engaged in an activity determined by regulation to be an activity similar to, related to, or a substitute for these activities a “financial institution.” 
+[
+6
+] 
+                    FinCEN has issued regulations implementing the recordkeeping, reporting, and other requirements of the BSA. MSBs are required with some exceptions to: (1) Establish written anti-money laundering (AML) programs that are reasonably designed to prevent the MSB from being used to facilitate money laundering and the financing of terrorist activities; 
+[
+7
+] 
+                     (2) file Currency Transaction Reports (“CTRs”) 
+[
+8
+] 
+                     and Suspicious Activity Reports (“SARs”); 
+[
+9
+] 
+                     and (3) maintain certain records, including records relating to the purchase of certain monetary instruments with currency,
+[
+10
+] 
+                     relating to transactions by dealers in foreign exchange,
+[
+11
+] 
+                     and relating to certain transmittals of funds.
+[
+12
+] 
+                     Most types of MSBs are required to register with FinCEN.
+[
+13
+] 
+                    On May 22, 2009, the President signed the Credit Card Accountability Responsibility and Disclosure (CARD) Act of 2009 (“CARD Act”).
+[
+14
+] 
+                     Section 503 of the CARD Act required the issuance of “regulations in final form implementing the Bank Secrecy Act, regarding the sale, issuance, redemption, or international transport of stored value, including stored value cards.” 
+[
+15
+] 
+                     Pursuant to the BSA and the CARD Act, FinCEN published the Notice of Proposed Rulemaking Definitions and Other Regulations Relating to Prepaid Access on June 28, 2010 (“NPRM”).
+[
+16
+] 
+B. Prior Regulation of Stored Value
+                    In 1999, when FinCEN issued its final MSB rule,
+[
+17
+] 
+                     it deferred certain requirements for stored value based on its complexity and the desire to avoid unintended consequences with respect to an industry then in its infancy. Therefore, unlike most other categories of MSB, an issuer, seller, or redeemer of stored value was not required to register as an MSB with FinCEN or to file SARs. An issuer, seller or redeemer of stored value, as defined by our regulations, was required to file CTRs 
+[
+18
+] 
+                     and to establish a written AML program, including policies, procedures, and internal controls commensurate with its activities and reasonably designed to prevent it from being used to facilitate money laundering and the financing of terrorist activities.
+[
+19
+] 
+                    In a 2009 notice of proposed rulemaking generally addressing the MSB definition,
+[
+20
+] 
+                     we proposed folding all regulated entities dealing with stored value into one category so that 
+issuers
+                     of stored value and 
+sellers or redeemers
+                     of stored value would be in the same category. In that rulemaking, FinCEN did not propose making any substantive changes to the definition of this category, reserving those changes for the rulemaking specifically focused on prepaid access.
+II. Notice of Proposed Rulemaking
+A. General Considerations
+FinCEN's proposed rule on the regulation of prepaid access marked the agency's effort to establish a more comprehensive regulatory regime over an industry in which technological advances had outpaced existing regulation. Previously regulated to a lesser degree than its MSB counterparts, prepaid access (formerly “stored value”) is becoming increasingly pervasive in American commerce, far more so than in the late 1990s when the original MSB categories were established and accompanying regulations were drafted. We believe that the prepaid access market has matured and now warrants, at a minimum, commensurate regulation with other MSBs.
+In the NPRM, we sought to regulate this industry with an approach and terminology that acknowledged its unique characteristics, in that it inhabits both the physical, tangible dimension (cards, key fobs, tokens), yet appears to exhibit increasing migration to the Internet space (e-retailers and social networking sites). Increasingly, other technology developments, such as smartphones, are being employed for tendering and receiving payment, by both individuals and merchants. These technological innovations are being widely embraced by the American consumer, particularly among the younger demographic.
+                    The growth of prepaid access in the marketplace continues to flourish. The most recent Federal Reserve Payments Study 
+[
+21
+] 
+                     noted that, of all forms of noncash payment methods included in its research, prepaid card usage was the fastest growing segment. On average, the number of prepaid card transactions increased 21.5 percent per year from 2006 to 2009, and the value of prepaid transactions increased 22.4 percent per year. Private label (commonly known as “gift cards”) was the most used type of prepaid card, with 2.7 billion transactions in 2009.
+[
+22
+] 
+                     A 2005 American Bankers Association study revealed that consumers prefer both giving and receiving retailer-specific gift cards instead of cash, as they are considered more personal and valued by the recipient.
+[
+23
+] 
+                     Based on the above, the American public has not just accepted 
+      (
+ printed page 45405)
+                    prepaid access; it often prefers it to other types of payment methods.
+B. Reconciling Varied Stakeholder Positions
+Our NPRM addressing prepaid access proposed comprehensive regulation of stored value, addressing the needs of law enforcement, the financial services industry, and the general public. From FinCEN's law enforcement stakeholders, we have heard that prepaid access has been implicated in a number of criminal enterprises, for example, involving border smuggling of blank card stock. Law enforcement generally has expressed the need for strict regulation of prepaid access, in some cases extending beyond existing requirements for other MSBs. Law enforcement's concern comes in part due to the ease with which prepaid access can be obtained, the high velocity of money that potentially can be moved with prepaid access, and the anonymous use of some, primarily closed loop, prepaid access. While we seek to empower law enforcement with the necessary information to perform its mission, we also seek to balance the many legitimate uses and societal benefits offered by prepaid access.
+The prepaid industry and other financial services member stakeholders have an interest in delivering payment options to the general public that have proven popular and are increasing in demand. Other stakeholders, such as transit systems, university and academic environments, and even segments of the Federal government are also among those finding that prepaid access is an attractive, cost-effective method to transact business.
+In the following, we will discuss the principal issues surfaced by the public comments received in response to our NPRM, and how we have resolved the issues in the final rule. In total, we received 76 comment letters, representing viewpoints from depository institutions, prepaid access program managers, service providers, industry trade associations, retailers, state and Federal government agencies, private individuals and others. As varied were the sources, so were the opinions offered. We have carefully read, catalogued and analyzed the information provided to us and have used it to inform our final decisions.
+C. The Definition of “Provider of Prepaid Access”
+                    In the NPRM we sought to define the provider of a prepaid access program consistently with the other categories of MSBs.
+[
+24
+] 
+                     To that end, we expressly stated that the provider would be determined by the “facts and circumstances” surrounding the activities in which the party engaged. To aid the reader, we also offered a list of five activities that we believed would generally be descriptive of the provider role while cautioning that no single act or duty alone would be determinative. The “facts and circumstances” standard would employ a totality approach.
+Consistency with wording in other MSB regulations, while important, was not our only reason for this approach. We believed that prepaid programs, although many and varied in their purposes and operation, would always involve a central entity that would meet the definition of a provider, according to the factors and activities that we delineated.
+1. Comments on the Definition
+                    The commenting public, to a degree, agreed that our five elements were fundamental aspects of any prepaid program; but, in general, they strongly disagreed that one entity would always, or even primarily, be responsible for these duties. They asserted that the duties were typically allocated among several entities, and that the various activities might circulate from one participant to another at various points throughout the development of a prepaid program. FinCEN received approximately 26 letters commenting on these issues.
+[
+25
+] 
+                    Another objection, offered by 16 commenters, was the lack of an MSB-entity in the prepaid transaction chain that could accurately meet the definitional test of a provider as defined in the NPRM. Instead, these comments explained, the various duties and the “centrality” concept would lead directly to the issuing bank 
+[
+26
+] 
+                     in most cases. Although all of these commenting parties agreed that the appropriate regulatory focus should be on the depository institution, they differed with respect to their preferred alternative regulatory approaches. Some stated that banks are already sufficiently regulated; while others argued for additional regulatory constraints on banks involved in the prepaid access business. Of these 16 letters, four were submitted by prepaid access-issuing banks themselves.
+[
+27
+] 
+2. Determining the Provider by Agreement
+The body of opinions addressing how to identify the correct party as the provider was quite varied, but a single common recommendation surfaced among many of the commenters: the best solution, both for clarity among the participants in the prepaid program and for simplicity in administration, would be to allow a contractual determination among the participants as to who would serve as the provider (“the agreement approach”). Commenters were nearly unanimous in the belief that only this approach allowed for a clear allocation of duties that would benefit the operation of the program, as well as regulators and law enforcement authorities. The ability to clearly identify the provider by the mutually-determined decision, along with the requisite submission to FinCEN of MSB registration materials, would offer instant identification of the principal entity in the transaction. FinCEN is finalizing the rule with the agreement approach.
+                    Under the agreement approach, the provider will serve as the principal conduit of information for the other members of the program, thereby simplifying the production and strengthening the integrity of required reports and recordkeeping. The provider will accept and manage the flow of information generated by all of the program participants in such a way as to comply with regulatory requirements. The decisions regarding what processes or methodologies are established to accomplish this objective are best left to the program participants; the provider 
+      (
+ printed page 45406)
+                    simply must have the ability to amass the appropriate information with dispatch.
+We understand that prepaid transactions often involve more parties and sub-parties than might be typical of routine debit or credit card transactions and, for this reason, the information generated by the sale and use of prepaid access is often more dispersed. But because the information needs of law enforcement often necessitate speed and efficiency for successful criminal investigation and prosecution, requiring the separate pursuit of various records or documents all along the points of the transaction chain would be inefficient and inevitably lead to lost opportunities. Having the provider serve as the central source of information should help to minimize the inefficiency and allow for those most knowledgeable about how the business operates to make this fundamental business decision.
+3. Retaining the NPRM Provider Criteria
+As we have discussed, the final rule adopts the agreement approach, and we begin our regulatory text by stating that the participants within a prepaid program must determine a single participant to be the provider of prepaid access. A determination among the program participants, communicated through the appropriate filing of an MSB registration with FinCEN, will identify the participant subject to regulatory obligations as the provider.
+We noted previously, however, that there is rapid growth and innovation in many segments of the payments industry and such is certainly the case with prepaid access. We believe that our regulations should anticipate, to the degree possible, situations where the program participants fail to come to an agreement.
+In the NPRM, we listed five criteria pertaining to the oversight and control necessary to be deemed a provider of prepaid access. While we heard objections to this list of factors when it was published as the determinative criteria in the NPRM, we have chosen to retain the language in the final rule as illustrative of the analytical factors that would be useful in determining the provider. We note that while the commenters took issue with the application of our list of criteria to a single entity, they offered positive observations on the accuracy and utility of the list. Commenters stated that the factors were appropriate and helpful and demonstrated FinCEN's understanding of the complexities of the ways in which prepaid programs function.
+We understand that it would be unlikely to find all of these characteristics present in a single entity in the prepaid program; however, it may be helpful to weigh and assess the totality of the factors against the characteristics of the various program participants in reaching a regulatory determination of the provider. The list of factors is by no means exhaustive. We retain them within the regulatory text, however, to demonstrate that FinCEN will use these factors to make a provider determination in instances where a provider of prepaid access has failed to register.
+D. Sellers of Prepaid Access
+In the NPRM, FinCEN proposed to regulate sellers of prepaid access as a separate category of MSB. Specifically, the NPRM proposed to require sellers to: (1) Develop and implement an effective AML program; (2) report suspicious activity; and (3) comply with recordkeeping requirements related to customer identifying information and transactional data. The NPRM did not include a registration requirement for sellers of prepaid access. The NPRM did, however, raise the possibility of an additional limitation to the definition of a seller of prepaid access, which would cover only those entities that sold prepaid products (including products not covered under the regulatory definition of prepaid program) in an amount over $1,000 to any person on any day in one or more transactions.
+The rationale behind covering sellers of prepaid access under the BSA was based on the unique role played by sellers in the prepaid transaction chain. Typically, sellers of prepaid access are general purpose retailers such as pharmacies, convenience stores, supermarkets, discount stores or any of a number of other types of businesses offering a full spectrum of products. Sellers of prepaid access generally have face-to-face contact with consumers at the point of sale and, thus, they are in the best position to collect customer identifying information. As a general matter, AML program requirements applicable to a range of financial institutions can play an important role in mitigating risks involved in certain face-to-face transactions as they relate to the “placement” stage of money laundering.
+In response to the NPRM, FinCEN received 45 comment letters that addressed the proposal to regulate sellers of prepaid access. These letters were primarily from companies whose business operations include some aspect of providing or selling prepaid access, including individual retailers, issuing banks, prepaid program managers, prepaid card networks, payment processors, other service providers, trade groups and other associations. Most of these commenters opposed any direct regulation of sellers of prepaid access. Some commenters questioned whether the Internal Revenue Service (IRS), the current delegated examiner for MSBs, has the resources to adequately examine and enforce such rules, and whether the information collected by sellers of prepaid access would be useful to law enforcement. Other commenters expressed concerns that implementation of the proposed rule would result in: high compliance costs; customer service challenges; privacy and data security issues; conflicts with state laws; and stigmatization of the unbanked and underbanked population.
+None of these comments challenge the underlying rationale behind regulating sellers of prepaid access. Although, as some commenters pointed out, prepaid access devices and vehicles may be sold in convenience stores, pharmacies and other retail establishments alongside non-financial products, prepaid access is fundamentally different than non-financial products and services. It would be an unacceptable loophole in the BSA rules if prepaid access could be bought and sold without adequate oversight. Because prepaid access is essentially a financial service that provides consumers with access to the financial system, it should be subject to an appropriate level of regulation to prevent its misuse.
+Based on this underlying rationale, FinCEN continues to consider it appropriate to regulate sellers of prepaid access as a type of MSB. However, FinCEN has decided to make certain changes to the rule with respect to sellers of prepaid access, balancing the concerns expressed in the comment letters with the legitimate need to mitigate money laundering risks and provide law enforcement with the information and investigatory tools necessary to prevent the use of prepaid access for money laundering, terrorist financing and other criminal purposes. FinCEN has adopted a targeted approach to regulating sellers of prepaid access, focusing on the sale of prepaid access whose inherent features or high dollar amounts pose heightened money laundering risks.
+E. Prepaid Programs and Exclusions
+1. In General
+                    The NPRM defined a prepaid program broadly as “an arrangement under which one or more persons acting together provide(s) a particular form of 
+      (
+ printed page 45407)
+                    prepaid access.” The NPRM excluded from the definition of prepaid program five types of arrangements because they are typically low-risk. However, the NPRM also identified three high-risk factors that would negate any exclusion.
+Comments tended to focus on the various exclusions from the core definition of “prepaid program” rather than on the core definition itself. Many public comments received in response to the various exclusions from the definition of a prepaid program argued for a more liberal, expansive reading of the relevant exclusions. Some commenters asserted that the exclusions were appropriate carve-outs, but that they did not go far enough. Other commenters expressed concerns about the effect of the three limits to the exclusions: international use, person-to-person transfers, and re-loads from a non-depository source other than for closed loop prepaid access. These limits to the exclusions, many commenters asserted, undercut the efficacy of the exclusions and would effectively render them meaningless. Only a handful of commenters chose not to address the program exclusions at all.
+We revised the rule in an effort to reconcile the need to make the exclusions as precise as possible with limiting any possible risks or vulnerabilities. The final rule differs from the NPRM with a new framework to more effectively achieve our goal of targeting those arrangements that present a realistic risk of being used for money laundering, terrorist financing, or other illicit activities.
+2. Closed Loop Prepaid Access
+                    We heard from a broad range of American retailers, including lines of business as diverse as amusement parks, restaurants, and Internet software sales, commenting that our inclusion of closed loop prepaid access was an unwelcome departure from long-standing FinCEN policy. For a number of years, FinCEN has held that closed loop gift certificates and gift cards were not included within the regulatory interpretation of stored value.
+[
+28
+] 
+                    Many commenters asserted that the inclusion of any closed loop prepaid access as a type of prepaid program was unnecessary. They explained that closed loop prepaid access offers very limited criminal or money laundering opportunities given that, by its nature, it only allows use within a narrowly-defined universe of entities, such as a specific retailer, a retail chain (including franchisees), a shopping center, or a group of retailers linked by common ownership, corporate affiliation or geographic proximity. In all of these instances, the prepaid access is “closed” to any other retailers which are not part of the specifically identified group of retailers. In addition, many of these commenters noted that closed loop prepaid access involved relatively low dollar amounts, most commonly issued in denominations of $500 or less. Such low dollar limits and the inability, except under rare, 
+de minimis
+                     situations,
+[
+29
+] 
+                     to convert closed loop prepaid access to cash make it an inefficient, cumbersome tool for use by money launderers.
+                    In the NPRM, we explained that there were attributes potentially associated with closed loop prepaid access that raised its risk level. We treated these potential attributes in two of the proposed “limits to the exclusions.” 
+[
+30
+] 
+                     Based on information provided by law enforcement, we were concerned that closed loop prepaid access, when used internationally or with the ability to transfer value from person-to-person, heightened its money laundering vulnerability considerably. We asked specific questions in the NPRM on this topic, and we received a great many responses. A total of 45 comment letters were received referencing closed loop prepaid access.
+Some commenters provided very comprehensive, thoughtful responses in which they offered data and statistics about how their products operate and the reasons they view them as inapplicable to this rulemaking. The most frequent and strongly asserted statement was the limited dollar/limited scope of closed loop prepaid access. Even in a forum such as a shopping mall or a university campus, closed loop prepaid access offers the consumer only goods or services.
+For some retailers, such as coffee vendors or fast food restaurants, convenience was the reason for offering closed loop prepaid access. The product array they offer is often limited to items retailing for just a few dollars, with conservative caps set on the maximum value available on the closed loop prepaid access they offer. They asserted that their closed loop prepaid access served consumers' needs when making repeat, low-dollar ticket purchases when the only other option would be cash; and it worked to the merchants' advantage for speedy transactions as well as encouraging repeat business and more liberal “spend per ticket.”
+Other retail segments, such as furniture sellers, pointed out that closed loop prepaid access was used as a form of voucher in situations where a big-ticket item was returned, and that the limitations established in the NPRM were unworkable. Rather than returning cash in amounts of several hundred or thousand dollars, often exceeding the amount of cash maintained on hand, the merchant wanted the option to provide closed loop prepaid access as an accommodation to the customer and a convenience to the merchant itself. The furniture retailer was assured of repeat business and the customer was not burdened with the prospect of theft or loss of a large sum of cash. We believe that, for this segment of the closed loop prepaid access market whose inventory is comprised of mostly high-dollar merchandise, we have drawn a suitable compromise. As discussed below, FinCEN revised the threshold of closed loop in the final rule. Closed loop prepaid access sold in amounts of $2,000 or less is exempted, which will accommodate this practice of returns.
+Based on comments received in response to the NPRM specifically with regard to closed loop prepaid access, FinCEN understands that a requirement to collect customer identifying information may necessitate changes in the way that businesses escheat funds to states if those funds are not claimed by their owners, depending on the differences between escheat laws for funds belonging to identifiable persons and for anonymous funds. As discussed herein, the final rule significantly limits the scope of closed loop prepaid access covered under the definition of a prepaid program. Accordingly, the final rule should have minimal effects, if any, on businesses in connection with state escheat laws.
+                    The most common theme underlying the varying objections in the comment letters was that closed loop prepaid access products were used by retailers to pre-sell goods and services, not to serve as a medium through which the funds paid can later be recovered in the form of cash. If an individual is seeking to launder funds, closed loop prepaid access is a cumbersome and ineffective method to accomplish such; funds placed in closed loop prepaid access do not offer withdrawal or transfer options. Retailers commented that a closed loop gift card that is redeemed for cash rather 
+      (
+ printed page 45408)
+                    than merchandise is of little economic benefit to them.
+As a result of the many, diverse comment letters we received that addressed this aspect of the NPRM, we now better appreciate that closed loop prepaid access differs from open loop prepaid access in a very material way, both in operation and purpose. Closed loop prepaid access has evolved in its present form from the paper “gift certificate” that has existed for many years in the traditional retail environment. The migration to a card bearing a magnetic stripe reflects technological improvements that allow the merchant to track the remaining balance, the goods or services purchased, demographic data and other valuable marketing information. But, fundamentally, the closed loop prepaid access remains limited to its defined merchant and it is not redeemable in cash.
+In our analysis of the appropriate treatment of closed loop prepaid access in the final rule, we have attempted to reconcile the perspectives of the commenting public with the cautions we continue to receive from law enforcement. Law enforcement has stressed to us that, in very large dollar amounts, closed loop prepaid access remains vulnerable to use by criminal enterprises for laundering funds through merchandise and trade, particularly for the purchase of consumer electronics and technology hardware.
+Accordingly, FinCEN has chosen to set a dollar threshold of $2,000 for closed loop prepaid access, which helps address the concerns of both retailers and law enforcement. We believe that law enforcement presents legitimate concerns about potential for abuse in a limited segment of the closed loop prepaid access market. Of equal importance, however, is FinCEN's objective to facilitate legitimate commerce. As discussed below, we have determined that the limits to exclusions we had proposed for closed loop pertaining to international use and third-party transfers are not necessary at this point; all closed loop prepaid access that is issued in amounts of $2,000 or less will be excluded from the definition of prepaid program. This dollar level should encompass the bulk of retail sales of closed loop prepaid access for most consumer goods and services, and mitigate the potential for abuse by those who might otherwise seek to intermediate significant amounts of value outside of regulatory controls under the premise of the closed loop exclusion.
+3. Government Funded Prepaid Access
+In the NPRM, we discussed the increasing use by the Federal government of open loop branded prepaid access as a means of delivering various types of benefits and assistance, such as Social Security, disability and disaster relief payments. We also noted that state and local governments were increasingly interested in using prepaid access to deliver regular payments, such as unemployment benefits or child support, in a more efficient way than the traditional issuance and mailing of a check.
+                    The available market research indicated that both government entities and recipients were receptive to this migration to prepaid access.
+[
+31
+] 
+                     For the government payor, prepaid access offered a lower-cost, more secure payment method. For the payee, security features and the immediacy of the funds were considered very positive characteristics.
+In the NPRM, we asked whether the use of prepaid access for the payment of government benefits posed any identifiable vulnerability. We had generally concluded that adequate controls were in place for government-administered prepaid access programs to safeguard against illicit use. But we believed that we could benefit by posing specific questions to the commenting public for issues or recommendations worthy of attention. 
+We received only a handful of comment letters that addressed this issue. All of these commenters strongly supported the use of prepaid access by government agencies. We also heard from a government agency at the Federal level charged with responsibility for establishing and operating prepaid access programs, with a very thorough explanation of the controls and safeguards in place. 
+Given these factors, we believe that our initial stance in the NPRM remains correct, and that these prepaid access programs are appropriately excluded from coverage under the final rule. As noted below, the exclusion will not be limited in the final rule. We have expanded the regulatory text to capture all facets of government at the Federal, state and local level, to include Tribal governments and U.S. Territories and Insular Possessions. The revised language is consistent with our intent in the NPRM and with other BSA regulations. 
+4. Flexible Spending and Dependent Care Funded Prepaid Access 
+We have retained the exclusion for prepaid access to flexible spending and dependent care funds in the final rule. As noted below, there will be no limitations on this exclusion. The wording of the regulatory text used in the final rule differs slightly from that in the NPRM, due to recommendations offered to us by the IRS. The addition of the regulatory citations is not intended to broaden or limit the scope of this exclusion from that proposed in the NPRM. 
+We received significant public comment on this section of the proposed rule. Most commenters approved of this specific exclusion, and many recommended a broadening to include any type of employer-sponsored reimbursement account, such as fitness/wellness programs and commuter benefits programs. Additionally, some commenters urged us to expand the exclusion to include Health Savings Accounts (“HSAs”), which allow the commingling of health and non-health related funds. 
+We have chosen to retain our original scope of reimbursements as proposed in the NPRM. With respect to HSAs, we have consulted with the IRS and understand that funds in these types of accounts are not required to be earmarked for health care. Because the strict limitations inherent in health reimbursement arrangements (“HRAs”) are not present with HSAs, it is not prudent to allow any prepaid access associated with their use to be excluded from the definition of a prepaid program. We have also determined that it would not be appropriate to exclude prepaid access issued by various employer-sponsored reimbursement programs from the definition of a prepaid program. The operation of these private programs can vary greatly, and they also do not meet the same strict standards that apply to HRAs. 
+5. Limited Exclusions 
+                    In the NPRM, the limitations applied to all of the exclusions from the definition of a prepaid program. In the final rule, by contrast, we have identified only two categories of prepaid access that may present vulnerabilities to criminal use, but at the same time offer considerable benefits to American commerce and to the individual consumer. Under the final rule these two categories of prepaid access may remain outside the definition of a prepaid program but only if the use of the prepaid access is restricted in ways that limit the risk of misuse. 
+      (
+ printed page 45409)
+The limited exclusions under the final rule only apply to prepaid access to: (1) employment benefits, incentives, wages or salaries; or (2) funds not to exceed $1,000 maximum value and from which not more than $1,000 maximum value can be initially or subsequently loaded, used or withdrawn on any day through a device or vehicle. Such prepaid access is not entitled to exclusion, and therefore is a prepaid program, if it permits (1) funds or value to be transmitted internationally; (2) transfers between or among users of prepaid access within a prepaid program; or (3) loading additional funds or the value of funds from non-depository sources. 
+The use of prepaid access to deliver employment benefits, incentives, wages or salaries is a popular and widespread application. In many instances, it is a cost minimizer for the employer, who no longer must issue paper checks that may be lost, stolen or altered, and that often carry attendant postage costs. Instead, the employer appreciates the ability to assign payment electronically to prepaid access with a minimum of effort and cost; the employee is equally pleased with the efficiencies and cost savings, and the ability to access funds immediately with no need to cash a paper check. In addition, the use of prepaid access offers a solid audit trail that equals and sometimes exceeds that of paper instruments. 
+Commenters also pointed to the attributes of prepaid access over some payment situations where wages are paid out in cash, for example, to seasonal or migrant workers. Under these circumstances, the wage earner may not have access to traditional banking services or may be unable to transact business in a traditional setting, due to language or cultural barriers. The use of the prepaid access can serve as a form of “mainstreaming” for this individual. 
+Unfortunately, for all of the attributes that prepaid access presents for the payment of wages and salaries, it is also one of the areas of greatest law enforcement concern. Repeatedly, we have heard that payroll schemes involving prepaid access are growing in breadth and dollar volume, and that criminal actors continue to thrive in this environment. Where prepaid access to wages and salaries can be used to move significant amounts of money, on a repeated basis, to many different individuals, we believe that it is appropriate to require reasonable regulatory protections against misuse. 
+The final rule provides such protection by retaining the qualified exclusion for the use of payroll prepaid access that was proposed in the NPRM, under which prepaid program status is triggered if funds can be transmitted internationally, transferred to others, or reloaded at a non-depository institution. Businesses that provide payroll prepaid access will either tailor their prepaid access programs to the limitations or subject their prepaid program to the regulatory requirements associated with prepaid program status. Although this decision to keep payroll prepaid access subject to these limitations runs counter to the majority of the opinions expressed in the public comments, we believe that the better view is to exercise caution with respect to this type of prepaid access, especially because law enforcement has strongly warned about its vulnerability to money laundering. 
+Similarly, we have chosen to retain the three limitations with respect to prepaid access to funds that can exceed $1,000 in load, use or withdrawal capability at any time through a device or vehicle. We have done so based on the same continuing concerns about the vulnerability to money laundering of unlimited low denomination prepaid access that we have with respect to payroll prepaid access. We have, however, eliminated the requirement in the NPRM for a dollar limit to be clearly visible on the prepaid access device or vehicle in response to the many comments that this was not practicable and that it discriminated against those technologies for which it was impossible to manifest such a dollar limit on the prepaid access device or vehicle. 
+If payroll cards and prepaid access products below the $1,000 threshold do not permit international use, person-to person payments, or non-depository source loads, then such prepaid access is excluded from BSA regulation. In this construct, FinCEN wishes to clarify that we do not intend to sweep back into the scope of the rule prepaid access that might be used in conjunction with another prepaid access device that permits such activities, when the first prepaid access device does not. In that regard, status as a prepaid program is determined by the functionality of the product(s) within that program, not by the functionality of other products or services which they can purchase. Thus, a prepaid product that could be used to reload another prepaid product might not necessarily trigger the scope of the regulations, but such a prepaid product that was reloaded might itself be part of a program subject to the regulations if it can, for example, be used internationally. With respect to the limitations to the exclusions pertaining to transfers between or among users and reloadability by non-depository institutions, the same construct applies. 
+FinCEN also wishes to clarify that the limitation on international transmission is specifically intended to cover prepaid access devices that can be directly used outside of the United States. For example, while a network branded prepaid card with an initial and maximum load limit of $500 would generally be excluded, if it can be used to withdraw cash or purchase goods and services directly from foreign ATMs or merchants (via the Internet, in person, or otherwise) the limitation would apply and providers and sellers of such cards would be subject to the prepaid access rules. The limitation does not apply to prepaid access products that cannot be directly used for such foreign transactions. An example of such a product would be a network branded prepaid card with controls in place to prevent it from being used to withdraw cash or purchase goods and services directly from foreign ATMs or merchants (via the Internet, in person, or otherwise). 
+With respect to Internet transactions, the relevant issue is the foreign location of the merchant rather than the location of the person using the prepaid access product or the location where products are delivered or services rendered. Thus, for example, a prepaid card that permits an individual visiting a foreign country to make Internet purchases from a U.S.-based merchant would not be covered under the international use limitation by virtue of that functionality because the card cannot be used as a vehicle for moving money outside the United States. Additionally, if a prepaid access product can be used to fund a U.S.-based bank or other account or to purchase a different prepaid access device that permits international use, the original product does not trigger the international use limitation by virtue of that functionality. 
+III. Section-by-Section Analysis 
+ A. Definition of Provider of Prepaid Access 
+1. In General
+                    Section 1010.100(ff)(4)(i) defines a provider of prepaid access as the one participant among the entities engaged in offering a particular prepaid access program that agrees to serve as the contact and source of information for FinCEN, law enforcement and regulators for the particular program. The participants in a particular prepaid program should determine the single participant that serves as provider of prepaid access. As discussed above, this change was made because we were 
+      (
+ printed page 45410)
+                    persuaded of the value of the ability to clearly identify the provider by the mutually-determined decision, which offers other members of the program and law enforcement instant identification and expedient access to the entity in the transaction chain that will serve as “the principal conduit of access to information.” The provider must register as an MSB with FinCEN and will be subject to BSA regulations. The provider will be subject to oversight and examination for these obligations which include maintaining an AML program, reporting SARs, and recordkeeping and customer identification requirements. 
+2. Considerations for Provider Determination 
+Section 1010.100(ff)(4)(ii) provides factors for determination of the provider of prepaid access in the event that no participant in the prepaid program registers as the provider. Determining the provider of prepaid access in such a situation is a matter of identifying the participant with “principal oversight and control.” The determination of which participant in the prepaid program has principal oversight and control will be a matter of facts and circumstances. We recognize that there may be situations in which no single participant engages in all of the factors listed in 1010.100(ff)(4)(ii). However, there will be an identifiable participant in the prepaid program with the principal oversight and control, which will be in the best position to serve as a conduit for information for regulatory and law enforcement purposes. The rule lists the following five factors, each not dispositive on its own, which may indicate “principal oversight and control” and which FinCEN will use to identify a provider of prepaid access when there has been a failure by the parties to do so: 
+a. Organizing the prepaid program. 
+“Organizing the prepaid program” includes the initiation and establishment of the prepaid program. This may involve actions or activities as diverse as identifying the need for a prepaid program, developing a business plan, obtaining financing, and contracting with other principals. A participant that organizes the prepaid program demonstrates oversight and control. 
+b. Setting the terms and conditions of the prepaid program and determining that the terms have not been exceeded. 
+This factor concerns the technical specifications involved in establishing and operating the prepaid program. Setting the terms and conditions encompasses a range of decisions concerning sales locations for prepaid access, fees assessed for activation and reloading, providing customer service, and other aspects of the program. A participant that sets the terms and conditions of a prepaid program demonstrates oversight and control. 
+c. Determining the other businesses that will participate in the prepaid program, which may include the issuing bank, the payment processor, or the distributor. 
+This factor addresses the participant that identifies and recruits the other participants involved in the prepaid program. The provider of prepaid access may choose other participants based on geographic proximity, specialized expertise in a particular line of prepaid access such as payroll programs, market expertise, or other considerations. Regardless of the reasons other participants are chosen, a participant that determines the other entities involved demonstrates oversight and control. 
+d. Controlling or directing the appropriate party to initiate, freeze, or terminate prepaid access. 
+The ability to affect the movement of funds is a very important factor in determining the provider of prepaid access. We understand that a participant in a prepaid program may exercise this authority alone, in tandem with other participants or at the direction of law enforcement or judicial authority. A participant that either moves or suspends funds or directs another participant to move or suspend funds demonstrates oversight and control. 
+e. Engaging in activity that demonstrates oversight and control of the prepaid program. 
+This factor is intended to capture situations where oversight and control may be evidenced by activities that do not fit squarely within items (a) through (d), preceding. To the extent that both the prepaid industry and our understanding of it continue to evolve, this criterion provides the flexibility needed to ensure reasonable longevity for the rule. 
+3. Prepaid Program 
+Section 1010.100(ff)(4)(iii) defines a prepaid program as an arrangement under which one or more persons acting together provide(s) prepaid access. There are circumstances, however, where particular arrangements involving prepaid access may be organized in such a way that they do not fall within the definition of a prepaid program. Arrangements whose operations fall squarely within one or more of the exclusions described below in (a)-(d) present such a low risk of money laundering or other illicit behavior that they do not justify regulation under the BSA and are therefore, not deemed to be a prepaid program under the rule. An arrangement is not a prepaid program if: 
+a. It provides closed loop prepaid access to funds not to exceed $2,000 maximum value that can be associated with a prepaid access device or vehicle on any day. 
+An arrangement that provides closed loop prepaid access to funds not to exceed $2,000 is not defined under this rule as a prepaid program. The effort required to use closed loop prepaid access for the placement, layering or integration of funds makes them unattractive and unlikely vehicles for moving large sums of money efficiently. Closed loop prepaid access is only used for particular goods or services, which limits the ability to use it to move money quickly and easily in large amounts. The limitation to an identifiable merchant (which is an element of the definition of “closed loop prepaid access,” as discussed below) similarly restricts the utility of closed loop prepaid access for money laundering purposes. 
+                    As discussed above, the exemption for closed loop prepaid access has been changed in response to comments. The exemption now applies to closed loop prepaid access of less than $2,000 maximum value.
+[
+32
+] 
+                     Unlike the NPRM, it exempts such closed loop prepaid access even if it allows international use, transfers within the prepaid program, or loading from non-depository sources. We believe these changes more accurately reflect the risks associated with closed loop prepaid access. 
+b. It provides prepaid access solely to funds provided by a Federal, State, local, Territory and Insular Possession, or Tribal government agency.
+Various government agencies provide funds for many types of obligations such as salaries, tax refunds and benefits including unemployment, child support, disability, Social Security, veterans' benefits and disaster relief assistance through prepaid access. Given governmental oversight over these programs and the single source of the funds, we see minimal opportunity for the placement or layering of illicit funds into the financial system through prepaid access to government benefits. 
+                    As discussed above, the exemption for government funded prepaid access has been changed in response to comments 
+      (
+ printed page 45411)
+                    to exempt all such prepaid access without regard to international use, transfers within the prepaid program, or loading from non-depository sources. These changes more accurately reflect the low risks associated with government funded prepaid access. 
+c. It provides prepaid access solely to funds from pre-tax flexible spending arrangements for health care and dependent care expenses, or from Health Reimbursement Arrangements (as defined in 
+26 U.S.C. 105(b)
+ and 
+125
+) for health care expenses. 
+Generally administered by a central payor, these arrangements are pre-funded by employee and/or employer contributions to an account maintained by the payor. There are maximum annual dollar limits established for these accounts, and the funds can only be accessed as reimbursement for defined, qualifying expenses. We believe that these types of highly controlled, low risk accounts are of minimal value to potential money launderers as a means of placing or layering funds. For this reason, we have excluded these arrangements from the definition of prepaid program. 
+As discussed above, the exemption for health and dependent care flexible spending prepaid access has been changed in response to comments to exempt all such prepaid access even if it allows international use, transfers within the arrangement, or loading from non-depository sources. We believe these changes more accurately reflect the low risks associated with health and dependent care flexible spending prepaid access. 
+d. It provides prepaid access solely to (i) employment benefits, incentives, wages or salaries; or (ii) funds not to exceed $1,000 maximum value and from which no more than $1,000 maximum value can be initially or subsequently loaded, used, or withdrawn on any one day through a device or vehicle, subject to certain limitations. 
+Prepaid access to benefits and salaries and prepaid access subject to low funds limits do not fall within the definition of prepaid program under this final rule unless they contain certain higher risk features that obscure financial transparency, thereby meriting regulation. Specifically, arrangements limited to funding employment benefits, incentives, wages or salaries, and those limited to funds not to exceed $1,000 maximum value and from which no more than $1,000 maximum value can be initially or subsequently loaded, used, or withdrawn on any day through a device or vehicle, do not fall within the definition of prepaid program under this final rule if they do not allow international use, person-to-person transfers, or loading from non-depository sources. 
+i. Employment benefits, incentives, wages or salaries. 
+In most employer-employee relationships, the necessary personal details regarding the employee (such as full name, address, date of birth and a government identification number) are known to the employer. In those situations, where the individual employees paid under the program are identified by the employer, and where this information is shared with (or made available to) the provider of prepaid access, there are sufficient checks on possible money laundering abuse to warrant exclusion for this type of program. These payroll programs, in addition to regularly scheduled wage and benefits payments, may also include bonus or incentive payments paid at intervals outside the norm. This exemption applies only to arrangements in which the employer, and not the employee, can add to the funds. The ability to co-mingle funds accessed through the payroll card from sources other than the employer would obscure financial transparency and greatly increase the money laundering risk. The payment of “[b]enefits, incentives, wages or salaries” solely from the employer generally does not represent an opportunity for the placement of ill-gotten funds into the financial system (at least as distinct from criminal activity on the part of the employer originating the payments, not related to the use of prepaid access). 
+ii. Funds not to exceed $1,000 maximum value and from which no more than $1,000 maximum value can be initially or subsequently loaded, used, or withdrawn on any day through a device or vehicle. 
+                    We believe that the potential for misuse is significantly lessened where the prepaid access is to funds limited to a $1,000 maximum limitation and no subsequent loading or reloading can increase the funds beyond the stated maximum on any day through a device or vehicle. We have chosen a $1,000 maximum for this provision for a number of reasons: (1) 2009—2010 industry research findings for average and maximum initial loads; 
+[
+33
+] 
+                     (2) consistency with thresholds established for other MSB categories; and (3) the appropriate balance between the concerns expressed by law enforcement and industry. 
+This final rule differs from the NPRM in that the phrasing of the $1,000 maximums has been collapsed from three separate subsections into one because it is more concise and, we believe, clearer. It also clarifies that this limitation applies to a single device or vehicle, not across an entire prepaid program. Additionally, the NPRM included a requirement that the maximum value of the prepaid access product eligible for this exemption must be clearly visible on the product itself. The final rule does not include this requirement based on present concerns, as informed by some comments, that the requirement may be un-workable and may not be technologically neutral. 
+iii. Limitations on the payroll and limited value prepaid access exemptions. 
+                    Payroll cards and limited value prepaid access devices or vehicles are subject to a qualified exception under the final rule, allowing the programs to fall outside of the requirements unless key risk factors change. Specifically, the exemption is not applicable, and prepaid program status is triggered, if funds can be transmitted internationally, electronically transferred to other users of the prepaid access, or reloaded at a non-depository institution. While not inherently suspect, arrangements having these characteristics have risks significantly greater than the otherwise minimal risk presented by payroll and limited value prepaid access arrangements.
+[
+34
+] 
+B. Definition of Seller of Prepaid Access 
+                    In the NPRM, a seller of prepaid access was defined as “any person that receives funds or the value of funds in exchange for providing prepaid access as part of a prepaid program directly to the person that provided the funds or value, or to a third party as directed by that person.” As discussed more fully below, FinCEN has modified the definition of seller of prepaid access 
+to cover a much smaller, more targeted
+                     universe of retailers. The NPRM also proposed to require sellers of prepaid access to: (1) Develop and implement an effective AML program; (2) report suspicious activity; and (3) comply with recordkeeping requirements related to customer identifying information and transactional data. These regulatory requirements remain largely unchanged in the final rule.
+      (
+ printed page 45412)
+In the final rule, FinCEN has replaced the phrase “* * * in exchange for providing prepaid access as part of a prepaid program directly to the person that provided the funds or value, or to a third party as directed by that person” with “in exchange for an initial loading or subsequent loading of prepaid access. * * *” Thus, if the other conditions of the rule are met, a person is a seller of prepaid access if the person accepts payment in exchange for the initial or subsequent loading of prepaid access. The modified language more clearly articulates the types of transactions covered under the definition.
+As proposed, the rule would only apply to retailers that sell prepaid access devices or vehicles that are part of a prepaid program as defined in the rule. One of the primary issues raised in the comment letters was that low-dollar closed loop prepaid access (with some comments also referring to closed loop prepaid access that permits international use), was covered under the proposed definition of prepaid program. As such, the proposed rule would have subjected retailers that sell such prepaid access to regulation as sellers of prepaid access. Commenters argued that low-dollar closed loop prepaid access is relatively low-risk, and retailers that sell such access should not be subject to the regulation by virtue of that activity alone. FinCEN agrees that low-dollar closed loop prepaid access poses limited money laundering risks. Therefore, as discussed above, FinCEN has modified the definition of prepaid program in the final rule to cover only closed loop prepaid access with a value of $2,000 or more. Additionally, as discussed above, the definition of prepaid program in the final rule does not cover closed loop prepaid access merely because it can be used internationally. Under the final rule, retailers that sell low-dollar closed loop prepaid access are not subject to regulation as sellers of prepaid access by virtue of that activity alone. However, retailers that sell high-dollar (in excess of $2,000) closed loop prepaid access are subject to regulation as sellers of prepaid access.
+FinCEN continues to believe that prepaid access such as general purpose reloadable products with no restrictions on international use poses heightened money laundering risks, regardless of the value of the funds to which such access is being provided. As discussed above, the final rule adopts the formulation in the NPRM that includes this prepaid access under the definition of prepaid program. Accordingly, this type of prepaid access triggers the regulatory obligations applicable to both providers and sellers of prepaid access.
+Under section 1010.100(ff)(7) of the final rule, a seller of prepaid access is any person that receives funds or the value of funds in exchange for an initial loading or subsequent loading of prepaid access if that person sells prepaid access offered under a prepaid program that can be used before verification of customer identification under § 1022.210(d)(1)(iv); or sells prepaid access (including closed loop prepaid access) to funds that exceed $10,000 to any person during any one day, and has not implemented policies and procedures reasonably adapted to prevent such a sale.
+Under paragraph (ff)(7)(i), a person is a seller of prepaid access if the person sells any prepaid access under any prepaid program, where the customer can use the prepaid access before verification of customer identification by any participant in the prepaid program. However, a person is not a seller of prepaid access under this provision with respect to the sale of prepaid access that requires post-purchase activation and the collection of customer identifying information before use. The phrase “that can be used before verification of customer identification” only refers to use of features of a prepaid access product that would make it qualify as a prepaid program. For example, the sale of a prepaid access product that allowed the initial funds loaded, if below $1,000, to be used for purchases and did not have access to features such as international use, person-to-person transfers, and loads from non-depository sources prior to verification would not make a retailer a seller. FinCEN believes this approach appropriately regulates retailers that sell high-risk products, while not imposing undue obligations on retailers that only sell relatively low-risk products.
+                    Under paragraph (ff)(7)(ii), a person is a seller of prepaid access if the person sells any prepaid access—even that which is not covered under the definition of prepaid program—that provides access to more than $10,000 to any person during any one day, subject to an exemption for retailers with policies and procedures reasonably adapted to prevent such sales. FinCEN believes this additional activity threshold is necessary in light of FinCEN's more targeted approach to regulating sellers of prepaid access in this final rule. All retailers should already be familiar with reporting requirements for cash transactions exceeding $10,000. Retailers are obligated under the BSA rules to file reports on the receipt of currency in excess of $10,000 in the course of engaging in a trade or business.
+[
+35
+] 
+                     However, the sale of prepaid access in an amount greater than $10,000 should automatically raise a red flag with a retailer, regardless of whether the customer makes the purchase in cash or some other form of payment. High dollar transactions involving prepaid access pose inherent money laundering risks. To permit such transactions to occur without the prospect of any BSA reporting or recordkeeping requirements, other than the reporting of cash transactions, would deprive law enforcement of access to highly useful information. Therefore, it is appropriate to regulate retailers that sell prepaid access in an amount greater than $10,000, requiring them to maintain an anti-money laundering program, report suspicious activity and collect customer identifying information.
+However, we do not think it is necessary to impose such regulatory burdens on retailers that implement and adhere to policies and procedures that are reasonably adapted to prevent the sale of more than $10,000 of prepaid access. This is consistent with a risk-based regulatory approach. Retailers may take into consideration their lines of business, customer base, and prepaid access sales volume in developing their internal policies and procedures in such a way as to reduce their risk of money laundering. FinCEN believes that such a risk-based approach for sellers strikes the right balance with respect to including certain sellers within the scope of the rule, while at the same time enabling those with lower risks to avoid the full scope of the rule. FinCEN believes the definition of seller of prepaid access will apply to a relatively small number of retailers and will not impose an unjustifiable burden on any retailers.
+C. Definition of Prepaid Access
+                    The prior regulations used the term “stored value.” 
+31 CFR 1010.100(ww)
+, formerly 103.11(vv), defined the term as funds or the value of funds represented in digital electronic format (whether or not specially encrypted) and stored or capable of storage on electronic media in such a way as to be retrievable and transferable electronically. The term “stored value,” as discussed previously, was known from its inception to be a less-than-perfect label for this payment mechanism, given that no value is actually “stored” on the card. Very shortly after the publication of the MSB final rule in 1999, the term “prepaid” 
+      (
+ printed page 45413)
+                    emerged as the more common industry term. This rule revises our term to correspond to the more accurate, more prevalent term in the marketplace.
+This rule employs more precise terminology while still striving for regulatory flexibility, so that the rule will not become obsolete with the next innovative product. We believe the definition has the necessary regulatory elasticity to survive future technological advancements. Specifically, we define “prepaid access” as “[a]ccess to funds or the value of funds that have been paid in advance and can be retrieved or transferred at some point in the future through an electronic device or vehicle, such as a card, code, electronic serial number, mobile identification number, or personal identification number.” The definition has been changed somewhat from that proposed in the NPRM to clarify that prepaid access is not itself a device or vehicle, but that such a device or vehicle is a means through which prepaid funds are accessed. The two main elements of prepaid access are stated in the definition: (1) funds have been paid in advance; and (2) those funds can be retrieved or transferred at some point in the future. We also reduce the number of examples in the definition to eliminate redundancy.
+D. Definition of Closed Loop Prepaid Access
+                    The term “closed loop prepaid access” is defined as “[p]repaid access to funds or the value of funds that can be used only for goods or services involving a defined merchant or location (or a set of locations), such as a specific retailer or retail chain, a college campus, or a subway system.” This definition, which supersedes the definition of “closed loop stored value” proposed in FinCEN's 2009 MSB rulemaking, revises slightly the definition proposed in the NPRM. Compared to the definition proposed in the NPRM, it limits closed loop prepaid access to use for goods and services, excluding transfers of value to third parties and cash withdrawals.
+[
+36
+] 
+                     It continues to limit closed loop prepaid access to transactions involving a defined merchant or location(s). In this context, FinCEN wishes to clarify that a defined merchant may comprise a set of affiliated retailers or retail chains.
+E. Anti-Money Laundering Programs for Money Services Businesses
+This rule revises the regulation implementing 
+31 U.S.C. 5318(h)
+ that requires MSBs to maintain an adequate anti-money laundering program. Specifically, it amends 
+31 CFR 1022.210(d)(1)
+, formerly 
+31 CFR 103.125(d)(1)
+, by prescribing that, as part of their anti-money laundering programs, providers and sellers of prepaid access must have policies and procedures for access to and retention of customer identifying information and either retaining that information (in the case of sellers of prepaid access) or retaining access to that information (in the case of providers of prepaid access).
+In implementing 
+31 CFR 1022.210
+, FinCEN stated that the uniqueness of each financial institution required the adaptation of policies, procedures, and internal controls to a level commensurate to the risks in the financial institution's business model, including geography and customer base. Therefore, we did not intend for each MSB to have identical policies and procedures for their AML programs. Based on inherent risks, some businesses would be required to implement more comprehensive policies, procedures, and internal controls than others.
+                    This regulation adds a customer information recordkeeping requirement (including, name, date of birth, address, and identification number) for the provider and seller of prepaid access. Providers of prepaid access must retain access to such identifying information for five years after the last 
+use
+                     of the prepaid access. Sellers of prepaid access must retain such identifying information for five years from the date of the 
+sale
+                     of the prepaid access. FinCEN believes that obtaining and retaining (or retaining access to) such customer information is necessary for greater financial transparency concerning the purchasers of prepaid access. We anticipate that access to and retention of such records will assist providers and sellers, and may be of great value to law enforcement.
+The requirement that providers of prepaid access must obtain the identifying information of a person who obtains prepaid access under a prepaid program is linked to and narrowed by the definition of “prepaid program.” Accordingly, providers of prepaid access in an arrangement that does not fall within the definition of a prepaid program under 
+31 CFR 1010.100(ff)(4)(iii)
+ will not be required to obtain customer information. For example, prepaid access to funds less than $1,000 through a device or vehicle that does not allow international use, transfers between prepaid access products within one prepaid program, or loads from non-depository sources does not require a provider to collect customer identification.
+                    With respect to sellers of prepaid access, there are two situations under which customer information must be collected. Under one situation, sellers that fall within the scope of the regulations by virtue of the definition at 
+31 CFR 1010.100(ff)(7)(i)
+ (
+i.e.,
+                     where the customer can access funds under a prepaid access program without verification of customer identification) are responsible for collecting customer information. Since this definition is also linked to the definition of prepaid program, this situation will involve both the provider and the seller of prepaid access being responsible for the collection of this information. While both are responsible under the regulation for the collection of this information, they may agree with one another as to which will collect the information. Under the other situation, sellers that fall within the scope of the regulations by virtue of 
+31 CFR 1010.100(ff)(7)(ii)
+ (
+i.e.,
+                     sale of any type of prepaid access in a combined amount greater than $10,000) must also obtain customer identification. Since this definition is linked to the sale of more than $10,000 of any type of prepaid access, whether covered under a prepaid program or not (including closed loop access), there may be situations under which the seller, but not the provider, is obligated to collect the customer information.
+                    The rule requires collection, verification, and retention of standard identifying information, including name, date of birth, address, and identification number. This information will be highly useful to law enforcement in the investigation and prosecution of criminal, tax, and regulatory investigations and proceedings. These requirements are intended to mirror the customer identification programs required of other financial institutions and draws on the explanations and interpretations issued with respect to those requirements.
+[
+37
+] 
+                     Providers and sellers of prepaid access are reminded that the AML programs they develop pursuant to this rule should be appropriate for their prepaid program operations. AML programs must be sufficiently detailed with standards and criteria specified for how the information is to be accessed, collected, verified, and retained. There should also be provisions addressing communication to employees and for the training of any individuals or entities acting as their agents.
+      (
+ printed page 45414)
+F. Reports by Money Services Businesses of Suspicious Transactions
+                    This rule revises the regulation implementing 
+31 U.S.C. 5318(g)
+, which requires MSBs to report certain suspicious activity. In particular, this rule removes the stored value exemption, found at 
+31 CFR 1022.320(a)(5)
+, formerly 103.20(a)(5), from the regulation requiring MSBs to report suspicious activity. When the exemption was proposed, FinCEN considered issuers, sellers, and redeemers of stored value to be among the institutions that could provide valuable information concerning suspicious transactions.
+[
+38
+] 
+                     However, at that time FinCEN determined that it was not appropriate to specifically require issuers, sellers, and redeemers of stored value to file SARs because of the infancy of the industry and the fledgling use of stored value products in the United States.
+[
+39
+] 
+                     Over the last decade, however, the growth of the prepaid industry has made it an attractive medium through which money launderers can conduct illicit transactions. Prepaid access is easily transportable and, in some cases, can be loaded from a number of different locations. Therefore, the underlying rationale for the exemption from SAR reporting no longer applies.
+G. Registration of Money Services Businesses
+                    This rule revises the regulation implementing 
+31 U.S.C. 5330
+ that requires MSBs to register with FinCEN. Specifically, FinCEN is amending 
+31 CFR 1022.380
+, formerly 
+31 CFR 103.41
+, by removing the exemption from registration accorded to issuers, sellers, and redeemers of stored value. Since the initial exemption was granted, the prepaid access industry has experienced rapid growth. FinCEN no longer feels that regulatory requirements such as registration will inhibit the successful development of the industry. By removing the exemption, providers of prepaid access will now be required to register as MSBs with FinCEN.
+[
+40
+] 
+Identifying information about each of the individual prepaid programs for which an entity serves as provider is fundamentally important to the law enforcement community. The most efficient way to obtain this information and make it available for law enforcement use is via the registration process, which now requires that “[e]ach provider of prepaid access must identify each prepaid program for which it is the provider of prepaid access.” A provider of prepaid access registering as an MSB must submit, as part of its registration and registration renewals, a complete list of the prepaid programs for which it serves as provider. The list of prepaid programs must include sufficient identifying information for FinCEN and law enforcement to identify the provider of prepaid access based on the information submitted in the registration process and the information present on the device or included with the vehicle.
+                    Compliance with the requirement that a complete list of prepaid programs be submitted with registration, however, will require a change to FinCEN Form 107, Registration of Money Services Business. The current form does not contain a field in which such information can be included. FinCEN will soon publish a new proposed form for notice and comment which makes a number of conforming changes to reflect this final rule, including renaming stored value prepaid access and allowing for identification of prepaid programs. Accordingly, this rule provides that compliance with 
+31 CFR 1022.380
+ is not required until six months after the date of publication of this final rule in the 
+Federal Register
+                    , by which time the revised FinCEN Form 107, Registration of Money Services Business, will be final and available.
+H. Records Required To Be Maintained By Money Services Businesses
+Our discussions with the law enforcement community have revealed the utility of detailed records and recordkeeping on the part of regulated financial institutions over a substantial period of time, generally five years. This facilitates investigations in which law enforcement is attempting to reconstruct a pattern, or a history of transaction activity, that substantiates criminal behavior involving prepaid products or services. Section 1022.210 requires access to recordkeeping related to the customer involved in the initial purchase of the prepaid access product. Section 1022.420 requires access to transactional records generated in the ordinary course of business that would be necessary to reconstruct prepaid access activation, loads, reloads, purchases, withdrawals, transfers, or other prepaid related transactions for a period of five years.
+                    These records would routinely reflect: (1) Type of transaction (ATM withdrawals, point-of-sale purchase, 
+etc.
+); (2) amount and location of transaction; (3) date and time of transaction; and (4) any other unique identifiers related to transactions. These records need not be kept in any particular format, or by any particular participant in the prepaid program. The provider of prepaid access, however, bears the responsibility for complying with these recordkeeping requirements. Additionally, the records must be easily accessible and retrievable upon the appropriate request of FinCEN, law enforcement or judicial order.
+IV. Regulatory Flexibility Act
+When an agency issues a rulemaking, the Regulatory Flexibility Act (“RFA”) requires the agency to “prepare and make available for public comment a regulatory flexibility analysis” which will “describe the impact of the rule on small entities” (
+5 U.S.C. 603(a)
+). Section 605 of the RFA allows an agency to certify a rule, in lieu of preparing an analysis, if the rulemaking is not expected to have a significant economic impact on a substantial number of small entities.
+A. Impact on Providers of Prepaid Access
+1. Estimate of the number of small entities to which the rule will apply
+                    For the purpose of arriving at an estimated number of providers of prepaid access, FinCEN is relying on information regarding the industries as identified by their North American Industry Classification System (“NAICS”) 
+[
+41
+] 
+                     codes. In particular, FinCEN finds that prepaid providers will be listed as NAICS code 522320 (Financial transaction processing, reserve and clearinghouse activities). The United States Census Bureau estimates there are about 3000 entities in this classification. However, this classification includes services that are outside of those provided by prepaid providers (
+i.e.
+                     check validation services, bank clearinghouse associations, and credit card processing services). Because prepaid providers utilize electronic funds transfers systems to conduct business, FinCEN narrowed the estimated industry to those entities that are within NAICS code 522320 and perform either electronic funds transfers or electronic financial payment services. FinCEN was unable to obtain a number for these entities from the United States 
+      (
+ printed page 45415)
+                    Census Bureau and therefore relies on commercial database information. Based on this information, FinCEN estimates that there are 700 entities that share this classification.
+[
+42
+] 
+                     Within this classification those entities that have less than seven million dollars in gross revenue are considered small. FinCEN estimates that 93% of the affected industry is considered a small business, and that the regulation will affect all of them.
+[
+43
+] 
+2. Description of the Projected Reporting and Recordkeeping Requirements of the Rule
+The rule requires prepaid providers to comply with the same BSA requirements as those with which other MSBs are already complying. By requiring this, FinCEN is addressing vulnerabilities in the U.S. financial system and is leveling the playing field among MSBs. Currently, all MSBs are required to maintain AML programs, report certain currency transactions, and maintain certain records. Also, MSBs, except check cashers and issuers, sellers, and redeemers of stored value, have been required to file reports on suspicious transactions. The rule requires prepaid providers to comply with these same requirements. The rule requires prepaid providers to register with FinCEN. Additionally, prepaid providers are required to maintain records about customer identification and transactional information. As discussed below, FinCEN does not foresee a significant impact on the regulated industry from these requirements.
+3. AML Program Requirement in General
+The rule requires prepaid providers to maintain AML programs. The majority of providers have not been previously required by regulation to maintain AML programs. However, FinCEN does not believe there are special skills required to develop an AML program other than effectively identifying risk. Risk assessment is a standard, fundamental precept of any entity seeking to limit fraud, loss, and other harm to the business.
+To assist entities new to FinCEN oversight, we offer guidance and information through our public Web site and through a toll-free, live telephone helpline. We publish overview and compliance guidance in English and eight other languages, provided free of charge upon request. In all of this information, we emphasize that an AML program should be commensurate with an institution's risks stemming from various factors including size. Therefore, we would generally expect a smaller entity's AML Program to be less complex than that of a larger entity, involving the dedication of less time and fewer resources. Additionally, through discussions with industry and representations from a prepaid card association, FinCEN has determined that prepaid providers are already maintaining AML programs, typically as part of their contractual obligations to their partner banks or credit card networks. When an issuing bank partners with a prepaid provider the bank may require that the provider maintain an AML program commensurate with the bank's risk tolerance. To assist these prepaid providers, prepaid card associations publish reports on AML best practices. Providers that may already be contractually obligated to maintain an AML program through an agreement with the issuing bank will now be legally required to do so under this rule. FinCEN estimates that the impact of this requirement will be minimal as it only codifies current business practice.
+4. Currency Transaction Reporting
+The rule will require prepaid providers to report transactions in currency in amounts greater than $10,000. Because the average load amounts for prepaid cards are well below the $10,000 threshold and the majority of prepaid loads above $1,000 are made through direct deposit, FinCEN does not foresee a significant burden in this requirement. In support of this assertion, several prepaid providers have stated to FinCEN that they have rarely, if ever, encountered a transaction of over $10,000 in currency, per person, per day, associated with their prepaid programs.
+5. Suspicious Activity Reporting
+                    The rule will require prepaid providers to report on transactions of $2,000 or more which they determine to be suspicious. Prepaid providers have not been required previously to comply with such a requirement by regulation. It is important to highlight that these reports are not required to be filed unless a transaction is suspicious and is for an amount of $2,000 or more. The average transaction amount for a point-of-sale debit is about $40.
+[
+44
+] 
+                     This is substantially less than the $2,000 threshold. Additionally, through an overview of currently operating programs, FinCEN has determined that few prepaid programs allow a customer to withdraw more than $1,000 from an ATM in a day. Lastly, in discussions with the industry, prepaid providers indicated that they rarely encountered transactions for which they would need to file a SAR if required by regulation. Therefore, FinCEN estimates that the number of SARs required to be filed by prepaid providers and sellers will be low. FinCEN estimates the cost to generate such SAR at $36.
+[
+45
+] 
+                    FinCEN understands that the costs in SAR reporting go beyond the actual cost in filing the report and include procedures in place to monitor transactions. FinCEN also understands that a majority of prepaid providers are already engaged in this monitoring. To assist small entities with compliance, FinCEN provides a SAR Reference Guide in English and eight other languages.
+[
+46
+] 
+6. Customer Identification Information Collection and Retention
+The rule will require prepaid providers and sellers to implement procedures to collect and retain customer information relating to prepaid access within prepaid programs as defined by this rule. Providers of prepaid access have not previously been required to retain this information by regulation.
+                    Similar to the discussion of AML programs above, prepaid providers are currently required to obtain and retain customer identification information through contractual obligations with the bank partners. Since the implementation of section 326 of the USA PATRIOT Act, banks have been required to obtain customer identification for each account they open. Through discussions with prepaid industry members and associations, FinCEN has determined that, to mitigate 
+      (
+ printed page 45416)
+                    risks, banks have extended this customer information requirement to their prepaid provider partners through contractual obligations. Therefore, some providers of prepaid access are already obtaining and maintaining information on their customers to comply with contractual obligations. Beyond these obligations, many prepaid providers are maintaining this information to assist in their fraud monitoring and targeted marketing programs. FinCEN estimates the time required to obtain customer information under this rule at 2 minutes per prepaid access card. In our analysis of the effects of this portion of the rule under the Regulatory Flexibility Act and the Paperwork Reduction Act, we have attempted to extrapolate from available business resources and information (
+e.g.,
+                     commercial databases, U.S. government Web sites and publications) to the available open-source data about the emerging prepaid industry. For both RFA and PRA, we sought to determine the overall impact of this portion of the rule by identifying increases to total business payroll costs.
+As explained previously under this section, in footnote #50, we have calculated that each prepaid card generates approximately $450 in annual revenue to a prepaid provider. Using the most applicable NAICS category, and the identification of $7 million or less in annual revenue as the Small Business Administration's definition of a “small business” for this category, we have arrived at a determination of a very modest projected impact on annual company payroll.
+We applied the two minute time allotment per prepaid access card, described above, to the number of prepaid cards issued annually by a small business prepaid provider (15,000), to arrive at a total time value of 30,000 minutes (or 500 hours). Since we have previously stated that we believe the average lifespan of a prepaid card to be three years, we divided the total by 3, and multiplied using the $25 average hourly wage of a compliance officer (see footnote #43) to calculate a total annual impact on company payroll of $4,100. This figure represents an impact of only .2 percent of the average annual payroll of $1.8 million for entities under this NAICS category.
+For comparative purposes, we also applied the same analysis to entities generating only $100,000 in annual revenue, considered by the SBA to be the minimum level of a “small business” within this NAICS category. Small businesses at this revenue level would issue approximately 220 cards per year. Applying the same assumptions for revenue level per card, hourly salary for compliance personnel and lifespan of a card, the calculations (using average annual payroll of $64,000 for these entities within the NAICS category 522320) results in an increase of 2 hours (or $50 annually) for a very marginal effect on total annual company payroll of .07 percent.
+7. Transaction Records Generated in the Ordinary Course of Business
+                    The rule will require providers of prepaid access to retain transaction specific records generated in the ordinary course of business. Currently, providers are not required to maintain these records under the BSA. However, for transactions processed through a point-of-sale system or other access gateway, the Electronic Funds Transfer Act requires the retention of this information for a period of two years.
+[
+47
+] 
+                     FinCEN will extend this retention to a period of five years to be commensurate with other BSA record retention obligations. In its PRA statement, FinCEN estimates that the annual impact of this requirement is 16 hours per recordkeeper. FinCEN has determined that for those entities with annual revenue close to $7,000,000, this requirement will increase costs to payroll by .02%. For those entities with annual revenue of $100,000, this requirement will increase costs to payroll by .6%.
+8. Registration of Providers
+                    The rule will require providers of prepaid access to register with FinCEN. The FinCEN registration form is two pages and must be filed once every two years. Under OMB control number 1506-0013, FinCEN estimates that the biannual burden from reporting and recordkeeping associated with this registration is two and a half hours.
+[
+48
+] 
+                     In accordance with the estimated hours in its PRA statement, FinCEN estimates that this requirement will impact small entities by $36 annually.
+B. Impact on Sellers of Prepaid Access
+1. Estimate of the Number of Small Entities To Which the Rule Will Apply
+                    For the purpose of identifying sellers of prepaid access, FinCEN is unable to rely on NAICS codes because sellers, including grocery stores, convenience stores, and department stores, will be classified under the primary services that they provide. To arrive at an estimated number of sellers of prepaid access, FinCEN is relying on information about distribution channels obtained through informal discussions with members of the prepaid industry. In addition, FinCEN is relying on information concerning prepaid access selling patterns identified in the 2005 Money Services Business Industry Survey Study conducted by KPMG.
+[
+49
+] 
+In the NPRM, FinCEN estimated that there were 70,000 sellers of prepaid access operating within prepaid programs. In response to comments received, FinCEN has made changes to the definition that substantially limits the number of sellers of prepaid access that will be affected by this final rule. First, closed loop prepaid access must provide access to funds in excess of $2,000 to be covered under the definition of prepaid program. The vast majority of retailers that sell closed loop prepaid access do not thereby provide access to amounts over $2,000. These retailers would not be subject to the final rule. Second, the final rule only affects retailers to the extent they either (1) sell prepaid access that is immediately useable at the point of sale and requires no later activation, or (2) sell prepaid access to more than $10,000 to any person on any day. Commenters to the NPRM indicated that very few prepaid programs, if any, permit immediate usage without a later activation process that includes appropriate customer identification procedures, and that very few retailers, if any, sell prepaid access in such large amounts.
+Retailers that sell immediately usable prepaid access that is not closed loop prepaid access are appropriately regulated as sellers of prepaid access under the final rule if those products pose heightened money laundering risks by: (1) Permitting access to funds in excess of $1,000; or (2) permitting international use, person-to-person transfers, or additional loading of funds from non-depository sources. The prepaid industry can avoid the regulation of retailers as sellers of prepaid access by implementing pre-use activation procedures that include appropriate customer identification information collection, already common with respect to many prepaid programs.
+                    Although FinCEN is unable to determine an exact number of sellers that participate in programs that pose heightened money laundering risks such as high-dollar anonymous programs, comments received in response to the 
+      (
+ printed page 45417)
+                    NPRM suggest that these products make up less than 1% of the current market. From this, we believe a small percentage of the population of retailers will be required to implement the full ambit of BSA requirements. In addition, based on an assessment of the number of stored value entities that have filed reports with FinCEN under BSA regulations, FinCEN believes there is further evidence that the number of entities engaging in activities that would trigger the requirements with respect to sellers of prepaid access can be estimated to be less than 700.
+[
+50
+] 
+                     Therefore, FinCEN estimates that the rule will have a significant impact on less than 1% of the 70,000 sellers estimated by FinCEN in its NPRM.
+Additionally, retailers that sell any type of prepaid access to funds in excess of $10,000 to any person during any one day are regulated as sellers of prepaid access under the final rule. Based on the comments received in response to the NPRM, FinCEN believes that such sales are exceedingly rare, and it would be relatively easy for retailers to implement policies and procedures that would ensure that they did not engage in such sales. Retailers that implement policies and procedures reasonably designed to ensure that they do not sell over $10,000 of prepaid access to one person in one day will not be considered sellers of prepaid access. Development and implementation of such policies and procedures will affect essentially all sellers.
+2. Description of the Projected Reporting and Recordkeeping Requirements of the Rule
+Under the final rule, certain sellers, less than 1%, will be required to create an AML Program, file SARs and CTRs, and retain customer transaction information including obtaining the identification of the purchaser. Commenters expressed that although these activities have been performed by providers of prepaid access, these requirements would be a new burden imposed on the sellers of prepaid access and would have a significant impact on those sellers. As stated above, FinCEN revised the regulatory obligations on sellers, limiting the impact to only those sellers that sell a particular type of prepaid access other than closed loop prepaid access that allows high dollar amounts, international use, person-to-person transfers, or loads from non-depository sources. Both law enforcement and the industry agree that these are hallmarks of high risk for money laundering. Therefore, although the impact will be significant on a certain number of sellers, those sellers make up less than 1% of the population.
+The remaining 99% of retailers will be required to implement reasonable policies and procedures to ensure that they do not sell more than $10,000 of prepaid access devices to any one person in any one day. These procedures should be commensurate with the institution's level of risk.
+C. Certification
+As discussed above, the final rule will affect two separate populations of small entities. Of the population of providers of prepaid access, the final rule will affect an estimated 700 providers of prepaid access, 93% of which are considered small entities. FinCEN estimates that the impact of the requirements will increase the annual payroll between .3% and .8% overall. FinCEN believes that this is not a significant impact.
+Of the population of sellers of prepaid access, the final rule will impact 70,000. The impact on 99% of these sellers will be insignificant. The only significant impact that FinCEN expects the final rule to have is on those sellers of prepaid access that sell certain products that are highly susceptible to criminal activity. As discussed above, FinCEN estimates that the population of entities that sell these products is less than 1% of all sellers.
+Accordingly, FinCEN certifies that the rule will not have a significant impact on a substantial number of small entities.
+V. Paperwork Reduction Act Notices
+The collections of information contained in this rule have been approved by the Office of Management and Budget (“OMB”) for review in accordance with the Paperwork Reduction Act of 1995 (
+44 U.S.C. 3507(d)
+) under control numbers 1506-0013, 1506-0015, 1506-0020, 1506-0052, 1506-0056, and 1506-0058.
+A. AML Program for Providers and Sellers of Prepaid Access
+Anti-money laundering programs for money services businesses (
+31 CFR 1022.210
+). OMB Control Number: 1506-0020.
+This information is required to be retained pursuant to 
+31 U.S.C. 5318(h)
+ and 
+31 CFR 1022.210
+. The collection of information is mandatory.
+The information collected pursuant to 
+31 CFR 1022.210(c)
+ will be used by examiners to determine whether providers of prepaid access comply with the BSA. By defining providers and sellers of prepaid access as MSBs, the rule will increase the estimated number of entities by 1400. However, by removing issuers, sellers, and redeemers of stored value from the definition of MSB, the rule will reduce the estimated number of entities by 10,000. Overall, the rule will decrease the number of entities that collect information under 
+31 CFR 1022.210(c)
+ by 8600.
+Description of Recordkeepers:
+                     MSBs as defined in 
+31 CFR 1010.100(ff)(4)
+ and 
+(7)
+.
+Estimated Number of Recordkeepers:
+                     The rule decreases the number of recordkeepers by 8600.
+Estimated Average Annual Burden Hours per Recordkeeper:
+                     The estimated average annual burden associated with the recordkeeping requirement in 
+31 CFR 1022.210(c)
+ is one hour.
+Estimated Total Annual Recordkeeping Burden:
+                     The current burden will be reduced by 10,000 hours and increased by 1,400 hours, for a net decrease to the current burden of 8600 hours.
+B. Customer Identification Requirement for Providers and Sellers of Prepaid Access
+The information collected pursuant to 
+31 CFR 1022.210(d)
+ will be used by law enforcement agencies in the enforcement of criminal and regulatory laws. The rule affects an estimated 1400 providers and sellers of prepaid access. The rule requires two minutes of collection burden per issuance of prepaid access device or vehicle.
+Description of Recordkeepers:
+                     MSBs as defined in 
+31 CFR 1010.100(ff)(4)
+ and 
+(7)
+.
+Estimated Number of Recordkeepers:
+                     The rule increases the number of recordkeepers to 1400.
+Estimated Average Annual Burden Hours per Recordkeeper:
+                     The estimated average annual burden associated with the recordkeeping requirement in 
+31 CFR 1022.210(d)
+ is two minutes per issuance of a prepaid access device or vehicle. At any given moment, there are 
+      (
+ printed page 45418)
+                    an estimated 7.5 million network branded prepaid cards in the marketplace. FinCEN estimates that the average lifespan of a prepaid card is three years. Therefore, FinCEN estimates that there are 2.5 million new prepaid cards or other devices or vehicles issued each year that are covered by the rule.
+Estimated Total Annual Recordkeeping Burden:
+                     The burden will be 83,300 hours. OMB Control Number: 1506-0020.
+C. SAR Filing for Providers and Sellers of Prepaid Access
+Suspicious activity reports for money services businesses (
+31 CFR 1022.320
+). OMB Control Number: 1506-0015.
+This information is required to be provided pursuant to 
+31 U.S.C. 5318(g)
+ and 
+31 CFR 1022.320
+. This information will be used by law enforcement agencies in the enforcement of criminal and regulatory laws and to prevent money services businesses from engaging in illegal activities. The collection of information is mandatory. The rule will increase the number of recordkeepers by 1400.
+Description of Recordkeepers:
+                     MSBs as defined in 
+31 CFR 1010.100(ff)(4)
+ and 
+(7)
+.
+Estimated Number of Recordkeepers:
+                     Providers of prepaid access will be required to file SARs. The number of recordkeepers would be increased by 1400.
+Estimated Average Annual Burden Hours per Recordkeeper:
+                     The estimated average annual burden associated with the recordkeeping requirement in 
+31 CFR 1022.320
+ is 90 minutes per report.
+Estimated Total Annual Recordkeeping Burden:
+                     The rule should increase the estimated annual burden by 289,800 hours.
+D. Registration of Providers of Prepaid Access
+Registration for money services businesses (
+31 CFR 1022.380
+). OMB Control Number: 1506-0013.
+This information is required to be provided pursuant to 
+31 U.S.C. 5330
+ and 
+31 CFR 1022.380
+. The information will be used by law enforcement and regulatory agencies in the enforcement of criminal, tax, and regulatory laws and to prevent money services businesses from engaging in illegal activities. The information will also be valuable to FinCEN, allowing analysts to more accurately quantify the universe of MSBs generally and the universe of providers of prepaid access specifically. The collection of information is mandatory. Providers of prepaid access need to register and list the prepaid programs subject to this final rule; the number of recordkeepers will be increased by 700.
+Description of Recordkeepers:
+                     Providers of prepaid access as defined in 
+31 CFR 1010.100(ff)(4)
+.
+Estimated Number of Recordkeepers:
+                     The number of recordkeepers would be increased by 700 MSBs.
+Estimated Average Annual Burden Hours per Recordkeeper:
+                     The estimated average annual burden associated with the recordkeeping requirement in 
+31 CFR 1022.380
+ is 30 minutes per recordkeeper for the completion, filing, and recordkeeping of registration forms, and an additional 120 minutes for the completion, filing, and recordkeeping of the list of prepaid programs subject to the regulation.
+Estimated Total Annual Recordkeeping Burden:
+                     We will increase the number of burden hours under this collection by 1,750 hours.
+E. Recordkeeping and Retrieval Requirement
+Customer and Transactional Data Recordkeeping Requirements (
+31 CFR 1010.410
+, 
+1010.430
+, 
+1022.420
+, and 
+1022.210
+). OMB Control Number: 1506-0052.
+This information is required to be provided pursuant to Section 21 of the Federal Deposit Insurance Act (
+12 U.S.C. 1829b
+), 
+31 U.S.C. 5318(m)
+, and 
+31 CFR 1010.410
+, 
+1010.430
+, 
+1022.420
+, and 
+1022.210
+. This information will be used by law enforcement agencies in criminal, tax, and regulatory investigations and proceedings. Prepaid providers will be required to retain information in a format that allows for its retrieval upon request. Both providers and sellers of prepaid access are responsible for the recordkeeping of customer and transactional data that is routinely captured and maintained in the ordinary course of business under the regulation. The number of recordkeepers will be increased by 1400.
+Description of Recordkeepers:
+                     MSBs as defined in 
+31 CFR 1010.100(ff)(4)
+ and 
+(7)
+.
+Estimated Number of Recordkeepers:
+                     The number of recordkeepers would be increased by 1400 MSBs.
+Estimated Average Annual Burden Hours per Recordkeeper:
+                     The estimated average annual burden associated with the recordkeeping requirement in 
+31 CFR 1010.410
+, 
+1010.430
+, 
+1022.420
+, and 
+1022.210
+ is 16 hours per recordkeeper for the maintenance of customer and transactional data that routinely is captured and maintained in the ordinary course of business.
+Estimated Total Annual Recordkeeping Burden:
+                     We will increase the number of burden hours under this collection by 22,400 hours. 
+An agency may not conduct or sponsor, and a person is not required to respond to, a collection of information unless the collection of information displays a valid OMB control number. Records required to be retained under the Bank Secrecy Act must be retained for five years.
+VI. 
+Executive Order 12866
+ and 
+Executive Order 13563
+Executive Orders 13563 and 12866 direct agencies to assess all costs and benefits of available regulatory alternatives and, if regulation is necessary, to select regulatory approaches that maximize net benefits (including potential economic, environmental, public health and safety effects, distributive impacts, and equity). 
+Executive Order 13563
+ emphasizes the importance of quantifying both costs and benefits, of reducing costs, of harmonizing rules, and of promoting flexibility. This rule has been designated a “significant regulatory action,” although not economically significant, under section 3(f) of 
+Executive Order 12866
+. Accordingly, the rule has been reviewed by OMB.
+VII. Unfunded Mandates Act of 1995 Statement
+Section 202 of the Unfunded Mandates Reform Act of 1995 (“Unfunded Mandates Act”), 
+Public Law 104-4
+ (March 22, 1995), requires that an agency prepare a budgetary impact statement before promulgating a rule that may result in expenditure by the state, local, and Tribal governments, in the aggregate, or by the private sector, of 100 million dollars or more in any one year. If a budgetary impact statement is required, section 202 of the Unfunded Mandates Act also requires an agency to identify and consider a reasonable number of regulatory alternatives before promulgating a rule. Taking into account the factors noted above and using conservative estimates of average labor costs in evaluating the cost of the burden imposed by the rule, FinCEN has determined that it is not required to prepare a written statement under section 202.
+List of Subjects in 
+31 CFR Parts 1010
+ and 
+1022
+Administrative practice and procedure
+Banks
+Banking
+Brokers
+Currency
+Foreign banking
+Foreign currencies
+Gambling
+Investigations
+Penalties
+Reporting and recordkeeping requirements
+Securities
+Terrorism
+Authority and Issuance
+For the reasons set forth above in the preamble, 
+Chapter X of title 31 of the Code of Federal Regulations
+ is amended as follows:
+PART 1010—GENERAL PROVISIONS
+1. 
+The authority citation for part 1010 continues to read as follows: 
+Authority:
+12 U.S.C. 1829b
+ and 
+1951-1959
+; 
+31 U.S.C. 5311-5314
+ and 
+5316-5332
+; Title III, sec. 314, 
+Pub. L. 107-56
+, 115 Stat. 307; Title V, sec. 503, 
+Pub. L. 111-24
+.
+2. 
+Amend § 1010.100 by: 
+a. 
+Revising paragraph (ff) introductory text; 
+b. 
+Revising paragraph (ff)(2)(ii)(A); 
+c. 
+Revising paragraph (ff)(4); 
+d. 
+Revising paragraph (ff)(5)(ii)(E); 
+e. 
+Adding new paragraph (ff)(7); 
+f. 
+Revising paragraph (ww); and 
+g. 
+Adding new paragraph (kkk) to read as follows. 
+§ 1010.100 
+General definitions.
+* 
+* 
+* 
+* 
+*
+                            (ff) 
+Money services business.
+                             A person wherever located doing business
+,
+                             whether or not on a regular basis or as an organized or licensed business concern, wholly or in substantial part within the United States, in one or more of the capacities listed in paragraphs (ff)(1) through (ff)(7) of this section. This includes but is not limited to maintenance of any agent, agency, branch, or office within the United States.
+* 
+* 
+* 
+* 
+*
+(2) * * *
+(ii) * * *
+(A) A person that sells prepaid access in exchange for a check (as defined in the Uniform Commercial Code), monetary instrument or other instrument;
+* 
+* 
+* 
+* 
+*
+                            (4) 
+Provider of prepaid access
+                            —(i) 
+In general.
+                             A provider of prepaid access is the participant within a prepaid program that agrees to serve as the principal conduit for access to information from its fellow program participants. The participants in each prepaid access program must determine a single participant within the prepaid program to serve as the provider of prepaid access.
+                            (ii) 
+Considerations for provider determination.
+                             In the absence of registration as the provider of prepaid access for a prepaid program by one of the participants in a prepaid access program, the provider of prepaid access is the person with principal oversight and control over the prepaid program. Which person exercises “principal oversight and control” is a matter of facts and circumstances. Activities that indicate “principal oversight and control” include:
+(A) Organizing the prepaid program;
+(B) Setting the terms and conditions of the prepaid program and determining that the terms have not been exceeded;
+(C) Determining the other businesses that will participate in the prepaid program, which may include the issuing bank, the payment processor, or the distributor;
+(D) Controlling or directing the appropriate party to initiate, freeze, or terminate prepaid access; and
+(E) Engaging in activity that demonstrates oversight and control of the prepaid program.
+                            (iii) 
+Prepaid program.
+                             A prepaid program is an arrangement under which one or more persons acting together provide(s) prepaid access. However, an arrangement is 
+not
+                             a prepaid program if:
+(A) It provides closed loop prepaid access to funds not to exceed $2,000 maximum value that can be associated with a prepaid access device or vehicle on any day;
+(B) It provides prepaid access solely to funds provided by a Federal, State, local, Territory and Insular Possession, or Tribal government agency;
+(C) It provides prepaid access solely to funds from pre-tax flexible spending arrangements for health care and dependent care expenses, or from Health Reimbursement Arrangements (as defined in 
+26 U.S.C. 105(b)
+ and 
+125
+) for health care expenses; or
+                            (D) (
+1
+) It provides prepaid access solely to:
+(i)
+                             Employment benefits, incentives, wages or salaries; or
+(ii)
+                             Funds not to exceed $1,000 maximum value and from which no more than $1,000 maximum value can be initially or subsequently loaded, used, or withdrawn on any day through a device or vehicle; and
+                            (
+2
+) It does not permit:
+(i)
+                             Funds or value to be transmitted internationally;
+(ii)
+                             Transfers between or among users of prepaid access within a prepaid program; or
+(iii)
+                             Loading additional funds or the value of funds from non-depository sources.
+* 
+* 
+* 
+* 
+*
+(5) * * *
+(ii) * * *
+(E) Provides prepaid access; or
+* 
+* 
+* 
+* 
+*
+                            (7) 
+Seller of prepaid access.
+                             Any person that receives funds or the value of funds in exchange for an initial loading or subsequent loading of prepaid access if that person:
+(i) Sells prepaid access offered under a prepaid program that can be used before verification of customer identification under § 1022.210(d)(1)(iv); or
+(ii) Sells prepaid access (including closed loop prepaid access) to funds that exceed $10,000 to any person during any one day, and has not implemented policies and procedures reasonably adapted to prevent such a sale.
+* 
+* 
+* 
+* 
+*
+                            (ww) 
+Prepaid access.
+                             Access to funds or the value of funds that have been paid in advance and can be retrieved or transferred at some point in the future through an electronic device or vehicle, such as a card, code, electronic serial number, mobile identification number, or personal identification number.
+* 
+* 
+* 
+* 
+*
+                            (kkk) 
+Closed loop prepaid access.
+                             Prepaid access to funds or the value of funds that can be used only for goods or services in transactions involving a defined merchant or location (or set of locations), such as a specific retailer or retail chain, a college campus, or a subway system.
+PART 1022—RULES FOR MONEY SERVICES BUSINESSES
+3. 
+The authority citation for part 1022 continues to read as follows: 
+Authority: 
+12 U.S.C. 1829b
+ and 
+1951-1959
+; 
+31 U.S.C. 5311-5314
+ and 
+5316-5332
+; title III, sec. 314, 
+Pub. L. 107-56
+, 115 Stat. 307.
+4. 
+Amend § 1022.210 by: 
+a. 
+Revising paragraph (d)(1)(i); and 
+b. 
+Adding new paragraph (d)(1)(iv) to read as follows. 
+§ 1022.210 
+Anti-money laundering programs for money services businesses.
+* 
+* 
+* 
+* 
+*
+(d) * * *
+(1) * * *
+(i) Policies, procedures, and internal controls developed and implemented under this section shall include provisions for complying with the requirements of this chapter including, to the extent applicable to the money services business, requirements for:
+(A) Verifying customer identification, including as set forth in paragraph (d)(1)(iv) of this section;
+(B) Filing Reports;
+(C) Creating and retaining records;
+(D) Responding to law enforcement requests.
+* 
+* 
+* 
+* 
+*
+      (
+ printed page 45420)
+(iv) A money services business that is a provider or seller of prepaid access must establish procedures to verify the identity of a person who obtains prepaid access under a prepaid program and obtain identifying information concerning such a person, including name, date of birth, address, and identification number. Sellers of prepaid access must also establish procedures to verify the identity of a person who obtains prepaid access to funds that exceed $10,000 during any one day and obtain identifying information concerning such a person, including name, date of birth, address, and identification number. Providers of prepaid access must retain access to such identifying information for five years after the last use of the prepaid access device or vehicle; such information obtained by sellers of prepaid access must be retained for five years from the date of the sale of the prepaid access device or vehicle.
+* 
+* 
+* 
+* 
+*
+5. 
+Amend § 1022.320 by: 
+a. 
+Revising the first sentence of paragraph (a)(1) to read as follows; and 
+b. 
+Removing paragraph (a)(5). 
+§ 1022.320 
+Reports by money services businesses of suspicious transactions.
+                            (a) 
+General.
+                             (1) Every money services business described in § 1010.100(ff)(1), (3), (4), (5), (6), and (7) of this chapter, shall file with the Treasury Department, to the extent and in the manner required by this section, a report of any suspicious transaction relevant to a possible violation of law or regulation. * * *
+* 
+* 
+* 
+* 
+*
+6. 
+Amend § 1022.380 by revising paragraph (a)(1) to read as follows: 
+§ 1022.380 
+Registration of money services businesses.
+                            (a) 
+Registration requirement
+                            —(1) 
+In general.
+                             Except as provided in paragraph (a)(3) of this section, relating to agents, and except for sellers of prepaid access as defined in § 1010.100(ff)(7) of this chapter to the extent that they are not already agents, each money services business (whether or not licensed as a money services business by any State) must register with FinCEN. Each provider of prepaid access must identify each prepaid program for which it is the provider of prepaid access. Each money services business must, as part of its registration, maintain a list of its agents as required by 
+31 U.S.C. 5330
+ and this section. This section does not apply to the United States Postal Service, to agencies of the United States, of any State, or of any political subdivision of a State.
+* 
+* 
+* 
+* 
+*
+7. 
+Add new § 1022.420 to subpart D to read as follows: 
+§ 1022.420 
+Additional records to be maintained by providers and sellers of prepaid access.
+With respect to transactions relating to providers and sellers of prepaid access described in § 1010.100(ff)(4) and (7) that are subject to the requirements of this chapter, each provider of prepaid access shall maintain access to transactional records for a period of five years. The provider of prepaid access, as defined in § 1010.100(ff)(4), shall maintain access to transactional records generated in the ordinary course of business that would be needed to reconstruct prepaid access activation, loads, reloads, purchases, withdrawals, transfers, or other prepaid-related transactions.
+Dated: July 22, 2011.
+James H. Freis, Jr.,
+Director, Financial Crimes Enforcement Network.
+Footnotes
+1.
+31 U.S.C. 5311
+.
+        Back to Citation
+2.
+                        See 
+                         Treasury Order 180-01 (Sept. 26, 2002).
+        Back to Citation
+3.
+                         On October 26, 2010, FinCEN issued a final rule creating a new Chapter X in 
+title 31 of the Code of Federal Regulations
+ for the BSA regulations. 
+                        See 
+75 FR 65806
+ (October 26, 2010) (Transfer and Reorganization of Bank Secrecy Act Regulations Final Rule) (referred to herein as the “Chapter X Final Rule”). The Chapter X Final Rule became effective on March 1, 2011. Because the Notice of Proposed Rulemaking, Definitions and Other Regulations Relating to Money Services Businesses, 
+74 FR 22129
+ (May 12, 2009), was issued before the Chapter X Final Rule became effective, it was proposed in the 
+31 CFR part 103
+ format. In this Final Rule, for ease of reference and where appropriate, we have included the former 
+31 CFR part 103
+ citation after the 
+31 CFR chapter X
+ regulatory citation.
+        Back to Citation
+4.
+                         “MSB” is a term FinCEN created that refers to certain non-bank financial institutions that offer specific services (often in combination) and are without a Federal functional regulator.
+        Back to Citation
+5.
+31 CFR 1010.100(ff)
+ implementing 
+31 U.S.C. 5312(a)(2)(J)
+, (K), (R) and (V).
+        Back to Citation
+6.
+31 U.S.C. 5312(a)(2)(Y)
+.
+        Back to Citation
+7.
+                        See 
+31 CFR 1022.210
+.
+        Back to Citation
+8.
+                        See 
+31 CFR 1010.311
+.
+        Back to Citation
+9.
+                        See 
+31 CFR 1022.320
+. Check cashers and transactions solely involving the issuance, sale or redemption of stored value are not covered by the SAR requirement. 
+                        See 
+31 CFR 1022.320(a)(1)
+ and 
+(a)(5)
+.
+        Back to Citation
+10.
+                        See 
+31 CFR 1010.415
+.
+        Back to Citation
+11.
+                        See 
+31 CFR 1022.410
+        Back to Citation
+12.
+                        See 
+31 CFR 1010.410(e)-(f)
+.
+        Back to Citation
+13.
+                        See 
+31 CFR 1022.380
+.
+        Back to Citation
+14.
+Public Law 111-24
+ (May 22, 2009), 123 Stat. 1734.
+        Back to Citation
+15.
+Id.,
+                         Sec. 503(a), (c).
+        Back to Citation
+16.
+75 FR 36589
+.
+        Back to Citation
+17.
+                         Definitions Relating to, and Registration of, Money Services Businesses, 
+64 FR 45438
+ (Aug. 20, 1999).
+        Back to Citation
+18.
+31 CFR 1010.311
+.
+        Back to Citation
+19.
+31 CFR 1022.210
+.
+        Back to Citation
+20.
+                        See 
+                         Definitions and Other Regulations Relating to Money Services Businesses, 
+74 FR 22129
+ (May 12, 2009).
+        Back to Citation
+21.
+                         The 2010 Federal Reserve Payments Study—Noncash Payment Trends in the United States: 2006-2009, pg. 6. 
+http://www.frbservices.org/​files/​communications/​pdf/​press/​2010_​payments_​study.pdf
+.
+        Back to Citation
+22.
+See id.
+                         at 17.
+        Back to Citation
+23.
+                         2005/2006 Study of Consumer Payment Preferences, published October 2005.
+        Back to Citation
+24.
+                        See 
+31 CFR 1010.100(ff)(5)(ii)
+.
+        Back to Citation
+25.
+                         Many of the comment letters we received were critical of our initial provider definition. The approach that we used, outlining criteria that we believed were generally descriptive of the provider role, was criticized by several industry members and some state regulatory officials as too indefinite and ambiguous. Other commenters made the point that often it is only the issuing bank that meets the definitional test of a provider under our criteria. Many commenters advocated allowing the participants to allocate responsibilities by agreement. Other commenters preferred some form of bright-line test rather than the facts and circumstances approach that FinCEN proposed.
+        Back to Citation
+26.
+                         By virtue of the regulatory definition of a money services business, neither a bank nor any other participants in the bank-centered prepaid program would be required to register with FinCEN.
+        Back to Citation
+27.
+                         Banks currently serving in a role that could otherwise fit the definition of a provider of prepaid access are not subject to this rule because FinCEN has excluded banks from its definition of MSB. 
+                        See 
+31 CFR 1010.100(d)
+, 
+(ff)
+. However, banks are subject to distinct FinCEN rules implementing the BSA with respect to their products and services generally. Additionally, banks are subject to regulation by the Federal banking agencies (“FBAs”) and, as such, must comply with the appropriate provisions of 
+Title 12 of the CFR.
+ FinCEN and the FBAs have issued examination guidance directed specifically at banks involved in the operation of a prepaid program. This guidance may be found at: 
+http://www.ffiec.gov/​bsa_​aml_​infobase/​pages_​manual/​OLM_​061.htm
+,
+                         specifically pages 234-238, entitled “Electronic Cash—Overview.”
+        Back to Citation
+28.
+                         “FinCEN does not currently interpret the definition of stored value to include closed system products such as a mall-wide gift card program. However, please be advised that FinCEN intends to engage in further rulemaking relating to the definition of stored value. Therefore, nothing in this letter should be relied upon by [ ] as binding on FinCEN with respect to any changes to the current rules * * *” FinCEN Ruling 2003-4 (Definition of Money Transmitter/Stored Value (Gift Certificates/Gift Cards) (Aug. 15, 2003)).
+        Back to Citation
+29.
+See e.g.,
+                         Cal. Civ. Code § 1749.5.
+        Back to Citation
+30.
+75 FR 36608
+.
+        Back to Citation
+31.
+                         U.S. Department of the Treasury, Financial Management Service Direct Express® Debit MasterCard® Survey (July 21, 2009). 
+See  
+http://www.godirect.org/​media/​release/​half-million-choose-direct-express/​
+.
+        Back to Citation
+32.
+                         See II. e.2 above. The threshold of $2,000 reflects a balancing of concerns between retailers and law enforcement and FinCEN's intent to assess money laundering risks while facilitating legitimate commerce.
+        Back to Citation
+33.
+                         FinCEN conducted research of prepaid program providers and reviewed the maximum daily load values of various programs available on public Web sites. Generally, programs reviewed through this research restricted cash loads or withdrawals to $950 or less per day.
+        Back to Citation
+34.
+                         For a fuller discussion on the risks inherent in international use of prepaid access, 
+see
+75 FR 36589
+, 
+36599-600
+.
+        Back to Citation
+35.
+                        See 
+31 CFR 1010.330(a)
+, formerly 
+31 CFR 103.30(a)
+.
+        Back to Citation
+36.
+                         Other than 
+de minimis
+                         redemptions of cash value required by law, 
+see, e.g.,
+                         Cal. Civ. Code 1749.5(b)(2).
+        Back to Citation
+37.
+31 CFR 1020.220(a)
+, formerly 103.121(b).
+        Back to Citation
+38.
+62 FR 27900
+, 
+27904
+ (May 21, 1997).
+        Back to Citation
+39.
+Id.
+        Back to Citation
+40.
+                         Any MSB, including a seller of prepaid access, that is an MSB solely because it is the agent of another MSB, is exempt from the registration requirement. 
+                        See 
+31 CFR 1022.380(a)
+.
+        Back to Citation
+41.
+                         NAICS was developed as the standard for use by Federal statistical agencies in classifying business establishments for the collection, analysis, and publication of statistical data related to the business economy of the United States. NAICS was developed under the auspices of the Office of Management and Budget (OMB), and adopted in 1997.
+        Back to Citation
+42.
+                         Dun and Bradstreet, D&B Duns Market Identifiers Plus (US) (Accessed on Nov 19, 2009) (Search of Codes NAICS 522320 with removal of outlying institutions).
+        Back to Citation
+43.
+                         For NAICS code 522320, those entities that generate less than $7 million in annual revenue are considered small entities by the SBA. FinCEN estimates that each prepaid card generates $450 in annual revenue to a prepaid provider through all relevant fees such as purchase and maintenance fees. For analytical purposes, we consider any prepaid provider issuing no more than 15,000 cards annually to be a “small entity.” [15,000 × $450 = $6.7 million].
+        Back to Citation
+44.
+                         Cheney, Julia “An Update on trends in the Debit Card Market,” Payment Cards Center, June 2007, pg. 3 (citing The Nilson Report Issue 865); available at 
+http://www.phil.frb.org/​payment-cards-center/​publications/​discussion-papers/​2007/​D2007JuneUpdateDebitCardMarketTrends.pdf
+.
+        Back to Citation
+45.
+                         FinCEN's estimate of 90 minutes to complete and record a SAR multiplied by the average hourly wage of a compliance officer ($24.57) is $36. According to Bureau of Labor Statistics, the mean hourly wage of a compliance officer is $24.47. See Bureau of Labor Statistics, “Occupational Employment and Wages, May 2006”, 
+http://www.bls.gov/​oes/​2006/​may/​oes131041.htm
+.
+        Back to Citation
+46.
+http://www.fincen.gov/​financial_​institutions/​msb/​materials.html
+.
+        Back to Citation
+47.
+                        See 
+12 CFR 205.13
+.
+        Back to Citation
+48.
+                         The estimated average annual burden associated with the recordkeeping requirement in 
+31 CFR 1022.380
+ is 30 minutes per recordkeeper for the completion, filing, and recordkeeping of registration forms, and an additional 120 minutes for the completion, filing, and recordkeeping of the list of prepaid programs subject to the regulation.
+        Back to Citation
+49.
+http://www.fincen.gov/​news_​room/​rp/​reports/​pdf/​FinCEN_​MSB_​2005_​Survey.pdf
+.
+        Back to Citation
+50.
+                         FinCEN received comments that stated the existence of products in amounts over $1,000 that can be used prior to customer identity verification is rare and these products would be issued by foreign banks instead as debit cards. FinCEN reviewed BSA information and conducted industry specific research to determine that virtually all reloadable prepaid cards that are purchased in the United States are associated with a major payment processor or domestic bank and require customer verification before the product can be used in amounts above $1,000. FinCEN also received comments that the international use of prepaid products issued in the United States is less than 1% of all use. Therefore, although FinCEN is unable to determine an exact number of businesses that sell these high-risk products, FinCEN estimates that it is less than 1% of all sellers.
+        Back to Citation
+[
+FR Doc. 2011-19116
+ Filed 7-28-11; 8:45 am]
+BILLING CODE 4810-02-P
+Published Document: 2011-19116 (76 FR 45403)
+Home
+Home
+Sections
+Money
+Environment
+World
+Science & Technology
+Business & Industry
+Health & Public Welfare
+Browse
+Agencies
+Topics (CFR Indexing Terms)
+Dates
+Public Inspection
+Executive Orders
+Search
+Document Search
+Advanced Document Search
+Public Inspection Search
+Reader Aids
+Office of the Federal Register Announcements
+Using FederalRegister.Gov
+Understanding the Federal Register
+Recent Site Updates
+Federal Register & CFR Statistics
+Videos & Tutorials
+Developer Resources
+Government Policy and OFR Procedures
+My FR
+My Clipboard
+My Subscriptions
+My Comments
+Sign In
+Information
+About This Site
+Legal Status
+Contact Us
+Privacy
+Accessibility
+FOIA
+No Fear Act
+Continuity Information
+Site Feedback

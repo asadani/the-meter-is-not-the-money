@@ -1,0 +1,136 @@
+# The Meter Is Not the Money -- book-forge configuration.
+#
+# Flow mode: a short book for engineers and founders who have to budget AI
+# spend, one continuous page on screen, paginated in print. Research workspace
+# lives in research/ -- 38 captured sources, 77 claims, each
+# <sup class="cite">c-0NN</sup> resolving to a row in research/claims.jsonl.
+
+slug: the-meter-is-not-the-money
+title: "The Meter Is Not the Money"
+subtitle: "How AI compute gets priced, metered, and paid for"
+theme: sheet-oxblood
+
+source:
+  template: book.html.in
+output:
+  html: index.html
+  pdf: the-meter-is-not-the-money.pdf
+
+page:
+  size: A4
+
+cover:
+  art: assets/routingmaxxing-cover.png
+  fit: crop
+  trim_top_share: 0.47
+  dpi: 300
+
+qr:
+  - slot: QR_AUTHOR
+    target: https://anujsadani.in
+    label: "Writing and work"
+  - slot: QR_TECH
+    target: https://tech.anujsadani.in/the-meter-is-not-the-money/
+    label: "This book, and the evidence"
+
+folio:
+  font: IBMPlexMono-Regular.ttf
+  size: 8
+  color: [0.49, 0.52, 0.58]
+  skip_pages: [1]
+  first_number: 1
+
+matter:
+  mode: flow
+  front:
+    heading: "Copyright, permissions, and how this was made"
+    anchor_before: '<!-- BOOK-FORGE:AFTER-COVER -->'
+    work_line: "The Meter Is Not the Money &mdash; a verified inquiry into whether
+      the token can serve as a unit of account, and what a payments company
+      bought when it bought a router."
+    ai_disclosure_html: |
+      <h3>A note on how this book was written</h3>
+
+      <p>An AI system drafted this book. Not "assisted with" &mdash; drafted it,
+        from the research through to the prose you are reading. I set the
+        question and its boundaries, made the judgment calls, argued with the
+        drafts, and put my name on the result. The errors are mine; the model
+        does not get to share the blame.</p>
+
+      <p>The objection worth taking seriously is not that a machine wrote it. It
+        is that nobody checked it. So this one was built the other way round:
+        sources captured to disk and hashed before a word was drafted, every
+        factual sentence bound to an exact quotation inside one of those files,
+        and a verification gate that refused to let a sentence exist unless its
+        quotation could be located in a stored copy of the source.</p>
+
+      <p>Seventy-seven claims went into the ledger. Statements that could not be
+        located in a source did not become sentences. Two quotations reached a
+        late draft without a claim behind them and were bound before publication
+        rather than quietly cut. One passage rested on a regulatory ruling from
+        2003 that a later rulemaking had superseded; Section 6 says so in the
+        text, because a book making this argument does not get to correct itself
+        quietly.</p>
+
+      <p>The superscripts are not decoration &mdash; they are the audit trail,
+        and you can walk it yourself in an afternoon. Every one resolves to a row
+        in the claim ledger naming the source, the exact quoted passage, and the
+        date it was read.</p>
+    sources_html: |
+      <p>The sources are a separate matter. This book is published alongside a
+        free companion archive &mdash; <span class="mono">tech.anujsadani.in/the-meter-is-not-the-money</span>
+        &mdash; holding a saved copy of every source it cites, so that any claim
+        can be checked years from now even if the original page has moved or
+        vanished. Those saved copies remain the property of the publishers who
+        wrote them and are kept only as evidence.</p>
+      <p>Prices in this industry change without announcement or changelog. Every
+        price quoted here carries the date it was read, and the ledger records
+        the access date and the cryptographic hash of the page it was read from.
+        A price in these pages is evidence about a day, not a standing fact.</p>
+      <p>Four of the figures in Section 2 reach this book at one remove: the
+        original reporting on the purchase price sits behind paywalls that could
+        not be captured, so the book cites the outlets that relayed it and says
+        so at each one. No primary document on the price was read.</p>
+    imprint: "First edition &middot; August 2026"
+  about:
+    heading: "About the author"
+    anchor_before: '<!-- BOOK-FORGE:BEFORE-END -->'
+    qr_override:
+      - index: 1
+        label: "This book, and the evidence"
+        blurb: "Read this online, walk the claim ledger, open every source."
+        code: "tech.anujsadani.in"
+  colophon_html: |
+    Thirty-eight sources captured and hashed. Seventy-seven claims bound to
+      exact quotation, every one machine-checked against a stored copy before
+      the sentence citing it was written.<br>
+      First edition, 2026.
+
+license:
+  id: all-rights-reserved
+
+edition: "First edition"
+date: 2026
+
+links:
+  read_online: https://tech.anujsadani.in/the-meter-is-not-the-money/
+  kofi: https://ko-fi.com/s/0f1f4f72ad
+
+verify:
+  cover_probes: ["Meter"]
+  body_probes:
+    # One phrase per section, load-bearing rather than decorative: if the phrase
+    # is gone, that section's argument has changed.
+    - "base currency is US dollars"                  # 1
+    - "no markup on inference pricing"               # 2
+    - "inverse square"                               # 3
+    - "no markup and no platform fee on tokens"      # 4
+    - "destined for commoditization"                 # 5
+    - "Claude Consumption Units"                     # 6
+  matter_probes:
+    - "Copyright, permissions"
+    - "About the author"
+  allow_system_fonts: false
+  min_images: 0
+  expect_pages: 30
+  page_tolerance: 3

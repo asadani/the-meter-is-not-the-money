@@ -1,0 +1,1821 @@
+<meta charset="utf-8">
+<title>The Meter Is Not the Money</title>
+<meta name="author" content="Anuj Sadani">
+<meta name="description" content="How AI compute gets priced, metered, and paid for. 38 captured sources, 77 claims bound to exact quotations.">
+
+<style>
+{{FONT_FACES}}
+/* ============================================================
+   The Meter Is Not the Money — designed edition
+   Print-first: A4, chapter recto starts, running feet stamped
+   post-hoc. Screen presentation wraps each section as a card.
+   ============================================================ */
+
+:root{
+  --ink:#161A21;
+  --ink-soft:#4E5665;
+  --ink-faint:#7C8593;
+  --rule:#D8DCE3;
+  --rule-strong:#B9C1CC;
+  --paper:#FFFFFF;
+  --wash:#F2F4F7;
+  --accent:#9E2B3A;          /* oxblood — the single loud color */
+  --accent-wash:#F6E9EB;
+  --fast:#1F4E79;            /* data: the quick end of the curve */
+  --slow:#9BA5B2;            /* data: the slow end */
+  --gold:#8A6212;
+
+  --display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --body:"Source Serif 4",Iowan Old Style,"Palatino Linotype",Georgia,serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+
+*{box-sizing:border-box}
+
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--body);
+  font-size:11.2pt;
+  line-height:1.62;
+  text-rendering:optimizeLegibility;
+  font-kerning:normal;
+}
+
+/* ---------- page geometry ---------- */
+
+@page{ size:A4; margin:24mm 21mm 22mm 21mm; }
+@page :first{ margin:0; }
+
+section.sheet{ page-break-after:always; break-after:page; }
+section.sheet:last-of-type{ page-break-after:auto; break-after:auto; }
+
+/* Every numbered section opens a page of its own. break-after on the preceding
+   sheet is not enough on its own: the injected front matter is a .bf-flow block
+   that breaks BEFORE itself and not after, so section 01 was landing on the same
+   page as the tail of the copyright note. Asserting the break here makes a
+   section's own start independent of whatever precedes it. */
+section.sheet.chapter{ page-break-before:always; break-before:page; }
+
+/* ---------- cover: full-bleed artwork, page 1 ---------- */
+
+section.cover{
+  width:210mm;
+  height:297mm;
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  background:#0E1116;
+}
+section.cover img{
+  display:block;
+  width:210mm;
+  height:297mm;
+  object-fit:cover;
+  object-position:center center;
+}
+
+/* ---------- title page ---------- */
+
+.titlepage{ padding-top:6mm }
+.titlepage .kicker{
+  font-family:var(--mono);
+  font-size:8pt;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--accent);
+  margin:0 0 16mm;
+}
+.titlepage h1{
+  font-family:var(--display);
+  font-weight:700;
+  font-size:40pt;
+  line-height:.96;
+  letter-spacing:-.028em;
+  margin:0 0 6mm;
+}
+.titlepage .rule{ width:34mm;height:2px;background:var(--accent);margin:0 0 8mm }
+.titlepage .sub{
+  font-family:var(--display);
+  font-weight:400;
+  font-size:13.5pt;
+  line-height:1.34;
+  color:var(--ink-soft);
+  margin:0 0 10mm;
+  max-width:120mm;
+}
+.titlepage .verdict{
+  font-size:12pt;
+  line-height:1.52;
+  max-width:122mm;
+  margin:0 0 16mm;
+}
+.titlepage .verdict b{ color:var(--accent) }
+.titlepage .byline{
+  font-family:var(--display);
+  font-weight:600;
+  font-size:13pt;
+  letter-spacing:.02em;
+  margin:0;
+  padding-top:6mm;
+  border-top:1.5px solid var(--ink);
+}
+.titlepage .byline small{
+  display:block;
+  font-family:var(--mono);
+  font-weight:400;
+  font-size:7.6pt;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--ink-faint);
+  margin-top:2.5mm;
+}
+
+/* ---------- title page description ---------- */
+
+.titlepage .desc{
+  font-size:11.4pt;
+  line-height:1.6;
+  margin:0 0 5mm;
+  max-width:124mm;
+}
+.titlepage .desc:last-of-type{ margin-bottom:14mm }
+
+/* ---------- copyright plate ---------- */
+
+.plate h3{ margin-top:6mm }
+.legal{
+  font-size:10.2pt;
+  line-height:1.58;
+}
+.legal p{ margin:0 0 3.4mm }
+.legal .work{
+  font-style:italic;
+  color:var(--ink-soft);
+}
+.legal .grant{
+  border-left:3px solid var(--accent);
+  padding:0 0 0 5mm;
+  margin:5mm 0;
+}
+.legal .imprint{
+  font-family:var(--mono);
+  font-size:7.6pt;
+  letter-spacing:.05em;
+  color:var(--ink-faint);
+  margin-top:4mm;
+  padding-top:2.5mm;
+  border-top:1px solid var(--rule);
+}
+.signoff{
+  font-family:var(--mono);
+  font-size:8.4pt;
+  letter-spacing:.1em;
+  color:var(--ink-faint);
+  margin-top:3mm;
+}
+
+/* ---------- tier legend ---------- */
+
+.tierkey{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:3mm 7mm;
+  margin:5mm 0 6mm;
+  padding:4.5mm 5mm;
+  background:var(--wash);
+  border:1px solid var(--rule);
+  break-inside:avoid;
+}
+.tierkey .row{ display:grid;grid-template-columns:9mm 1fr;gap:3mm;align-items:start }
+.tierkey .row > span:last-child{
+  font-size:9.2pt;
+  line-height:1.42;
+  color:var(--ink-soft);
+}
+.tierkey b{
+  font-family:var(--display);
+  font-weight:600;
+  color:var(--ink);
+}
+.tierkey .lead{
+  grid-column:1 / -1;
+  font-size:9.4pt;
+  line-height:1.45;
+  color:var(--ink-soft);
+  margin:0 0 1mm;
+}
+
+/* ---------- about the author ---------- */
+
+.about .bio{ font-size:11pt;line-height:1.62;max-width:128mm }
+.qrpanel{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8mm;
+  margin:9mm 0 0;
+  padding-top:6mm;
+  border-top:1.5px solid var(--ink);
+}
+.qrcard{ display:flex;gap:5mm;align-items:flex-start }
+.qrcard .code{
+  width:26mm;
+  flex:0 0 auto;
+  padding:2mm;
+  border:1px solid var(--rule-strong);
+  background:#fff;
+}
+.qrcard .code svg{ display:block;width:100%;height:auto }
+.qrcard .what{ padding-top:1mm }
+.qrcard .what b{
+  display:block;
+  font-family:var(--display);
+  font-weight:600;
+  font-size:10pt;
+  margin-bottom:1.5mm;
+}
+.qrcard .what span{
+  display:block;
+  font-size:9.4pt;
+  line-height:1.45;
+  color:var(--ink-soft);
+  margin-bottom:2mm;
+}
+.qrcard .what code{
+  font-family:var(--mono);
+  font-size:8pt;
+  color:var(--accent);
+}
+
+/* ---------- front matter ---------- */
+
+.plate{ padding-top:4mm }
+.plate h2, .backmatter h2{
+  font-family:var(--display);
+  font-weight:600;
+  font-size:15pt;
+  letter-spacing:-.01em;
+  margin:0 0 5mm;
+}
+.abstract{
+  font-size:11.6pt;
+  line-height:1.66;
+}
+.abstract .lead{
+  font-size:13pt;
+  line-height:1.5;
+  color:var(--ink);
+  font-weight:600;
+  margin:0 0 6mm;
+}
+
+ol.contents{
+  margin:8mm 0 0;padding:0;list-style:none;
+  counter-reset:toc;
+}
+ol.contents li{
+  counter-increment:toc;
+  display:grid;grid-template-columns:8mm 1fr;
+  gap:4mm;padding:2.6mm 0;
+  border-bottom:1px solid var(--rule);
+  font-size:10.6pt;
+}
+ol.contents li::before{
+  content:counter(toc,decimal-leading-zero);
+  font-family:var(--mono);font-size:8.4pt;color:var(--accent);
+  padding-top:.8mm;
+}
+ol.contents li.app::before{ content:"—";color:var(--ink-faint) }
+ol.contents b{ grid-column:2;font-family:var(--display);font-weight:600 }
+ol.contents span{ grid-column:2;display:block;color:var(--ink-soft);font-size:9.8pt;line-height:1.45 }
+ol.contents li{ break-inside:avoid }
+
+/* ---------- chapters ---------- */
+
+.chapter{ padding-top:2mm }
+.chapter-num{
+  font-family:var(--display);
+  font-weight:700;
+  font-size:58pt;
+  line-height:.8;
+  color:var(--wash);
+  letter-spacing:-.04em;
+  margin:0 0 -6mm;
+  user-select:none;
+}
+.chapter h2{
+  font-family:var(--display);
+  font-weight:700;
+  font-size:22pt;
+  line-height:1.08;
+  letter-spacing:-.022em;
+  margin:0 0 3mm;
+  max-width:132mm;
+}
+.chapter .standfirst{
+  font-family:var(--display);
+  font-weight:400;
+  font-size:11.4pt;
+  line-height:1.45;
+  color:var(--ink-soft);
+  margin:0 0 7mm;
+  padding-bottom:5mm;
+  border-bottom:1px solid var(--rule);
+  max-width:126mm;
+}
+
+p{ margin:0 0 3.6mm;orphans:2;widows:2 }
+p.dropcap::first-letter{
+  float:left;
+  font-family:var(--display);
+  font-weight:700;
+  font-size:34pt;
+  line-height:.82;
+  padding:1mm 2mm 0 0;
+  color:var(--accent);
+}
+
+h3{
+  font-family:var(--display);
+  font-weight:600;
+  font-size:11.6pt;
+  letter-spacing:.005em;
+  margin:7mm 0 2.5mm;
+  break-after:avoid;
+}
+
+.beat{
+  font-family:var(--mono);
+  font-size:7.6pt;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--accent);
+  margin:8mm 0 3mm;
+  break-after:avoid;
+}
+
+blockquote.pull{
+  margin:6mm 0;
+  padding:0 0 0 5mm;
+  border-left:3px solid var(--accent);
+  font-family:var(--display);
+  font-weight:500;
+  font-size:13pt;
+  line-height:1.36;
+  letter-spacing:-.008em;
+  color:var(--ink);
+  break-inside:avoid;
+}
+blockquote.pull .who{
+  display:block;
+  font-family:var(--mono);
+  font-weight:400;
+  font-size:8pt;
+  letter-spacing:.06em;
+  color:var(--ink-faint);
+  margin-top:3mm;
+  text-transform:none;
+}
+
+blockquote.quote{
+  margin:5mm 0;padding:0 0 0 5mm;
+  border-left:1px solid var(--rule-strong);
+  font-size:10.4pt;color:var(--ink-soft);
+  break-inside:avoid;
+}
+
+sup.cite{
+  font-family:var(--mono);
+  font-size:6.6pt;
+  color:var(--accent);
+  letter-spacing:.02em;
+  vertical-align:.42em;
+  line-height:0;
+  white-space:nowrap;
+  padding-left:.5px;
+}
+
+.num{ font-family:var(--mono);font-weight:600;font-variant-numeric:tabular-nums }
+
+/* data callout */
+.data{
+  background:var(--wash);
+  border:1px solid var(--rule);
+  padding:5mm 5.5mm;
+  margin:6mm 0;
+  break-inside:avoid;
+}
+.data .label{
+  font-family:var(--mono);font-size:7.2pt;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-faint);
+  margin:0 0 3.5mm;display:block;
+}
+.data table{ width:100%;border-collapse:collapse;font-size:9.6pt }
+.data th{
+  text-align:left;font-family:var(--mono);font-weight:500;
+  font-size:7.4pt;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-faint);padding:0 3mm 2mm 0;
+  border-bottom:1px solid var(--rule-strong);
+}
+.data td{
+  padding:2mm 3mm 2mm 0;border-bottom:1px solid var(--rule);
+  vertical-align:top;
+}
+.data td.n{ font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap }
+.data tr:last-child td{ border-bottom:0 }
+
+/* bar figure */
+.bars{ margin:5mm 0 0 }
+.bargroup{ margin-bottom:4.5mm }
+.bargroup:last-child{ margin-bottom:0 }
+.bargroup .cap{
+  display:flex;justify-content:space-between;gap:4mm;
+  font-family:var(--mono);font-size:8pt;color:var(--ink-soft);
+  border-bottom:1px solid var(--rule);padding-bottom:1.6mm;margin-bottom:2.4mm;
+}
+.bargroup .cap b{ color:var(--accent);font-weight:600 }
+.bar{
+  display:grid;grid-template-columns:24mm 1fr 16mm;
+  align-items:center;gap:3mm;margin-bottom:1.6mm;
+  font-family:var(--mono);font-size:8pt;
+}
+.bar .track{ display:block;background:#E3E7ED;height:4.4mm;position:relative;overflow:hidden }
+.bar .fill{ display:block;height:100%;background:var(--slow) }
+.bar .fill.fast{ background:var(--fast) }
+.bar .v{ text-align:right;color:var(--ink-soft);font-variant-numeric:tabular-nums }
+
+/* epistemic note — where the evidence is thin */
+.ledger{
+  border:1px solid var(--accent);
+  background:var(--accent-wash);
+  padding:4.5mm 5mm;
+  margin:6mm 0;
+  font-size:10pt;
+  line-height:1.55;
+  break-inside:avoid;
+}
+.ledger .label{
+  font-family:var(--mono);font-size:7.2pt;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--accent);
+  display:block;margin:0 0 2.5mm;
+}
+.ledger p{ margin:0 0 2.5mm }
+.ledger p:last-child{ margin:0 }
+
+/* in-practice list */
+ol.practice{ counter-reset:pr;list-style:none;padding:0;margin:5mm 0 0 }
+ol.practice li{
+  counter-increment:pr;
+  display:grid;grid-template-columns:7mm 1fr;gap:3.5mm;
+  padding:3mm 0;border-top:1px solid var(--rule);
+  break-inside:avoid;
+}
+ol.practice li:last-child{ border-bottom:1px solid var(--rule) }
+ol.practice li::before{
+  content:counter(pr);
+  font-family:var(--mono);font-weight:600;font-size:9pt;
+  color:var(--accent);padding-top:.6mm;
+}
+ol.practice p{ margin:0 }
+ol.practice b{ font-family:var(--display);font-weight:600 }
+
+ul.plain{ list-style:none;padding:0;margin:4mm 0 }
+ul.plain li{
+  padding:2.6mm 0 2.6mm 5mm;position:relative;
+  border-top:1px solid var(--rule);font-size:10.4pt;line-height:1.55;
+}
+ul.plain li:last-child{ border-bottom:1px solid var(--rule) }
+ul.plain li::before{
+  content:"";position:absolute;left:0;top:5.6mm;
+  width:2.6mm;height:1px;background:var(--rule-strong);
+}
+
+/* ---------- back matter ---------- */
+
+.backmatter{ padding-top:2mm }
+.backmatter .beat:first-child{ margin-top:0 }
+
+table.refs{ width:100%;border-collapse:collapse;font-size:8.6pt;margin-top:4mm }
+table.refs th{
+  text-align:left;font-family:var(--mono);font-weight:500;font-size:7pt;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--ink-faint);
+  border-bottom:1.5px solid var(--ink);padding:0 2.5mm 2mm 0;
+}
+table.refs td{
+  padding:1.8mm 2.5mm 1.8mm 0;border-bottom:1px solid var(--rule);
+  vertical-align:top;line-height:1.42;
+}
+table.refs td.sid{ font-family:var(--mono);color:var(--ink-faint);white-space:nowrap }
+table.refs td.t{ white-space:nowrap }
+table.refs td.pub{ color:var(--ink-soft);white-space:nowrap }
+table.refs a{ color:var(--ink);text-decoration:none;border-bottom:.5px solid var(--rule-strong) }
+.tier{
+  font-family:var(--mono);font-size:6.8pt;font-weight:600;letter-spacing:.05em;
+  border:1px solid var(--rule-strong);padding:.3mm 1.2mm;color:var(--ink-soft);
+}
+.tier.t1{ border-color:#1F6B4A;color:#1F6B4A }
+.tier.t2{ border-color:var(--fast);color:var(--fast) }
+.tier.t4{ border-color:var(--gold);color:var(--gold) }
+
+.colophon{
+  margin-top:8mm;padding-top:4mm;border-top:1.5px solid var(--ink);
+  font-family:var(--mono);font-size:7.8pt;line-height:1.7;color:var(--ink-faint);
+}
+.colophon b{ color:var(--ink-soft);font-weight:500 }
+
+/* ---------- the Ko-fi button ---------- */
+
+.cover-dl{
+  display:inline-block;
+  margin-top:9mm;
+  font-family:var(--mono);
+  font-size:8.4pt;
+  font-weight:600;
+  letter-spacing:.04em;
+  color:#fff;
+  background:var(--accent);
+  padding:3.4mm 6mm;
+  border-radius:24px;
+  text-decoration:none;
+}
+.cover-dl .ar{ font-weight:400;opacity:.85 }
+.cover-dl:hover{ background:#7d2230 }
+
+/* The button is a screen affordance; in print the reader already has the PDF. */
+/* Entry links: screen-only, like the Ko-fi pill. A print reader is already
+   holding the long version, so an offer to read the short one is noise. */
+.entry-links{ margin:7mm 0 0 }
+.entry-summary{
+  font-family:var(--mono);
+  font-size:8.2pt;
+  letter-spacing:.02em;
+  color:var(--accent);
+  text-decoration:none;
+  border-bottom:1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  padding-bottom:1px;
+}
+.entry-summary:hover{ border-bottom-color:var(--accent) }
+@media print{ .entry-links{ display:none } }
+
+@media print{ .cover-dl{ display:none } }
+
+/* ---------- screen presentation ---------- */
+
+/* Flow on screen, paginated in print. The page-break rules above are untouched,
+   so the PDF still starts every chapter on a fresh page; what changes here is
+   only that the reader gets one continuous column instead of a stack of cards.
+
+   The column is applied to every top-level section, not just .sheet, because
+   book-forge's flow matter arrives as a sibling <section class="bf-matter">
+   and its stylesheet deliberately declares no width -- it expects the host to
+   lay it out. Without this the copyright and about pages run full-bleed. */
+
+@media screen{
+  body{
+    background:var(--paper);
+    padding:0 0 72px;
+  }
+
+  body > section{
+    max-width:760px;
+    margin:0 auto;
+    padding:0 32px;
+    background:var(--paper);
+    box-shadow:none;
+  }
+
+  /* Measures written in mm are sheet geometry. On screen the column is the
+     measure, so let the text fill it. */
+  .titlepage h1,
+  .titlepage .sub,
+  .titlepage .desc,
+  .titlepage .verdict,
+  .titlepage .byline,
+  .chapter h2,
+  .chapter .standfirst{ max-width:none }
+
+  .titlepage{ padding-top:44px;padding-bottom:8px }
+  .titlepage h1{ font-size:46pt }
+  .titlepage .kicker{ margin-bottom:10mm }
+
+  /* Chapters keep a boundary without pretending to be sheets of paper. */
+  section.chapter{ padding-top:38px }
+  body > section + section.chapter,
+  body > section + section.backmatter,
+  body > section.chapter + section{
+    border-top:1px solid var(--rule);
+    margin-top:38px;
+  }
+
+  /* The matter plates read as part of the book, at the book's own scale. */
+  .bf-matter{ padding-top:38px;font-size:10.6pt }
+  .bf-matter h2{ font-size:15pt }
+
+  /* the cover leads the page, wider than the text column, no card */
+  body > section.cover{
+    max-width:900px;
+    padding:0;
+    margin:0 auto 4px;
+    background:transparent;
+    overflow:hidden;
+  }
+  section.cover img{
+    width:100%;
+    height:auto;
+    object-fit:contain;
+    box-shadow:none;
+  }
+}
+
+@media screen and (max-width:700px){
+  section.cover{ max-width:100% }
+}
+
+@media screen and (max-width:640px){
+  section.sheet{ padding:28px 22px 34px }
+  .cover h1{ font-size:34pt }
+  .chapter h2{ font-size:18pt }
+  .chapter-num{ font-size:44pt }
+  .bar{ grid-template-columns:20mm 1fr 14mm }
+  .cover-foot{ flex-direction:column;align-items:flex-start }
+}
+/* BOOK-FORGE:MATTER-CSS v1 sha=787d0b04b390 */
+/* book-forge matter -- flow mode.
+ *
+ * Injected into essays that were never built as books. Each has its own
+ * stylesheet, and they collide in specific, verified ways:
+ *
+ *   - they reuse `rule`, `lead`, `card`, `meta`, `small`, `cover`, `beat`,
+ *     `kicker`, `num`, `refs` for their own purposes, and two of them define
+ *     `preface` to mean a pull-quote. So every selector here is scoped under
+ *     .bf-matter and nothing is styled by element alone at document scope.
+ *
+ *   - they define the SAME custom property names with different values, and
+ *     idp-barbell has --crimson with no --accent at all. So the tokens below
+ *     are declared on .bf-matter (never :root, which a host's later :root
+ *     block would win) and each falls back through the names the hosts
+ *     actually use before reaching a literal.
+ *
+ * Type is deliberately NOT set: font-family inherits from the host, so the
+ * matter reads as part of the book it is bound into rather than as a graft.
+ */
+
+.bf-matter {
+  --bf-ink:    var(--ink, #161A21);
+  --bf-soft:   var(--ink-soft, var(--soft, #4E5665));
+  --bf-faint:  var(--ink-faint, var(--faint, #7C8593));
+  --bf-rule:   var(--rule, #D8DCE3);
+  --bf-paper:  var(--paper, #FFFFFF);
+  --bf-accent: var(--accent, var(--crimson, #9E2B3A));
+
+  box-sizing: border-box;
+  color: var(--bf-ink);
+  text-align: left;
+  font-style: normal;
+}
+
+.bf-matter *,
+.bf-matter *::before,
+.bf-matter *::after { box-sizing: border-box; }
+
+/* Do NOT impose a width or padding by default. Every host already lays its
+   own content out -- a bare `section` card at 820px in one, a `.wrap` at 740px
+   in another -- and overriding that made the matter render at a different
+   measure from the book it sits in, which reads as a different document.
+   Set matter.measure in meta.yaml only for a host that constrains nothing. */
+/* Deliberately declares NO max-width. `.bf-flow` outranks a host's bare
+   `section { max-width: 820px }`, so declaring one here -- even
+   `var(--bf-measure, none)` -- overrides the host and renders the matter at a
+   different width from the book around it. Hosts that constrain nothing can
+   opt in with matter.measure in meta.yaml, which appends a rule below. */
+.bf-flow {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media print {
+  .bf-flow { break-before: page; page-break-before: always; padding-top: 0; }
+}
+
+.bf-matter h2 {
+  margin: 0 0 6mm;
+  padding: 0 0 3mm;
+  border-bottom: 1px solid var(--bf-rule);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: var(--bf-ink);
+}
+
+.bf-matter h3 {
+  margin: 7mm 0 3mm;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--bf-ink);
+}
+
+.bf-matter p {
+  margin: 0 0 3.5mm;
+  font-size: 0.94rem;
+  line-height: 1.6;
+  color: var(--bf-soft);
+}
+
+.bf-matter b { font-weight: 600; color: var(--bf-ink); }
+.bf-matter i { font-style: italic; }
+
+.bf-matter .work {
+  color: var(--bf-ink);
+  font-size: 1rem;
+}
+
+.bf-matter .grant {
+  margin: 5mm 0;
+  padding: 4mm 5mm;
+  border-left: 3px solid var(--bf-accent);
+  background: var(--bf-paper);
+}
+.bf-matter .grant p:last-child { margin-bottom: 0; }
+
+.bf-matter .signoff {
+  margin-top: 5mm;
+  color: var(--bf-faint);
+}
+
+.bf-matter .imprint {
+  margin-top: 7mm;
+  padding-top: 3mm;
+  border-top: 1px solid var(--bf-rule);
+  font-size: 0.8rem;
+  color: var(--bf-faint);
+}
+
+/* --- about the author ------------------------------------------------- */
+
+.bf-matter .bio p:last-child { margin-bottom: 0; }
+
+.bf-matter .qrpanel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6mm;
+  margin: 8mm 0 0;
+}
+@media (max-width: 34rem) {
+  .bf-matter .qrpanel { grid-template-columns: 1fr; }
+}
+
+.bf-matter .qrcard {
+  display: flex;
+  gap: 4mm;
+  align-items: flex-start;
+  padding: 4mm;
+  border: 1px solid var(--bf-rule);
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* The host may style a bare .code; this is more specific, so it wins. */
+.bf-matter .qrcard .code {
+  flex: 0 0 auto;
+  width: 24mm;
+  background: none;
+  padding: 0;
+  border: 0;
+}
+.bf-matter .qrcard .code svg,
+.bf-matter .qr { display: block; width: 24mm; height: 24mm; }
+
+.bf-matter .qrcard .what {
+  display: flex;
+  flex-direction: column;
+  gap: 1mm;
+  min-width: 0;
+}
+.bf-matter .qrcard .what b { font-size: 0.9rem; }
+.bf-matter .qrcard .what span {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--bf-soft);
+}
+.bf-matter .qrcard .what code {
+  font-size: 0.78rem;
+  color: var(--bf-accent);
+  background: none;
+  padding: 0;
+}
+
+.bf-matter .colophon {
+  margin-top: 9mm;
+  padding-top: 4mm;
+  border-top: 1px solid var(--bf-rule);
+  font-size: 0.8rem;
+  line-height: 1.55;
+  color: var(--bf-faint);
+}
+.bf-matter .colophon b { color: var(--bf-soft); }
+
+/* --- screen reading order -------------------------------------------------
+ *
+ * On paper the order is right: cover, title page, copyright, the argument,
+ * about. On a screen it is a wall -- a reader meets a full-bleed cover, a
+ * title page, a copyright notice and an AI-disclosure note before one
+ * sentence of the argument, which on a 30-page essay is four screens of
+ * scrolling to find out whether it is worth reading.
+ *
+ * So screen only: drop the cover image, and send the copyright/disclosure
+ * block to the end where a reader who wants it can still find it. @media
+ * print is untouched, so the PDF keeps the print order exactly.
+ *
+ * body becomes a flex column because `order` needs a flex container. That
+ * stops margins collapsing BETWEEN top-level sections -- which is why the
+ * sections themselves are given a single margin direction below rather than
+ * relying on collapse.
+ */
+@media screen {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  body > section.cover,
+  body > section.sheet.cover { display: none; }
+
+  body > section { order: 0; }
+  body > .bf-front { order: 8; }
+  body > .bf-about { order: 9; }
+}
+/* /BOOK-FORGE:MATTER-CSS */
+
+</style>
+
+<!-- ============================ COVER ============================ -->
+<section class="sheet cover">
+  <img src="{{COVER_PAGE_URI}}" alt="Cover: the title The Meter Is Not the Money, subtitled how AI compute gets priced, metered, and paid for, by Anuj Sadani.">
+</section>
+
+<!-- ============================ TITLE PAGE ============================ -->
+<section class="sheet titlepage">
+  <p class="kicker">A verified inquiry &middot; 2026</p>
+  <h1>The Meter<br>Is Not the<br>Money</h1>
+  <div class="rule"></div>
+  <p class="sub">How AI compute gets priced, metered, and paid for.</p>
+  <p class="desc">In August 2026 a payments company agreed to buy a router for a
+    price it never disclosed and the press could not agree on. Its chief executive
+    justified the purchase in a single sentence about what a token now is.</p>
+  <p class="desc">That sentence is half right, and the wrong half is the
+    interesting one.
+    Every credit balance in this market &mdash; including the one belonging to the
+    company that was bought &mdash; is denominated in dollars, because a token's
+    price is not fixed at the moment you buy it, varies by a factor of three
+    between suppliers of an identical product, and moves in opposite directions
+    depending on which vendor served the request.</p>
+  <p class="desc">The conclusion is not that the deal was a mistake. It is that
+    the token is a meter reading rather than a unit of account, that every credit
+    is a conversion layer over dollars, and that the position worth owning is
+    therefore the exchange desk rather than the mint.</p>
+  <p class="byline">Anuj Sadani
+    <small>Every claim bound to a captured source</small>
+  </p>
+  <a class="cover-dl" href="https://ko-fi.com/s/0f1f4f72ad" target="_blank" rel="noopener"><span class="ar">&nearr;</span>&nbsp; Get the typeset PDF on Ko-fi</a>
+</section>
+
+<!-- BOOK-FORGE:FRONT-MATTER v1 sha=a9019617af5a -->
+<section class="bf-matter bf-front bf-flow">
+  <h2>Copyright, permissions, and how this was made</h2>
+
+  <div class="legal">
+    <p class="work">The Meter Is Not the Money &mdash; a verified inquiry into whether the token can serve as a unit of account, and what a payments company bought when it bought a router.</p>
+
+    <p>Copyright &copy; 2026 Anuj Sadani.</p>
+
+    <div class="grant">
+      <p>All rights reserved. Quote it in a review or a piece of criticism with
+          attribution; anything further, please ask.</p>
+    </div>
+
+    <p>The sources are a separate matter. This book is published alongside a
+      free companion archive &mdash; <span class="mono">tech.anujsadani.in/the-meter-is-not-the-money</span>
+      &mdash; holding a saved copy of every source it cites, so that any claim
+      can be checked years from now even if the original page has moved or
+      vanished. Those saved copies remain the property of the publishers who
+      wrote them and are kept only as evidence.</p>
+    <p>Prices in this industry change without announcement or changelog. Every
+      price quoted here carries the date it was read, and the ledger records
+      the access date and the cryptographic hash of the page it was read from.
+      A price in these pages is evidence about a day, not a standing fact.</p>
+    <p>Four of the figures in Section 2 reach this book at one remove: the
+      original reporting on the purchase price sits behind paywalls that could
+      not be captured, so the book cites the outlets that relayed it and says
+      so at each one. No primary document on the price was read.</p>
+
+    <h3>A note on how this book was written</h3>
+
+    <p>An AI system drafted this book. Not "assisted with" &mdash; drafted it,
+      from the research through to the prose you are reading. I set the
+      question and its boundaries, made the judgment calls, argued with the
+      drafts, and put my name on the result. The errors are mine; the model
+      does not get to share the blame.</p>
+
+    <p>The objection worth taking seriously is not that a machine wrote it. It
+      is that nobody checked it. So this one was built the other way round:
+      sources captured to disk and hashed before a word was drafted, every
+      factual sentence bound to an exact quotation inside one of those files,
+      and a verification gate that refused to let a sentence exist unless its
+      quotation could be located in a stored copy of the source.</p>
+
+    <p>Seventy-seven claims went into the ledger. Statements that could not be
+      located in a source did not become sentences. Two quotations reached a
+      late draft without a claim behind them and were bound before publication
+      rather than quietly cut. One passage rested on a regulatory ruling from
+      2003 that a later rulemaking had superseded; Section 6 says so in the
+      text, because a book making this argument does not get to correct itself
+      quietly.</p>
+
+    <p>The superscripts are not decoration &mdash; they are the audit trail,
+      and you can walk it yourself in an afternoon. Every one resolves to a row
+      in the claim ledger naming the source, the exact quoted passage, and the
+      date it was read.</p>
+
+    <p class="signoff">&mdash; A.S.</p>
+
+    <p class="imprint">First edition &middot; August 2026</p>
+  </div>
+
+</section>
+<!-- /BOOK-FORGE:FRONT-MATTER -->
+
+<!-- BOOK-FORGE:AFTER-COVER -->
+
+<!-- ===== SECTION 01 ===== -->
+<section class="sheet chapter">
+  <p class="chapter-num">01</p>
+  <h2>The meter is not the money</h2>
+  <p class="standfirst">A chief executive says tokens are a currency. His own company's products are built as though they are not.</p>
+  <p class="dropcap">On 19 August 2026, Stripe announced it had agreed to acquire
+  OpenRouter.<sup class="cite">c-001</sup> The press release described the target
+  in a single line &mdash; a platform that routes and optimizes token usage across
+  more than four hundred models from more than eighty providers<sup class="cite">c-011</sup>
+  &mdash; and then handed the microphone to Patrick Collison, who explained what
+  the company thought it was buying.</p>
+  <blockquote>Tokens are the central currency for companies building with AI, and
+  it&rsquo;s clear that the real-world economic potential will depend on making
+  good use of scarce compute resources.<sup class="cite">c-009</sup></blockquote>
+  <p>It is a good sentence, and I suspect it is the sentence that sold the deal
+  internally. It is also wrong in a specific way that the rest of this book is
+  about &mdash; and the strange thing is that Stripe&rsquo;s own products appear
+  to know it, because not one of them is built as though it were true.</p>
+  <p>Consider the thing Stripe just paid billions for. OpenRouter runs a credit
+  system: you load money in, you spend it down on inference. In what unit is that
+  balance held? The documentation answers without ceremony. OpenRouter uses a
+  credit system in which the base currency is US dollars.<sup class="cite">c-015</sup></p>
+  <p>Not tokens. Dollars.</p>
+  <p>The competition does the same. Vercel&rsquo;s AI Gateway sells credits too,
+  and bases its rates on the provider&rsquo;s list price, with charges deducted
+  from a dollar balance.<sup class="cite">c-047</sup> And Stripe&rsquo;s own AI
+  billing product, which shipped before this acquisition, is the clearest tell of
+  all: it lets a business define an &ldquo;AI Credit&rdquo; and then configure how
+  usage of each model <em>converts</em> to credits.<sup class="cite">c-018</sup>
+  Converts. From one thing into a different thing, at a rate somebody has to set.
+  That verb is carrying the entire argument.</p>
+  <p>Every serious system in this market meters in tokens and settles in dollars.
+  Nobody has built one that does otherwise, and it is not for want of ambition.
+  <strong>The token is the meter. The dollar is still the money.</strong></p>
+
+  <p class="beat">What a currency has to do</p>
+  <p>The reason is less about finance than about measurement, and it starts with a
+  property so basic that it usually goes unstated: a unit of account has to mean
+  the same thing to both parties at the moment they agree to a trade.</p>
+  <p>A dollar is a dollar when you commit to spend it. A kilowatt-hour is a
+  kilowatt-hour, which is why your electricity bill works &mdash; you do not know
+  in advance how many you will burn, but you know what one <em>is</em>, and you
+  know its price before you use it. That is the whole trick of a meter. The
+  quantity floats; the unit does not.</p>
+  <p>A token fails this, and it fails it in four different ways at once, none of
+  them exotic and all of them documented by the vendors themselves in the pages
+  they expect their own customers to read.</p>
+  <p>The first is that a token&rsquo;s price depends on who serves it. For
+  open-weight models the weights and the hardware come apart: a lab publishes a
+  model, and then dozens of companies run it on their own machines, at their own
+  prices, with their own throughput. The output is identical. The invoice is not.
+  OpenRouter&rsquo;s routing documentation puts the spread in its own worked
+  example &mdash; Provider A at one dollar per million tokens, Provider B at two,
+  Provider C at three.<sup class="cite">c-025</sup> A factor of three, for the same
+  tokens out of the same model.</p>
+  <p>The second is that you do not get to choose which of them serves you, and
+  neither, quite, does the router. You might reasonably assume it picks the
+  cheapest and moves on. It does not. The documented default is to load balance
+  requests across providers, prioritizing price<sup class="cite">c-024</sup>
+  &mdash; balance, note, not minimize &mdash; and the balancing is probabilistic,
+  with candidates weighted by the inverse square of their price. In the
+  documentation&rsquo;s own example that makes the cheapest provider nine times
+  likelier to be selected than the dearest.<sup class="cite">c-026</sup></p>
+  <p>Nine times more likely still sends roughly one request in ten to a costlier
+  supplier. The die is loaded; it remains a die. Which means that at the instant
+  you press send, the price of that request is not yet a number &mdash; it is a
+  distribution, and it will not collapse into a number until after the work is
+  done.</p>
+  <p>This is the load-bearing fact of the book and it is worth slowing down for,
+  because it is stronger than the thing people usually say. The complaint is not
+  that AI pricing is hard to predict, or that it varies by workload. It is that
+  the price <em>does not exist yet</em> at the moment of purchase. It gets settled
+  afterwards, by a draw you neither control nor observe.</p>
+  <p>There is a good reason for the design, and it is worth stating plainly rather
+  than treating the nondeterminism as a flaw somebody should fix. Routing every
+  request to the single cheapest provider would pile load onto one supplier, wreck
+  tail latency, and hand that supplier the power to reprice at will. Spreading
+  traffic across a price-weighted field is how a router keeps its own supply side
+  honest. The nondeterminism is deliberate, and it is load-bearing for the
+  market&rsquo;s health. It is simply fatal to using the token as a unit of
+  account.</p>
+  <p>The third failure is that not all tokens are the same kind of token. Prompt
+  caching lets a provider hold part of your context so that repeated calls do not
+  reprocess it, which makes it the single largest lever on real-world inference
+  cost &mdash; and which splits one token into several priced categories. On
+  recent OpenAI models, cache <em>writes</em> are charged at 1.25 times the price
+  of the original input pricing.<sup class="cite">c-027</sup> Cache <em>reads</em>
+  are charged at a quarter or a half of it, depending on the
+  model.<sup class="cite">c-028</sup> So a token going into the cache costs a
+  quarter more than an ordinary input token, and the same token coming back out
+  costs a half or a quarter of one. Same word, same model, same request, three
+  prices, decided by which side of a cache boundary it happened to fall on.</p>
+  <p>If those categories were at least consistent between vendors, a conversion
+  table would rescue the situation. They are not, and that is the fourth failure.
+  The same documentation records that some providers &mdash; Anthropic among them
+  &mdash; carry a <em>negative</em> discount on cache writes and a positive one on
+  cache reads.<sup class="cite">c-029</sup> A negative discount is a surcharge. One
+  vendor&rsquo;s cache write is a rebate and another&rsquo;s is a penalty, with no
+  shared sign convention to appeal to. And because caching and routing are
+  entangled &mdash; the router pins a session to a provider only when that
+  provider&rsquo;s cache-read price beats its ordinary prompt
+  price<sup class="cite">c-030</sup> &mdash; the caching behavior changes the
+  routing, which changes the price, which changes whether the caching was worth
+  doing.</p>
+
+  <p class="beat">Where this bites</p>
+  <p>Put the four together and you arrive somewhere uncomfortable: you cannot
+  quote a fixed price for a request before it is routed. Not because the tooling is
+  young. Because there is no fixed price there to quote.</p>
+  <p>Anyone who has tried to reconcile an AI bill has already met this, usually
+  without having a name for it. The most honest acknowledgment I have found sits in
+  the documentation of LiteLLM, the open-source gateway that a great many teams use
+  to track their spend. It carries a section headed, without euphemism, &ldquo;Cost
+  does not match your provider bill?&rdquo; &mdash; and beneath it a debugging
+  workflow instructing you to align time ranges, compare token categories including
+  cache, and then decide whether the gap is ingestion, formula, or model-map
+  pricing.<sup class="cite">c-031</sup></p>
+  <p>Read that last clause again. Three named ways your own meter can disagree with
+  your supplier&rsquo;s, catalogued by a mature tool that does this for a living.
+  Metering AI spend is a genuinely hard measurement problem rather than a solved one
+  waiting on a better implementation, and the software that does it best is candid
+  about that.</p>
+  <p>The cost of getting this wrong is rarely a catastrophe. It is a slow tax, and
+  it comes due in four places. Budgets drift, because a forecast built on average
+  cost per token moves as the routing mix moves &mdash; and the drift is invisible,
+  since the token count was right all along. Margins erode quietly: if you resell
+  inference at a fixed price per unit while your own cost is a distribution, you
+  have written somebody an option and handed it over for free. Reconciliation
+  becomes permanent, a monthly ritual of comparing two numbers that will never
+  agree and deciding how much disagreement is tolerable. And optimization goes
+  after the wrong quarry, because cutting token count is not the same as cutting
+  cost once cache reads are a quarter price and cache writes are a surcharge. Teams
+  tune the meter when they meant to tune the bill.</p>
+  <p>None of that is exotic. It is just what happens when you denominate something
+  in a unit that will not hold still.</p>
+
+  <p class="beat">What got built instead</p>
+  <p>So the interesting question is not why nobody has minted a token currency. It
+  is what the people closest to the problem built once they worked out that they
+  could not.</p>
+  <p>They built a conversion layer. Stripe&rsquo;s billing product does not sell
+  tokens; it lets a business define an abstract AI Credit, specify how each
+  model&rsquo;s usage converts into that unit, and then sell prepaid packs of
+  it.<sup class="cite">c-018</sup> The metering underneath is fine-grained enough to
+  carry every distinction this section has been describing, segmented by model and
+  by token type including cached tokens.<sup class="cite">c-019</sup></p>
+  <p>That is the right architecture, and it concedes the whole argument. The credit
+  is a synthetic unit rather than a token, with an exchange rate against real tokens
+  that is configured per model and can be changed by whoever is selling it. The
+  complexity does not vanish. It moves behind an interface, where one business
+  absorbs it so that its customers never have to look at it. At the time of writing,
+  that product was not generally available; access sat behind a waiting
+  list.<sup class="cite">c-020</sup> The idea has run further ahead than the
+  shipping.</p>
+  <p>If you take one thing into your own systems from this section, make it the
+  discipline of keeping the two units apart. Store budgets in dollars and derive
+  tokens, never the reverse &mdash; any internal system holding a budget as a token
+  count has a bug that will stay hidden until the routing mix shifts under it. Stamp
+  an access date on every price you rely on, because vendors reprice without
+  changelogs and a price page is evidence about a day rather than a standing fact.
+  Capture the cached-versus-uncached split in your own telemetry from the beginning,
+  since retrofitting it after a surprising invoice means reprocessing logs that may
+  never have kept the field. And decide in advance how much drift between your meter
+  and your supplier&rsquo;s you are willing to accept, then write the number down
+  &mdash; teams that skip this end up settling it during a month-end close, where
+  the answer gets decided by whoever is most tired.</p>
+</section>
+
+<!-- ===== SECTION 02 ===== -->
+<section class="sheet chapter">
+  <p class="chapter-num">02</p>
+  <h2>What a payments company saw</h2>
+  <p class="standfirst">Four reported prices, none of them disclosed, and one fee structure that explains the interest better than any of them.</p>
+  <p class="dropcap">Nobody knows what Stripe paid for OpenRouter.</p>
+  <p>That is worth stating flatly at the outset, because the number gets repeated
+  in conversation as though it were settled, and it is not. Stripe disclosed no
+  terms.<sup class="cite">c-003</sup> What exists instead is four figures from four
+  outlets, each citing a source it does not name. Bloomberg reported more than
+  seven billion dollars.<sup class="cite">c-004</sup> The <em>New York Times</em>,
+  via CNBC, put it at about $7.5 billion, with $1.5 billion of that allocated to
+  OpenRouter&rsquo;s founders.<sup class="cite">c-005</sup> Semafor said eight
+  billion.<sup class="cite">c-006</sup> And earlier, while the talks were still
+  running, The Information had the figure at ten billion.<sup class="cite">c-007</sup></p>
+  <p>The temptation is to average these and move on. Resist it. They are not four
+  measurements of one quantity, and averaging them would produce a number that
+  nobody reported and no document supports. They are snapshots of a negotiation
+  taken at different moments by different people with different access. If you need
+  a number for an argument, use a range and say whose it is. If your argument only
+  works at eight billion, it is a weaker argument than you think, because eight
+  billion is the loosest of the four.</p>
+  <p>What is not in dispute is the shape of the jump. Less than three months before
+  the acquisition, OpenRouter had raised $113 million at a valuation of about $1.3
+  billion.<sup class="cite">c-008</sup> Whatever the closing figure, the company was
+  worth something on the order of five to six times more in August than it had been
+  in May, and nothing about the product had changed in the interval.</p>
+  <p>One more thing was true at the time of writing and may not be by the time you
+  read this: the acquisition had not closed. It remained subject to customary
+  closing conditions, with the parties expecting to close within
+  weeks.<sup class="cite">c-002</sup> Everything in this book describes an agreed
+  deal rather than a completed one.</p>
+  <p>So the question is what the buyer saw.</p>
+
+  <p class="beat">The shape of the take</p>
+  <p>The usual answer is distribution: OpenRouter sits in front of a great deal of
+  traffic, and traffic is valuable. That is true but incomplete, and it misses the
+  detail that should make a payments company sit up.</p>
+  <p>Look at how OpenRouter actually earns. It does not mark up inference. Its
+  documentation is explicit that there is no markup on inference pricing, and that
+  it charges a fee when you purchase credits instead.<sup class="cite">c-012</sup>
+  What you pay for tokens is what the underlying provider charges for tokens. The
+  business is instead a percentage taken at the moment money enters the system: the
+  published platform fee on the pay-as-you-go plan is 5.5%.<sup class="cite">c-013</sup>
+  For customers bringing their own provider keys the arrangement shifts but does not
+  change character &mdash; free up to $25,000 of list-price inference per month,
+  then a 5% fee above that.<sup class="cite">c-014</sup></p>
+  <p>Sit with the structure rather than the numbers. A software company charges for
+  the software. A reseller buys wholesale and sells retail, and lives on the spread.
+  OpenRouter does neither. It passes the goods through at cost and takes a
+  percentage of the money moved.</p>
+  <p>That is a take rate. It is the economic signature of a payment processor, and
+  it is a genuinely unusual thing to find in an infrastructure company. The fee does
+  not scale with how much compute you consume, or how many models you call, or how
+  many seats you have. It scales with <strong>how much money you put in.</strong>
+  Whether you spend that balance on one enormous batch job or ten million small
+  requests, whether you burn it in a day or leave it sitting for a quarter, the 5.5%
+  was collected at the door.</p>
+  <p>A company whose entire business is understanding money at the door would
+  recognize that instantly.</p>
+  <p>The economics that come with it are the kind payments people find familiar.
+  OpenRouter was reported to be generating roughly $140 million in annualized
+  revenue by mid-2026,<sup class="cite">c-016</sup> with the cost of serving the
+  routing product at 28.5% of revenue and gross margin around
+  70%.<sup class="cite">c-040</sup> That margin is not the product of clever pricing
+  on inference, because there is no pricing on inference. It is what falls out of
+  taking a percentage of transaction value while paying only for the infrastructure
+  that moves the transaction.</p>
+
+  <p class="beat">The part that was already there</p>
+  <p>The strongest evidence that Stripe understood this is that Stripe had already
+  started building it.</p>
+  <p>The press release says so, in a clause that reads like housekeeping and is
+  not: since the previous year, Stripe had been working to help companies optimize
+  their token costs and route tokens efficiently, having launched products including
+  Token Billing.<sup class="cite">c-017</sup> Before any of this, Stripe was already
+  metering AI tokens as a billing primitive. It had shipped the meter. What it
+  lacked was the thing that knows, request by request, which of eighty providers
+  served the work and what that provider charged &mdash; and that knowledge is not
+  something you can build from the outside, because it lives in the routing decision
+  itself.</p>
+  <p>Read the acquisition that way and it stops looking like a payments company
+  wandering into AI infrastructure. It looks like a metering business acquiring the
+  instrument its meter was missing.</p>
+  <p>There is a further clue in how Stripe describes the difficulty. The release
+  frames the problem not as cost but as combinatorial complexity &mdash; which model
+  to use for which tasks, at which speed and at what price &mdash; and notes that
+  the challenge is exacerbated by the pace at which models are released and
+  repriced.<sup class="cite">c-075</sup> That is a description of an unstable unit of
+  account written by someone who has clearly stared at the problem. And the stated
+  ambition is to help businesses maximize profitability by routing their requests
+  intelligently and spending their tokens efficiently.<sup class="cite">c-010</sup>
+  Revenue and cost. Money in and money out. The two sides of a ledger, which is the
+  one thing Stripe has always sold.</p>
+
+  <p class="beat">Where the argument gets uncomfortable</p>
+  <p>All of which supports the reading that this was a payments acquisition, and I
+  think that reading is right. But it does not support the further claim that gets
+  attached to it &mdash; that the token is therefore becoming a currency, and that
+  owning the router is owning the mint.</p>
+  <p>The same company that charges a payment processor&rsquo;s take rate settles it
+  in dollars. OpenRouter&rsquo;s credit balance has US dollars as its base
+  currency.<sup class="cite">c-015</sup> The 5.5% is levied on dollars entering, not
+  on tokens leaving. At no point in the flow does a token function as money. It
+  functions as the thing being measured so that dollars can be moved correctly,
+  which is exactly what a meter is for.</p>
+  <div class="ledger">
+    <span class="label">What this section can and cannot carry</span>
+    <p>Everything here about the <em>rationale</em> comes from parties with an
+      obvious interest in the rationale sounding coherent. A press release is a
+      first-rate source for the fact that a deal happened and a poor one for why.
+      Both companies had every reason to present a legible strategic story in
+      August 2026, and neither had any reason to say that they paid a large multiple because the asset
+      was scarce and someone else might have taken it.</p>
+    <p>The take-rate structure is different, and it is why this section leans on
+      it. That is not a story anyone told me. It is on a price page, it was there
+      before the deal, and it would be there whether or not the acquisition made
+      sense.</p>
+  </div>
+  <p>What follows from it is a question rather than a conclusion. If the position
+  is genuinely a payments position, the 5.5% should be defensible &mdash; rents at
+  a chokepoint usually are. Section 4 tests that, and finds the picture
+  considerably messier than the number suggests. Before that, though, it is worth
+  understanding what the router is actually doing when it decides where your
+  request goes.</p>
+</section>
+
+<!-- ===== SECTION 03 ===== -->
+<section class="sheet chapter">
+  <p class="chapter-num">03</p>
+  <h2>The router as price maker</h2>
+  <p class="standfirst">A component that selects suppliers by price, at volume, is not observing a market. It is setting one.</p>
+  <p class="dropcap">A router looks like plumbing. Requests arrive, requests leave,
+  and the interesting work is assumed to be happening at the ends. That framing
+  survives right up until you notice that the router is choosing, on every single
+  request, which supplier gets paid &mdash; and that it makes the choice on
+  price.</p>
+  <p>Once a component selects suppliers by price and controls enough volume, it
+  stops being a passive observer of a market. Supplier revenue is now a function of
+  the router&rsquo;s weighting. That is the argument of this section, and the way to
+  see it is to look closely at what the routing decision actually involves, because
+  there are far more priced dimensions in it than most people building on top of it
+  realize.</p>
+
+  <p class="beat">More dials than anyone expects</p>
+  <p>Start with the one from Section 1: provider selection weighted by the inverse
+  square of price, so that the cheapest candidate is nine times likelier than the
+  dearest in the documentation&rsquo;s own three-provider
+  example.<sup class="cite">c-026</sup> That alone makes the cost of a request a
+  distribution rather than a number.</p>
+  <p>But price is only the default sort. A caller can filter on measured
+  performance first and <em>then</em> sort on price, and the filtering is empirical
+  rather than advertised &mdash; OpenRouter will select hosts that have sustained at
+  least 40 tokens per second for 90% of requests over the last five minutes, and
+  route to the cheapest provider within that qualified
+  group.<sup class="cite">c-064</sup> That is a rolling five-minute window over a
+  ninetieth percentile. The set of providers eligible to serve you changes
+  continuously, based on how they have been performing against other people&rsquo;s
+  traffic in the last few minutes. Two identical requests, sent ninety seconds
+  apart, can face different candidate sets and therefore different price
+  distributions, without anything in your code changing and without any provider
+  having announced a price change.</p>
+  <p>Then consider what else carries a multiplier once you look beyond the router
+  at the vendors underneath.</p>
+  <p>Latency tolerance is priced. Amazon Bedrock offers selected models for batch
+  inference at a 50% lower price than on-demand
+  inference.<sup class="cite">c-063</sup> Half price, for agreeing to wait. If your
+  workload can tolerate a delay and you have not told anyone, you are paying twice
+  what you need to.</p>
+  <p>Geography is priced. Anthropic applies a 1.1x multiplier across all token
+  pricing categories when a caller specifies US-only
+  inference.<sup class="cite">c-060</sup> Not a surcharge on a line item &mdash; a
+  ten percent uplift across input, output, cache writes and cache reads alike. A
+  compliance requirement, expressed as a coefficient.</p>
+
+  <p class="beat">The cache is the economy</p>
+  <p>Section 1 gave the OpenAI figures: cache writes at 1.25x input on recent
+  models, cache reads at a quarter or a half. Those figures belong to one vendor
+  rather than to the industry, and the others differ.</p>
+  <p>Anthropic&rsquo;s published table runs on three multipliers rather than two,
+  because it sells cache duration as a product. A five-minute cache write costs
+  1.25x base input price. A one-hour cache write costs 2x. A cache read costs
+  0.1x.<sup class="cite">c-058</sup> Bedrock, meanwhile, prices cache reads at 75%
+  below its on-demand input price<sup class="cite">c-062</sup> &mdash; a 0.25x
+  multiplier, which is neither Anthropic&rsquo;s 0.1x nor the 0.5x that some OpenAI
+  models carry.</p>
+  <p>Three vendors, three different discounts for the identical operation of
+  reading a cached token. There is no convergence here and no sign of any, which
+  means a tool that wants to predict cost across vendors cannot hold a single number
+  for &ldquo;cache read.&rdquo; It has to hold a table, and keep it current, against
+  vendors who reprice without changelogs.</p>
+  <p>Anthropic, to its credit, publishes the break-even directly: caching pays off
+  after one cache read for the five-minute duration, or after two cache reads for
+  the one-hour duration.<sup class="cite">c-059</sup> That is an unusually honest
+  piece of documentation and it is worth dwelling on, because it makes the decision
+  structure visible. Whether to cache is not a performance question with a cost side
+  effect. It is a bet on reuse. Write to the five-minute cache and you need one hit
+  to break even. Buy the hour and you need two. Get the reuse pattern wrong and
+  caching costs you money &mdash; which is the opposite of how almost everyone
+  describes caching in every other part of computing.</p>
+  <p>Now couple that back to routing, because the two are not independent. A cache
+  lives on a specific provider&rsquo;s hardware. To benefit from it, subsequent
+  requests have to reach the same provider, which is why the router pins sessions
+  &mdash; and pins them conditionally, activating sticky routing only when the
+  provider&rsquo;s cache-read price beats its ordinary prompt
+  price.<sup class="cite">c-030</sup> The router is running the break-even
+  calculation on your behalf and changing its routing policy based on the answer.</p>
+  <p>The entanglement produces failure modes that look like nothing at all in a
+  diff. Changing a model slug mid-conversation &mdash; appending a latency-oriented
+  variant suffix, say &mdash; invalidates the sticky key.<sup class="cite">c-065</sup>
+  A one-word change to a configuration string, made to improve latency, silently
+  discards a warm cache and re-routes the conversation. The latency probably does
+  improve. The bill moves in a direction nobody predicted, because the person who
+  made the change was reasoning about speed and the system was also reasoning about
+  cache residency.</p>
+
+  <p class="beat">What this makes the router</p>
+  <p>Assemble the dials: price-weighted probabilistic selection, rolling throughput
+  filters, batch tiers, geographic multipliers, three-way cache multipliers that
+  differ per vendor, and sticky sessions that engage conditionally on a price
+  comparison. Every one of those is a lever on what a request costs, and the router
+  holds most of them.</p>
+  <p>A component holding that many pricing levers over that much volume is not a
+  neutral pipe. When a router weights by inverse square of price, it is not merely
+  finding the cheap provider &mdash; it is <em>manufacturing</em> demand elasticity.
+  A provider that drops its price does not simply win the requests where it is
+  cheapest; it wins a larger share of a probabilistic draw across the whole eligible
+  set, immediately, with no sales cycle and no contract renegotiation. And a
+  provider that raises its price does not lose its customers, because it never had
+  customers in the retail sense. It loses weight in a distribution.</p>
+  <p>That is a real market mechanism, and it is a better one than the alternative in
+  most respects. It is also, from the perspective of anyone trying to answer
+  &ldquo;what will this cost,&rdquo; an active adversary. The very properties that
+  make the routing layer good at disciplining suppliers are the properties that make
+  a fixed price impossible to quote.</p>
+  <div class="ledger">
+    <span class="label">Mechanism established, magnitude not</span>
+    <p>Everything above describes documented mechanism, not measured outcome. I
+      have not seen data on how much the price distribution actually moves in
+      practice for a typical workload, and I am not aware of any published study
+      that measures it. It is entirely possible that for most applications the
+      variance is small enough to ignore, and that the practical answer is to use a
+      trailing average and stop worrying.</p>
+    <p>The mechanism is certain; the magnitude is not, and nobody should take a
+      claim about magnitude from this book, because this book does not have one.</p>
+  </div>
+  <p>What the mechanism does establish is where the leverage sits. If a
+  supplier&rsquo;s revenue depends on a weighting function held by an intermediary,
+  the intermediary is the most commercially valuable component in the chain &mdash;
+  regardless of whether it charges anything for the privilege. Which raises the
+  question the next section has to answer: given that position, what does the market
+  actually charge for standing in it?</p>
+  <p>The answer turns out to be four incompatible things at once.</p>
+</section>
+
+<!-- ===== SECTION 04 ===== -->
+<section class="sheet chapter">
+  <p class="chapter-num">04</p>
+  <h2>Who charges for standing in the middle</h2>
+  <p class="standfirst">Five firms, one function, and prices that range from 5.5% of everything you spend to nothing at all.</p>
+  <p class="dropcap">If the routing layer is as valuable a position as the last two
+  sections suggest, the market should agree on what it is worth. Markets usually do
+  converge on a price for a well-understood function, even a contested one &mdash;
+  card acquiring settled into a band, cloud storage settled into a band, and you can
+  predict what a new entrant will charge to within a few basis points.</p>
+  <p>The AI gateway market has not converged. It has not even nearly converged. The
+  same function &mdash; sit between an application and a set of model providers,
+  route the request, meter the spend &mdash; is monetized four incompatible ways by
+  five serious companies, and the prices are not close.<sup class="cite">c-069</sup></p>
+  <p>OpenRouter charges a share of the money you load: 5.5% on the pay-as-you-go
+  plan.<sup class="cite">c-013</sup></p>
+  <p>Vercel charges nothing on the tokens. Its documentation states plainly that the
+  AI Gateway charges no markup and no platform fee on tokens, with the customer
+  paying the provider&rsquo;s list price and Vercel deducting from a credit
+  balance.<sup class="cite">c-021</sup></p>
+  <p>Portkey charges a subscription. Its production plan is $49 a month with a quota
+  of 100,000 recorded logs<sup class="cite">c-067</sup> &mdash; a software license
+  with usage-based logging, entirely decoupled from how much inference flows through
+  it. Below that sits a permanently free tier, explicitly not suitable for
+  production workloads.<sup class="cite">c-068</sup></p>
+  <p>Cloudflare charges nothing at all. Its AI Gateway&rsquo;s core features are
+  offered free on all plans, and the core it names is not a stub: dashboard
+  analytics, caching, and rate limiting.<sup class="cite">c-066</sup></p>
+  <p>And beneath all of them, LiteLLM gives the metering away as open-source
+  software you run yourself, tracking spend for keys, users, and teams across more
+  than a hundred models.<sup class="cite">c-023</sup></p>
+  <p>Five providers. A percentage of funds, zero, a flat monthly fee, zero again,
+  and free source code.</p>
+
+  <p class="beat">What a spread like that means</p>
+  <p>A price dispersion this wide is not noise. It is a signal that the participants
+  disagree about what business they are in.</p>
+  <p>Take a percentage of money loaded and you have declared yourself a financial
+  intermediary whose revenue scales with customer spend. Charge a flat subscription
+  and you have declared yourself a software vendor whose revenue scales with customer
+  count. Charge nothing and you have declared the gateway a feature of something else
+  you sell &mdash; hosting, in Vercel&rsquo;s case; the broader network, in
+  Cloudflare&rsquo;s. Publish the source and you have declared it infrastructure that
+  should not be a business at all.</p>
+  <p>Those are four different businesses wearing the same coat. And it means the 5.5%
+  is not the market price for routing. It is one firm&rsquo;s answer to a question
+  the market has not settled, and it is the highest answer on the board by a wide
+  margin &mdash; infinitely higher than three of the four alternatives, which charge
+  nothing for the gateway itself.</p>
+  <p>I want to be careful about what this does and does not establish. It does not
+  establish that the 5.5% is doomed. Prices persist above zero-priced alternatives
+  all the time, for reasons that are perfectly rational: switching costs, breadth of
+  model coverage, reliability, the fact that the free options make you operate them
+  yourself. OpenRouter&rsquo;s fee buys access to a catalogue and an operational
+  burden somebody else carries, and plenty of teams will consider that a bargain at
+  5.5% of spend. The presence of a free competitor does not refute a paid one; if it
+  did, nobody would sell databases.</p>
+  <p>What it does establish is that the fee is a <strong>business-model choice
+  rather than a property of the position.</strong><sup class="cite">c-051</sup>
+  Occupying the routing layer does not entitle you to a take rate. Two of the largest
+  firms in this list occupy the same layer and have decided the correct rent is
+  nothing, because they monetize elsewhere and would rather have the traffic.</p>
+  <p>And it complicates the payments framing from Section 2 in a specific way. A
+  payment processor&rsquo;s take rate is defensible because moving regulated money at
+  scale is genuinely hard, genuinely licensed, and genuinely not something a
+  competitor can give away as a loss leader. A routing fee has none of those
+  protections. Cloudflare can zero it out on Tuesday and absorb the cost inside a
+  network business, and there is no regulator, no license, and no settlement
+  obligation standing in the way.</p>
+
+  <p class="beat">The other pressure</p>
+  <p>The competitive squeeze is the visible half. The other half is that the thing
+  being charged for does not work perfectly, and its own practitioners say
+  so.<sup class="cite">c-054</sup></p>
+  <p>Section 1 quoted LiteLLM&rsquo;s documentation on reconciliation. Read in the
+  context of this section that admission carries more weight. If metering were both
+  hard <em>and</em> reliable, it would be a defensible service. If it were easy and
+  reliable, it would be a commodity but at least a working one. What the
+  documentation describes is a capability that is available for free and does not
+  fully work &mdash; which is close to the worst possible configuration for anyone
+  hoping to charge rent on it.</p>
+  <p>Sacra&rsquo;s analysis of OpenRouter names the pressure directly, observing
+  that open-source alternatives such as LiteLLM let enterprises self-host routing
+  infrastructure, reducing willingness to pay for standalone
+  routing.<sup class="cite">c-045</sup> That is a private-market research firm
+  modeling a company it does not have access to, so treat it as a considered opinion
+  rather than a finding. But it is the same conclusion the price list arrives at from
+  the other direction.</p>
+  <div class="ledger">
+    <span class="label">Five data points are not a distribution</span>
+    <p>I have five prices, gathered because they were reachable, and no systematic
+      survey of the gateway market. There are more gateways than these &mdash;
+      hyperscalers bundling routing into existing contracts, observability vendors
+      extending into it, enterprise platforms building it internally. I do not know
+      the shape of the whole distribution, only that its visible members disagree
+      violently.</p>
+    <p>A proper market survey would strengthen or overturn the argument here, and it
+      has not been done.</p>
+  </div>
+  <p>What can be said with the evidence in hand is narrower and still useful. The
+  fee at this layer is contested, several well-capitalized firms have set it to zero,
+  the underlying capability is available as free software, and that software concedes
+  it does not always agree with the invoice. Whatever Stripe bought, it was not an
+  uncontested toll booth.</p>
+  <p>Which leads directly to the strongest argument against this entire book &mdash;
+  the possibility that everyone involved already knows all of this, and that the
+  routing fee going to zero was never the point.</p>
+</section>
+
+<!-- ===== SECTION 05 ===== -->
+<section class="sheet chapter">
+  <p class="chapter-num">05</p>
+  <h2>The loss leader</h2>
+  <p class="standfirst">The strongest case against this book, presented without a rebuttal appended, because I could not build one.</p>
+  <p class="dropcap">Everything so far has built toward a conclusion: that the
+  routing layer matters because it is where compute becomes a billable quantity, and
+  that a payments company bought it for that reason. This section sets out the
+  strongest case that the conclusion is wrong, or at least that it is right for
+  reasons that make it far less interesting than it sounds.</p>
+  <p>I am not going to answer it. I could not, with the evidence I gathered, and
+  appending a rebuttal I cannot support would be worse than leaving it standing.</p>
+
+  <p class="beat">The case that routing is meant to be worthless</p>
+  <p>Start with the version Semafor published two days after the announcement, which
+  is the sharpest reading of the deal I have seen anywhere.</p>
+  <p>The observation is that OpenRouter&rsquo;s business could be destined for
+  commoditization, and that this is actually kind of the
+  point.<sup class="cite">c-041</sup> The reasoning follows from the market structure
+  described in Section 4 rather than contradicting it. If routing collapses into
+  finding the cheapest provider that clears a quality and reliability bar, then
+  routing is a solved problem with a shrinking margin, and everyone in it is heading
+  for zero. But zero is survivable &mdash; attractive, even &mdash; if you are not
+  trying to earn there: Stripe can afford to let routing become low-margin, because
+  it can monetize everything surrounding it, from billing and tax and fraud through
+  to stablecoin settlement, treasury and possibly
+  financing.<sup class="cite">c-042</sup></p>
+  <p>Take that seriously and the thesis of this book inverts. The routing layer is
+  not the valuable position; it is the <em>entry point</em> to a set of valuable
+  positions, none of which is routing. Stripe does not need a take rate on inference
+  because it has billing, tax, fraud, settlement and treasury waiting on the other
+  side of the relationship, all of which are businesses it already knows how to run
+  at scale. Under this reading, buying OpenRouter is buying distribution into every
+  AI-native company&rsquo;s financial stack, and the fact that the acquired product
+  happens to route tokens is almost incidental.</p>
+  <p>Notice what this does to Section 4&rsquo;s argument. I presented the four-way
+  price dispersion as a problem for the payments framing &mdash; evidence that the
+  fee is contested and might go to zero. Semafor&rsquo;s reading takes the identical
+  fact and calls it the plan. Under this account the 5.5% is not a rent to be
+  defended but a legacy price that a rational owner will happily compete away,
+  because the customer relationship is worth more than the fee ever was. The same
+  evidence, pointing the opposite direction. I do not have a way to distinguish the
+  two from outside.</p>
+
+  <p class="beat">The case that it is an expense-management deal</p>
+  <p>The second reading is less dramatic and possibly more likely.</p>
+  <p>TechCrunch noted that Stripe&rsquo;s large acquisitions had historically been
+  about helping companies collect and manage incoming money, and that this one looked
+  different &mdash; a move to the other side of the ledger, into expense management,
+  beginning with AI expenses.<sup class="cite">c-043</sup></p>
+  <p>That reframes the deal as being about <em>cost control software</em>, which is a
+  real and large category with nothing much to do with payment rails. And the
+  competitive evidence supports it, because that category was already filling up
+  before Stripe arrived: Databricks developed its own AI gateway, Rippling launched
+  one focused on employee AI spend, and Ramp launched one for AI expense management
+  too.<sup class="cite">c-044</sup></p>
+  <p>Rippling and Ramp are not infrastructure companies. They are spend-management
+  companies, and they built AI gateways because AI spend is a line item their
+  customers cannot see clearly. If the natural competitor set for this product is
+  Ramp rather than Cloudflare, then the position Stripe bought is a seat in the
+  expense-management market, and the elaborate argument about units of account is a
+  description of a technical problem rather than an explanation of a purchase.</p>
+  <p>The uncomfortable part, for me, is that this reading explains the price better
+  than mine does. Expense management is a proven category with known multiples and an
+  obvious buyer synergy. Owning the settlement layer for a future compute economy is
+  a story that requires several things to happen that have not happened yet.</p>
+
+  <p class="beat">The case that the price was simply too high</p>
+  <p>And then there is the arithmetic, which is unkind whichever story you
+  prefer.</p>
+  <p>At the figure floated during the talks, Stripe would have been paying roughly
+  seventy times OpenRouter&rsquo;s annualized revenue.<sup class="cite">c-038</sup>
+  Seventy times. The same reporting describes that price as high compared to other AI
+  acquisitions when calculated as a multiple of forward
+  revenue.<sup class="cite">c-039</sup></p>
+  <p>The defense is that the unit economics are unusually good for the category, and
+  they are &mdash; Section 2 set out the margin structure. But a strong margin on
+  $140 million of revenue does not obviously justify a price several dozen times that
+  revenue unless you believe the revenue is about to become very much larger, which
+  brings you back to needing the strategic story to be true.</p>
+  <p>There is also a piece of evidence about the buyer&rsquo;s state of mind that is
+  hard to categorize and too good to omit. A leaked letter from Stripe&rsquo;s
+  founders to investors explained the company&rsquo;s operating posture by saying it
+  had decided that 1 January marked the beginning of the singularity and it had been
+  operating on that basis.<sup class="cite">c-076</sup> The reporting is careful to
+  note the phrase is tongue-in-cheek and that Patrick Collison had used it in that
+  spirit publicly.<sup class="cite">c-077</sup> I am not going to build an argument on
+  a joke in a letter. But a firm operating on an explicitly stated assumption that the
+  technological curve has gone vertical is a firm whose acquisition multiples should
+  be read in that light, and it is at least worth knowing that the assumption was
+  written down.</p>
+
+  <p class="beat">What would have to be true for this book to be right</p>
+  <p>Set the three counter-readings side by side and the honest position is that all
+  of them are consistent with the evidence I have.<sup class="cite">c-052</sup></p>
+  <p>For the argument in this book to hold, the metering-and-settlement position has
+  to be worth more than the expense-management seat, and the router has to remain the
+  place where the metering happens rather than being reduced to a commodity component
+  inside somebody else&rsquo;s billing stack. Neither is established. Both are
+  assertions about a market that is roughly eighteen months old.</p>
+  <p>What I can say is that the counter-arguments are about <em>where the value
+  accrues</em>, not about the mechanism. Nothing in this section disputes that the
+  token is a poor unit of account, that prices are nondeterministic at submission, or
+  that the credit is a conversion layer over dollars. Semafor, TechCrunch and PYMNTS
+  are arguing about who captures the value created by that mess. They are not arguing
+  that the mess is imaginary.</p>
+  <p>So the mechanical claims of Sections 1 and 3 survive this section intact. The
+  commercial claim of Section 2 &mdash; that this was a payments acquisition in the
+  meaningful sense rather than the metaphorical one &mdash; does not survive it
+  cleanly, and I would not want a reader to finish this book believing it had been
+  demonstrated. It is the reading I find most persuasive. It is not the only one the
+  facts allow.</p>
+  <p>One small thing cuts the other way, and it deserves a mention because it is the
+  only piece of post-deal evidence anyone has. OpenRouter&rsquo;s own announcement
+  commits to neutrality in unusually specific language: routing decisions will remain
+  driven by one thing, which is what is best for the
+  user.<sup class="cite">c-046</sup> If routing were merely a funnel into a
+  financial-services relationship, that commitment would be an odd thing to make and
+  an expensive one to keep.</p>
+</section>
+
+<!-- ===== SECTION 06 ===== -->
+<section class="sheet chapter">
+  <p class="chapter-num">06</p>
+  <h2>What can be built</h2>
+  <p class="standfirst">Prepaid credits, gifted compute, and the regulatory line that explains why you cannot buy a friend a hundred thousand tokens.</p>
+  <p class="dropcap">The practical question underneath all of this is whether you
+  can sell someone a quantity of AI compute the way you can sell them a quantity of
+  anything else. A gift card. A prepaid balance. A coffee bought for a stranger on
+  the internet.</p>
+  <p>The answer turns out to be yes, with a conversion layer, inside a closed loop
+  &mdash; and the three qualifications are doing all the work.</p>
+
+  <p class="beat">The unit everybody invents</p>
+  <p>By now the pattern should be familiar, but it is worth seeing how far it
+  extends, because the conversion layer is not a Stripe peculiarity. It is what
+  everyone builds when they need a stable number.</p>
+  <p>Stripe&rsquo;s billing product, as established, lets a business define an AI
+  Credit and configure how each model&rsquo;s usage converts into it, then sell
+  prepaid packs of that unit.<sup class="cite">c-018</sup> The metering underneath
+  tracks model and token type including cached tokens,<sup class="cite">c-019</sup>
+  and the product was not yet generally available at the time of
+  writing.<sup class="cite">c-020</sup></p>
+  <p>Anthropic has already shipped the same idea, and almost nobody has noticed.
+  When Claude is sold through the AWS or Azure marketplaces, Anthropic rates the
+  token usage in USD at standard per-model rates, applies any negotiated discount,
+  and converts the result to Claude Consumption Units at one cent
+  each.<sup class="cite">c-061</sup> A CCU is worth a penny. It exists because a
+  cloud marketplace needs a single countable line item and cannot express a charge
+  such as <em>1.25x base input price for a five-minute cache write</em>, so the vendor
+  rates everything in dollars, converts to a synthetic unit at a fixed rate, and
+  reports a quantity.</p>
+  <p>That is the whole thesis of this book, shipped as a production billing
+  integration by a model vendor, for reasons that have nothing to do with any
+  acquisition. Dollars are the unit of account. The synthetic unit is a presentation
+  layer over dollars, invented because the underlying quantity would not sit still.
+  And note the direction of the conversion &mdash; usage is rated <em>in USD
+  first</em>, then converted. The dollars are not derived from the units. The units
+  are derived from the dollars.</p>
+  <p>Anyone building a credit product is going to reinvent this, and should. The
+  design question is not whether to have a conversion layer but who absorbs the risk
+  in it. If you sell a credit today and the underlying provider reprices tomorrow,
+  either your margin moves or your customer&rsquo;s balance quietly buys less than it
+  did. Someone eats that. Fixing the exchange rate is a promise about a price you do
+  not control, and Section 3 is a long argument for why you should be nervous about
+  making it.</p>
+
+  <p class="beat">The expiry problem</p>
+  <p>There is a second feature of every prepaid AI product currently shipping, and
+  it is one customers dislike: the value goes away.</p>
+  <p>OpenRouter&rsquo;s terms provide for expiry of unused credits after one year of
+  purchase.<sup class="cite">c-036</sup> Anthropic&rsquo;s gift subscriptions expire
+  365 days after the purchase date.<sup class="cite">c-035</sup> These are not
+  outliers; they are the standard shape.</p>
+  <div class="ledger">
+    <span class="label">Flagged, not analyzed</span>
+    <p>Expiry is where prepaid products stop being a pricing decision and start
+      being a regulated one. Money taken now for a service delivered later is a
+      liability on the seller&rsquo;s balance sheet, and unredeemed value is revenue
+      only under specific accounting conditions. Consumer protection rules in many
+      jurisdictions constrain when prepaid value may expire and what fees may be
+      charged against it.</p>
+    <p>I gathered no sources on the accounting or the consumer-protection treatment.
+      This is a prompt to get advice, not advice.</p>
+  </div>
+
+  <p class="beat">Buying someone else compute</p>
+  <p>Which brings us to the consumer version, and the reason it is harder than it
+  looks.</p>
+  <p>The patronage model is well established and boringly profitable. Buy Me a
+  Coffee charges a 5% transaction fee, creators keep 95% of the earnings, and payouts
+  go directly to a bank account.<sup class="cite">c-032</sup> It is a thin layer over
+  a payment processor, and the processor is Stripe: the platform states that payment
+  processing is handled by Stripe and Wise.<sup class="cite">c-033</sup></p>
+  <p>So the obvious product suggests itself. Instead of buying a writer a coffee,
+  buy them the inference to write with. Both legs already exist and both already
+  terminate at the same company &mdash; the patronage rail runs on Stripe, and Stripe
+  supplies the token-metering primitive.<sup class="cite">c-055</sup> There is no
+  missing infrastructure.</p>
+  <p>And yet nobody sells it, while two adjacent things do ship. Anthropic will sell
+  you a gift, but the gift is a plan: you choose a tier and a duration, and the
+  recipient receives full access to the features of the selected
+  plan.<sup class="cite">c-034</sup> It is a subscription with a bow on it, not a
+  balance. You cannot gift someone eighty thousand tokens and let them spend it where
+  they like.</p>
+  <p>The reason is not technical, and I think it is not squeamishness about the
+  product either. It is that a transferable balance spendable across unaffiliated
+  vendors is a different kind of object in law from a subscription to one
+  vendor&rsquo;s service.</p>
+
+  <p class="beat">The line that actually matters</p>
+  <p>Here I have to correct a framing I nearly used, because it is the sort of error
+  that survives in a book for years.</p>
+  <p>The natural place to reach for is FinCEN&rsquo;s guidance on stored value, which
+  held that the agency does not currently interpret the definition of stored value to
+  include closed system products such as a mall-wide gift card
+  program.<sup class="cite">c-037</sup> That is a clean statement of the
+  closed-versus-open distinction, and it is tempting to quote and move on.</p>
+  <p>It is also from 2003,<sup class="cite">c-056</sup> the same document warns that
+  FinCEN intends to engage in further rulemaking on the definition of stored
+  value,<sup class="cite">c-057</sup> and &mdash; decisively &mdash; that rulemaking
+  happened. FinCEN&rsquo;s 2011 final rule amended the Bank Secrecy Act regulations by
+  renaming stored value as prepaid access, defining that term, and deleting the terms
+  issuer and redeemer of stored value.<sup class="cite">c-070</sup> The vocabulary the
+  2003 ruling operates in no longer exists in the regulations. The rule was framed as
+  addressing regulatory gaps that had resulted from the proliferation of prepaid
+  innovations over the preceding twelve years<sup class="cite">c-073</sup> &mdash;
+  precisely the category a cross-vendor compute credit would fall into.</p>
+  <p>The 2011 regime imposes suspicious activity reporting and recordkeeping
+  requirements on both providers and sellers of prepaid access, plus registration for
+  providers,<sup class="cite">c-071</sup> while exempting certain lower-risk
+  categories from certain requirements<sup class="cite">c-072</sup> &mdash; and it
+  retains closed loop prepaid access as a defined
+  category.<sup class="cite">c-074</sup></p>
+  <p>The shape of the answer is therefore visible even from outside: closed loop is
+  treated as lower risk and carries lighter obligations; open loop does not. A gift
+  card for one vendor&rsquo;s service sits comfortably on one side of that line. A
+  transferable balance spendable across eighty inference providers sits on the other,
+  or at minimum sits close enough to it that you would need a lawyer before you
+  shipped.<sup class="cite">c-053</sup></p>
+  <div class="ledger">
+    <span class="label">Where this book&rsquo;s competence ends</span>
+    <p>I have read a 2011 final rule and the definitions it amended. I have not
+      researched the exemption thresholds in detail, state money-transmitter
+      licensing, the CFPB&rsquo;s prepaid account rules under Regulation E, the CARD
+      Act&rsquo;s gift-card provisions, or anything outside the United States.
+      Several of those could be decisive.</p>
+    <p>What I can say is narrow: the reason you cannot buy your friend a hundred
+      thousand tokens is not that the payments plumbing is missing. It is that the
+      object you would be selling them is a regulated instrument, and the closed-loop
+      products that ship today are shaped the way they are because that shape avoids
+      the question.</p>
+  </div>
+
+  <p class="beat">What would change my mind</p>
+  <p>The argument of this book comes down to one claim: that tokens are a meter
+  reading, that every credit is a conversion layer over
+  dollars,<sup class="cite">c-049</sup> and that the interesting position is
+  therefore the exchange desk rather than the mint.</p>
+  <p>Here is what would falsify it, and what I would watch.</p>
+  <p>If a vendor began quoting a <strong>fixed price per token guaranteed at
+  submission time</strong> &mdash; absorbing the routing variance itself, the way an
+  insurer absorbs risk &mdash; the central mechanical claim would weaken
+  considerably.<sup class="cite">c-048</sup> The variance would still exist; it would
+  simply have found someone willing to be paid to hold it, which is a real product and
+  one I would expect to see before I expect to see a token currency.</p>
+  <p>If a <strong>transferable, cross-vendor balance shipped and survived</strong>,
+  the argument in this section is wrong, and the constraint I have attributed to
+  regulation was really just nobody having bothered.</p>
+  <p>If the <strong>cache multipliers converged</strong> across vendors &mdash; if
+  0.1x and 0.25x and 0.5x became one number the way transaction fees converged into a
+  band &mdash; then a common unit becomes tractable, and the mess described in Section
+  3 turns out to have been an artifact of an immature market rather than a structural
+  feature.</p>
+  <p>And the single most informative thing, the one that costs nothing to observe:
+  whether OpenRouter&rsquo;s commitment that routing decisions will remain driven by
+  what is best for the user holds under its new
+  ownership.<sup class="cite">c-046</sup> If in three years the router quietly prefers
+  providers that settle through its parent&rsquo;s rails, then the exchange desk was
+  the point, and it was worth more than the eight billion dollars nobody will confirm
+  was paid for it.</p>
+  <p>If it does not, then Section 5 was right, and I will have written a book about
+  the plumbing of a business that turned out to be about something else. That would be
+  a fine outcome. The plumbing is real either way, and the bills still have to be
+  reconciled by someone on a Tuesday afternoon, holding two numbers that do not
+  match.</p>
+</section>
+
+<!-- BOOK-FORGE:ABOUT v1 sha=25c3252ea5df -->
+<section class="bf-matter bf-about bf-flow">
+  <h2>About the author</h2>
+
+  <div class="bio">
+    <p>Anuj Sadani builds AI systems and the teams that build them. He spent a
+      decade at NVIDIA, has worked inside AI-first organizations, and has led
+      multicultural engineering pods across Europe &mdash; sixteen-plus years,
+      most of them on the AI era's unglamorous half: turning hype into systems
+      that ship, and systems that ship into outcomes that hold up in production.
+      That work has fed into industry recognition from Gartner and Everest Group,
+      and an Innovator of the Year nod.</p>
+
+    <p>He is the author of <i>The Clean Vibe Coder: A Code of Conduct for
+      Programmers in the Age of AI Agents</i> and <i>Borrow the Line. Own the
+      Move.</i>, and writes about engineering, leadership, and what stays human
+      when the tools get good. He still believes the best technology is the kind
+      that makes the people around it braver.</p>
+  </div>
+
+  <div class="qrpanel">
+    <div class="qrcard">
+      <div class="code">{{QR_AUTHOR}}</div>
+      <div class="what">
+        <b>Writing and work</b>
+        <span>Essays, books, and what he is building.</span>
+        <code>anujsadani.in</code>
+      </div>
+    </div>
+    <div class="qrcard">
+      <div class="code">{{QR_TECH}}</div>
+      <div class="what">
+        <b>This book, and the evidence</b>
+        <span>Read this online, walk the claim ledger, open every source.</span>
+        <code>tech.anujsadani.in</code>
+      </div>
+    </div>
+  </div>
+
+  <div class="colophon">
+    Thirty-eight sources captured and hashed. Seventy-seven claims bound to
+      exact quotation, every one machine-checked against a stored copy before
+      the sentence citing it was written.<br>
+      First edition, 2026.
+  </div>
+
+</section>
+<!-- /BOOK-FORGE:ABOUT -->
+
+<!-- BOOK-FORGE:BEFORE-END -->

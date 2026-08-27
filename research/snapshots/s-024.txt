@@ -1,0 +1,236 @@
+Skip to content
+
+Bill for LLM tokens
+
+Create account or Sign in
+
+Search
+
+/Ask AI
+
+Create accountSign in
+
+Get started
+
+Payments
+
+Revenue
+
+Platforms and marketplaces
+
+Money management
+
+Developer resources
+
+APIs & SDKsHelp
+
+Overview
+Billing
+OverviewAbout the Billing APIs
+Subscriptions
+
+Invoicing
+
+Usage-Based Billing
+
+Overview
+
+How Metronome works with Stripe
+
+Get started with Metronome
+
+Implement Metronome
+
+Events
+
+Pricing and packaging
+
+Customer and billing
+
+Invoicing
+
+Reporting and insights
+
+Platform configuration
+
+Bill for LLM tokens
+
+Tokens and pricing
+
+Quotes
+
+Customer management
+
+Retention
+
+Billing with other products
+
+Revenue recovery
+
+Automations
+
+Scripts
+
+Test your integration
+
+Tax
+Overview
+Use Stripe Tax
+
+Tax rates
+Manage compliance
+
+Reporting
+Overview
+Select a report
+
+Configure reports
+
+Reports for multiple accounts
+Reports API
+
+Revenue recognition
+
+Marketing analytics
+
+Data
+OverviewAnalyse Stripe data with AI
+Query business data
+
+Analytics API
+
+Sigma
+
+Data Pipeline
+
+Next generation of Data Pipeline
+Import external data
+
+India
+
+English (United Kingdom)
+
+Home/
+
+Revenue/
+
+Usage-based billing
+
+Private preview
+Bill for LLM tokensPrivate preview
+
+Learn how to bill for LLM tokens using Metronome.
+
+Ask about this page
+Copy for LLM
+
+View as Markdown
+Install tools
+
+You can use Metronome to bill for LLM token usage instead of building your own pricing system. Metronome allows you to implement usage-based billing to meter usage and generate invoices automatically.
+
+Choose how to bill for LLM tokens:
+
+ApproachBest for
+
+Resell LLM tokensPlatforms and gateways that give customers access to LLM providers and want to set their own markup on token costs.
+
+Charge your app’s usersApps that want to bill their own end users for AI feature consumption, such as token usage, API calls or compute time.
+
+Resell LLM tokens
+
+For new integrations, use Metronome to define your pricing and record usage. Stripe syncs model prices across providers, and you set your own margin. Send usage events directly to Metronome from your own integration.
+
+Private preview
+
+Billing for LLM tokens is in private preview and not yet available to all users. Request to join the private preview.
+
+Define your pricing model
+
+In Metronome, define token-based products and rates, configure your markup and combine usage charges with recurring fees or credits. Metronome evaluates usage in real time and sends invoices to Stripe for payment.
+
+Automatic price updates
+
+Stripe syncs token prices for OpenAI, Anthropic and Google models, so your pricing always reflects current costs. When providers update their pricing or release new models, we notify you and can automatically apply new prices to all customers.
+
+We’re actively expanding model support. If you need price tracking for models we don’t yet support, let us know at token-billing-team@stripe.com.
+
+Supports any pricing model
+
+Usage-based: Bill customers only for the tokens they consume, with no fixed fee.
+
+Fixed fee with included usage: Charge a monthly fee that includes a set amount of token usage.
+
+AI credit packs and top-ups: Metronome natively supports custom pricing units. Define an “AI Credit”, configure how usage of each model converts to credits and sell prepaid credit packs that customers can top up.
+
+Hybrid models: Combine any of the above approaches to create custom pricing tiers.
+
+Custom: Add your own usage-based rates alongside LLM token rates. Charge for custom models you’ve built or other non-LLM usage on the same Metronome rate card.
+
+Track your AI usage
+
+After you set up your pricing model, send usage events directly to Metronome. Include the customer, model, token type and token count that Metronome uses to evaluate the applicable rate. You can meter tokens per customer, segmented by:
+
+Model (for example, GPT-5.6-sol, Claude Fable 5)
+
+Token type (input, output, and cached tokens for supported models)
+
+Learn how to ingest events with Metronome.
+
+Charge your app’s users
+
+If you’re building an AI application and want to charge users for consumption, such as token usage, API calls, compute time or AI feature access, Metronome provides real-time metering, flexible pricing and automatic invoice generation without requiring you to resell LLM access.
+
+Choose your billing model
+
+ModelDescriptionBest for
+
+Per-token or per-unit meteringTrack each unit of consumption (tokens, API calls, compute seconds) and bill based on total usage.LLM wrappers, API marketplaces, inference platforms.
+
+Tiered pricingOffer usage tiers with different per-unit rates as volume increases.Apps with free tiers and paid upgrades.
+
+Subscription with metered overagesCharge a flat monthly fee that includes a usage allowance, then bill overages at a per-unit rate.SaaS products with predictable base usage and variable AI features.
+
+Join the waiting list
+
+Sign up to request access to Billing for LLM tokens.
+
+Interested in Billing for LLM tokens?
+
+Enter your email to request access.
+
+Email
+
+Email
+
+Submit
+
+Privacy policy
+
+See also
+
+How agents work with Stripe
+
+Build on Stripe with AI
+
+Usage-based billing with Metronome
+
+How Metronome works with Stripe
+
+Was this page helpful?
+
+YesNo
+
+Need help? Contact Support.
+
+Chat with Stripe developers on Discord.
+
+Check out our changelog.
+
+Questions? Contact Sales.
+
+LLM? Read llms.txt.
+
+Powered by Markdoc
+
+On this page

@@ -1,0 +1,1252 @@
+
+OpenRouter called itself the “Stripe for LLMs” - now Stripe’s swooped in to buy it - The New Stack
+			TNS
+				OK
+					SUBSCRIBE
+								Join our community of software engineering leaders and aspirational developers. Always 
+								stay in-the-know by getting the most important news and exclusive content delivered 
+								fresh to your inbox to learn more about at-scale software development.
+EMAIL ADDRESS
+											REQUIRED
+SUBSCRIBE
+RESUBSCRIPTION REQUIRED
+										It seems that you've previously unsubscribed from our newsletter
+										in the past. Click the button below to open the re-subscribe form 
+										in a new tab. When you're done, simply close that tab and continue 
+										with this form to complete your subscription.
+RE-SUBSCRIBE
+									The New Stack does not sell your information or share it with 
+									unaffiliated third parties. By continuing, you agree to our 
+Terms of Use
+ and
+Privacy Policy
+.
+								Welcome and thank you for joining The New Stack community!
+								Please answer a few simple questions to help us deliver the news and resources you are interested in.
+FIRST NAME
+											REQUIRED
+LAST NAME
+											REQUIRED
+COMPANY NAME
+											REQUIRED
+COUNTRY
+											REQUIRED
+Select ...
+United States
+Canada
+India
+United Kingdom
+Germany
+France
+---
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Asia/Pacific Region
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bonaire, Sint Eustatius and Saba
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo
+Congo, The Democratic Republic of the
+Cook Islands
+Costa Rica
+Croatia
+Cuba
+Curaçao
+Cyprus
+Czech Republic
+Côte d'Ivoire
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and Mcdonald Islands
+Holy See (Vatican City State)
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran, Islamic Republic Of
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea, Republic of
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libyan Arab Jamahiriya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia, Federated States of
+Moldova, Republic of
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Korea
+North Macedonia
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestinian Territory, Occupied
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn Islands
+Poland
+Portugal
+Puerto Rico
+Qatar
+Reunion
+Romania
+Russian Federation
+Rwanda
+Saint Barthélemy
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin
+Saint Martin
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Serbia and Montenegro
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Syrian Arab Republic
+Taiwan
+Tajikistan
+Tanzania, United Republic of
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+United States Minor Outlying Islands
+Uruguay
+Uzbekistan
+Vanuatu
+Venezuela
+Vietnam
+Virgin Islands, British
+Virgin Islands, U.S.
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Åland Islands
+ZIPCODE
+											REQUIRED
+								Great to meet you!
+								Tell us a bit about your job so we can cover the topics you find most relevant.
+What is your job level?
+											REQUIRED
+									-->
+Select ...
+C-Level
+VP/Director
+Manager/Supervisor
+Mid Level or Senior Non-Managerial Staff
+Entry Level/Junior Staff
+Freelancer/Contractor
+Student/Intern
+Other ...
+Which of these most closely describes your job role?
+											REQUIRED
+Select ...
+Developer/Software Engineer
+SysAdmin/Operations/SRE
+Architect
+Security Professional
+DevOps Engineer/Team
+Community Manager/Developer Advocate
+IT management, including CIO/CISO/CTO
+Business Development/Marketing/Sales
+Enthusiast/Hobbyist
+Other ...
+How many employees are in the organization you work with?
+											REQUIRED
+Select ...
+Self-employed
+2-10
+11-50
+51-250
+251-1,000
+1,001-10,000
+> 10,000
+I am not working
+What option best describes the type of organization you work for?
+											REQUIRED
+Select ...
+“End user” organization that primarily uses IT products and services to support their business deliverables
+Hardware / software vendor or supplier
+Cloud service provider or managed service provider
+System integrator or IT consulting firm
+Other ...
+Which of the following best describes your organization's primary industry?
+											REQUIRED
+Select ...
+Advertising/Marketing
+Aerospace/Aviation
+Agriculture
+Automotive
+Biotech/Pharmaceutical
+Business Services (accounting, consulting, etc.)
+Computers/Information Technology
+Construction
+Education
+Facilities/Service Industry
+Finance/Financial Services (banking, insurance, etc.)
+Government
+Healthcare
+Human Resources
+Legal
+Life sciences (biotech, pharmaceuticals, etc.)
+Manufacturing
+Media
+Non-profit
+Real Estate
+Retail/Consumer Goods
+Telecommunications
+Transportation/Logistics
+Travel/Hospitality/Entertainment
+Utility/Energy
+Other ...
+LINKEDIN PROFILE URL
+								Welcome!
+									We’re so glad you’re here. You can expect all the best TNS content to arrive 
+									Monday through Friday to keep you on top of the news and at the top of your game.
+									What’s next?
+									Check your inbox for a confirmation email where you can adjust your preferences 
+									and even join additional groups.
+									Follow TNS on your favorite social media networks.
+			-->
+									Become a 
+TNS follower on LinkedIn
+.
+									Check out 
+the latest featured and trending stories
+ while you wait for your 
+									first TNS newsletter.
+PREV
+1
+ of 
+2
+NEXT
+				VOXPOP
+						As a JavaScript developer, what non-React tools do you use most often?					
+✓
+								Angular							
+0%
+✓
+								Astro							
+0%
+✓
+								Svelte							
+0%
+✓
+								Vue.js							
+0%
+✓
+								Other							
+0%
+✓
+								I only use React							
+0%
+✓
+								I don't use JavaScript							
+0%
+			Thanks for your opinion! Subscribe below to get the final results, published 
+			exclusively in our TNS Update newsletter:
+SUBMIT
+			NEW! Try Stackie AI
+						ARCHITECTURE
+								Cloud Native Ecosystem							
+								Containers							
+								Databases							
+								Edge Computing							
+								Infrastructure as Code							
+								Linux							
+								Microservices							
+								Open Source							
+								Networking							
+								Storage							
+						ENGINEERING
+								AI							
+								AI Engineering							
+								API Management							
+								Backend development							
+								Data							
+								Frontend Development							
+								Large Language Models							
+								Security							
+								Software Development							
+								WebAssembly							
+						OPERATIONS
+								AI Operations							
+								CI/CD							
+								Cloud Services							
+								DevOps							
+								Kubernetes							
+								Observability							
+								Operations							
+								Platform Engineering							
+						PROGRAMMING
+								C++							
+								Developer tools							
+								Go							
+								Java							
+								JavaScript							
+								Programming Languages							
+								Python							
+								Rust							
+								TypeScript							
+						CHANNELS
+								Podcasts							
+								Ebooks							
+								Events							
+								Webinars							
+								Newsletter							
+								TNS RSS Feeds							
+						THE NEW STACK
+								About / Contact							
+								Sponsors							
+								Advertise With Us							
+								Contributions							
+PODCASTS
+EBOOKS
+EVENTS
+WEBINARS
+NEWSLETTER
+CONTRIBUTE
+				ARCHITECTURE
+				ENGINEERING
+				OPERATIONS
+				PROGRAMMING
+						Cloud Native Ecosystem					
+						Containers					
+						Databases					
+						Edge Computing					
+						Infrastructure as Code					
+						Linux					
+						Microservices					
+						Open Source					
+						Networking					
+						Storage					
+									Greptile, Cursor, and Devin agree that agents should run their code. What they run it against matters.
+											Jun 27th 2026 11:00am, by 										
+											Arjun Iyer										
+									Agentic development hinges on verification. For cloud-native software, that is a runtime problem.
+											Jun 11th 2026 10:00am, by 										
+											Arjun Iyer										
+									Vendor neutrality isn’t magic: A hard look at the OpenTelemetry ecosystem
+											May 29th 2026 10:00am, by 										
+											Adriana Villela and Josh Lee										
+									How Jaeger hit 8.6× compression on 10 million spans with ClickHouse
+											May 24th 2026 11:00am, by 										
+											Mahad Zaryab										
+									After becoming cloud computing’s telemetry standard, OpenTelemetry graduates into the AI infrastructure era
+											May 21st 2026 10:00am, by 										
+											Paul Sawers										
+									Your container images are unsigned. In the AI era, that's a ticking time bomb.
+											Aug 14th 2026 10:00am, by 										
+											Uma Sridharan										
+									Pulling multi-gigabyte container images in seconds on Amazon EKS
+											Aug 10th 2026 12:00pm, by 										
+											Sri Saran Balaji Vellore Rajakumar and Neelendra Bhandari										
+									Why a five-minute sniff test is your secret supply chain defense
+											Jul 9th 2026 12:00pm, by 										
+											Christian Dupuis										
+									AWS can now mathematically prove your VMs are isolated
+											Jun 10th 2026 12:46pm, by 										
+											Frederic Lardinois										
+									Microsoft wants to make service mesh invisible
+											Apr 8th 2026 1:11pm, by 										
+											Frederic Lardinois										
+									“You can rent a feature, but you can’t rent a foundation”: why MotherDuck bought the startup already powering its data pipelines
+											Aug 25th 2026 9:00am, by 										
+											Paul Sawers										
+									Why real-time AI at scale is so hard
+											Aug 23rd 2026 12:00pm, by 										
+											Felipe Cardeneti Mendes										
+									AI agents can create database sprawl issues. YugabyteDB’s solution is more agents!
+											Aug 4th 2026 9:00am, by 										
+											Carly Page										
+									Kubernetes made deploying easy. Nobody warned you about the databases.
+											Jul 21st 2026 11:00am, by 										
+											Oliver Wolf										
+									Why smarter AI caching sometimes makes everything slower
+											Jul 16th 2026 12:00pm, by 										
+											Zziwa Raymond Ian										
+									Kubernetes at the edge has hit a wall. Fleet management is the way through.
+											Aug 20th 2026 9:00am, by 										
+											Arvind Bhoj and Aarthi Mahesh										
+									Agentic AI has a latency problem that more compute won't solve
+											Aug 18th 2026 12:58pm, by 										
+											Jon Alexander										
+									Google Gemma 4 12B nearly matches 26B benchmarks — and runs on your laptop
+											Jun 4th 2026 3:30pm, by 										
+											Meredith Shubel										
+									How to get operational data off the factory floor without creating an IT breach
+											Jun 3rd 2026 3:55pm, by 										
+											Alex Wilhelm										
+									Edge-forward: Akamai eyes sweet spot between centralized & decentralized AI inference
+											Apr 1st 2026 7:00am, by 										
+											Adrian Bridgwater										
+									DNS is infrastructure. It’s time to manage it that way.
+											Jul 30th 2026 11:00am, by 										
+											Venus Kohli										
+									Why Terraform is green when your cloud is broken
+											Apr 28th 2026 9:00am, by 										
+											Joe Karlsson										
+									The one Slack message that proved our elite engineering team was flying blind
+											Apr 26th 2026 11:00am, by 										
+											Joe Karlsson										
+									The operational gap is real, and it's getting wider
+											Mar 26th 2026 8:00am, by 										
+											Yevgeny Pats										
+									Why "automated" infrastructure might cost more than you think
+											Feb 24th 2026 4:00am, by 										
+											Justyn Roberts										
+									OpenAI's ChatGPT/Codex desktop app is now on Linux
+											Aug 11th 2026 1:53pm, by 										
+											Frederic Lardinois										
+									Linux creator Linus Torvalds tells AI haters to walk away from Linux, or go fork it 
+											Jul 16th 2026 11:15am, by 										
+											Adrian Bridgwater										
+									Why Linux creator Linus Torvalds gets angry hearing "99% of code is AI"
+											May 29th 2026 10:34am, by 										
+											B. Cameron Gain										
+									Sparky Linux 9 brings a rolling release to Debian
+											Mar 30th 2026 8:00am, by 										
+											Jack Wallen										
+									Edera spent years calling KVM less secure. Here's why it changed its mind.
+											Mar 25th 2026 2:22pm, by 										
+											Steven J. Vaughan-Nichols										
+									Your merge gate was a compromise. Coding agents are making it a liability. 
+											Jul 11th 2026 1:00pm, by 										
+											Arjun Iyer										
+									Tetrate launches open source marketplace to simplify Envoy adoption
+											Mar 11th 2026 10:52am, by 										
+											Adrian Bridgwater										
+									OpenTelemetry roadmap: Sampling rates and collector improvements ahead
+											Feb 24th 2026 11:00am, by 										
+											B. Cameron Gain										
+									Merging To Test Is Killing Your Microservices Velocity
+											Dec 16th 2025 7:00am, by 										
+											Arjun Iyer										
+									IBM’s Confluent Acquisition Is About Event-Driven AI
+											Dec 11th 2025 6:00am, by 										
+											Joab Jackson										
+									The open mainframe: the keystone of the end-to-end digital enterprise
+											Aug 22nd 2026 1:00pm, by 										
+											Jason Bloomberg										
+									Debian just proposed banning AI code. Here's why it matters for open source developers & maintainers.
+											Aug 20th 2026 2:49pm, by 										
+											Adrian Bridgwater										
+									How to build smarter OpenSearch alerts: Join our live conversation
+											Aug 20th 2026 1:40pm, by 										
+											Charles Humble										
+									An open source rival to Claude Managed Agents just launched
+											Aug 19th 2026 7:00am, by 										
+											Adrian Bridgwater										
+									OpenAI's Greg Brockman: Z.ai's GLM-5.3 likely to "significantly accelerate the threat landscape"
+											Aug 18th 2026 9:10am, by 										
+											Paul Sawers										
+									Why your KubeVirt VMs can’t move between clusters — and how EVPN fixes it
+											Aug 8th 2026 10:00am, by 										
+											Miguel Duarte Barroso										
+									DNS is infrastructure. It’s time to manage it that way.
+											Jul 30th 2026 11:00am, by 										
+											Venus Kohli										
+									From intent to enforcement: Lessons from operating Kubernetes controllers at scale
+											Jul 17th 2026 8:00am, by 										
+											Sri Saran Balaji Vellore Rajakumar and Jayanth Varavani										
+									What happens when your VPN meets 200 AI agents
+											Jul 14th 2026 2:53pm, by 										
+											Alex Wilhelm										
+									Cloudflare wants to build the economic layer of the AI web
+											Jul 1st 2026 4:10pm, by 										
+											Amanda Caswell										
+									Why Postgres wants NVMe on the hot path, and S3 everywhere else
+											Apr 17th 2026 9:00am, by 										
+											Alasdair Brown										
+									Scaling Btrfs to petabytes in production: a 74% cost reduction story
+											Mar 18th 2026 5:00am, by 										
+											Motiejus Jakštys										
+									What is KubeVirt and why it’s growing
+											Mar 17th 2026 9:00am, by 										
+											Tiago Castro										
+									S3 is the new network: Rethinking data architecture for the cloud era
+											Feb 2nd 2026 4:00am, by 										
+											Max Liu										
+									Agoda’s secret to 50x scale: Getting the database basics right
+											Jan 28th 2026 7:00am, by 										
+											Cynthia Dunlop										
+						AI					
+						AI Engineering					
+						API Management					
+						Backend development					
+						Data					
+						Frontend Development					
+						Large Language Models					
+						Security					
+						Software Development					
+						WebAssembly					
+									IBM's new Granite 4.2 models add reasoning and stay dense								
+										Aug 25th 2026 3:13pm, by 									
+Frederic Lardinois
+									Anthropic gives chat and Cowork one memory								
+										Aug 25th 2026 1:00pm, by 									
+Frederic Lardinois
+									Perplexity’s Computer agent can now run locally — if you can afford it								
+										Aug 25th 2026 11:34am, by 									
+Frederic Lardinois
+									“You can rent a feature, but you can’t rent a foundation”: why MotherDuck bought the startup already powering its data pipelines								
+										Aug 25th 2026 9:00am, by 									
+Paul Sawers
+									JetBrains' Junie now runs entirely offline. Can you spare a 64 GB M5 Mac?								
+										Aug 24th 2026 4:56pm, by 									
+Paul Sawers
+									Shopify's CEO threatened to ban Claude Code. Anthropic had already closed the feature request.								
+										Aug 25th 2026 3:39pm, by 									
+Amanda Caswell
+									OpenAI’s Jalapeño chip tackles a problem AI agents make worse								
+										Aug 25th 2026 10:00am, by 									
+Amanda Caswell
+									Anthropic's Playground vs. OpenAI's: The week-old tool beat the six-year incumbent								
+										Aug 24th 2026 3:30pm, by 									
+Jessica Wachtel
+									Thomson Reuters trained its own AI model. Then it kept using Anthropic's anyway.								
+										Aug 24th 2026 9:00am, by 									
+Amanda Caswell
+									Spline rebuilt its entire 3D editor. Then it handed the keys to Claude Code.								
+										Aug 21st 2026 3:58pm, by 									
+Amanda Caswell
+									Five European companies just agreed to buy AI compute that doesn't exist yet								
+										Aug 13th 2026 10:31am, by 									
+Amanda Caswell
+									Designing APIs for agents								
+										Aug 1st 2026 10:00am, by 									
+Yan Xie
+, 
+Virat Patel
+ and 
+Albert Chang
+									OpenAI slashes API costs amid rising global competition								
+										Jul 30th 2026 3:28pm, by 									
+Amanda Caswell
+									MCP’s biggest update removes the machinery many servers were built around								
+										Jul 26th 2026 12:00pm, by 									
+Janakiram MSV
+									GoDaddy opened its registrar to AI agents. Then it had to build guardrails.								
+										Jul 16th 2026 1:48pm, by 									
+Amanda Caswell
+									Personalization is a ranking problem — architecture makes it work								
+										Jul 23rd 2026 12:00pm, by 									
+Jenny Morris
+									Can prompt caching tame RAG costs without sacrificing accuracy?								
+										Jul 23rd 2026 9:00am, by 									
+Emmanuel Akita
+									How async processing hides latency and improves responsiveness								
+										Jul 12th 2026 1:00pm, by 									
+Pekka Enberg
+									Why PHP performance keeps getting bumped from the roadmap								
+										May 6th 2026 10:00am, by 									
+Matthew Weier O’Phinney
+									Why Postgres wants NVMe on the hot path, and S3 everywhere else								
+										Apr 17th 2026 9:00am, by 									
+Alasdair Brown
+									Modus's operandi: To give AI agents just the right amount of context								
+										Jul 29th 2026 9:00am, by 									
+Paul Sawers
+									Spark 4.2 has a feature that could retire your vector database								
+										Jul 19th 2026 12:00pm, by 									
+Amanda Caswell
+									Why every AI agent decision needs a receipt								
+										Jul 17th 2026 9:00am, by 									
+Manveer Chawla
+									AI can finally read your handwriting — here's why enterprises care								
+										Jul 14th 2026 8:00am, by 									
+Adrian Bridgwater
+									Prefect just bought Dagster, another big Airflow rival — and it's not a data pipeline story								
+										Jul 13th 2026 6:08pm, by 									
+Paul Sawers
+									Astro's GitHub issue backlog is heading to zero for the first time in 5 years. Now Cloudflare is open-sourcing the tool that did it.								
+										Aug 4th 2026 9:00am, by 									
+Paul Sawers
+									Your social login buttons run on third-party cookies. FedCM doesn't.								
+										Jul 2nd 2026 10:00am, by 									
+Jeff Hickman
+									Anthropic overhauled Claude Design to fix the handoff. A designer and an engineer disagree on whether it worked.								
+										Jun 19th 2026 9:35am, by 									
+Meredith Shubel
+									Google wants to make the web agent-ready								
+										May 19th 2026 1:45pm, by 									
+Frederic Lardinois
+									Expo bets big on React Native’s agentic future								
+										Apr 16th 2026 11:37am, by 									
+Paul Sawers
+									"Save frontier models for frontier problems": Why Korea's Solar Pro 4 is a workhorse agent reliability play 								
+										Aug 20th 2026 9:11am, by 									
+Adrian Bridgwater
+									An industrial-scale distillation of models, or subtle benchmaxxing: What developers really think of GLM-5.3								
+										Aug 19th 2026 4:00am, by 									
+Adrian Bridgwater
+									A Claude Code skill was eating 200,000 tokens before answering a single question								
+										Aug 18th 2026 1:42pm, by 									
+Amanda Caswell
+									OpenAI's Greg Brockman: Z.ai's GLM-5.3 likely to "significantly accelerate the threat landscape"								
+										Aug 18th 2026 9:10am, by 									
+Paul Sawers
+									Apple's new AI split means your iOS app could behave differently in China								
+										Aug 14th 2026 3:21pm, by 									
+Amanda Caswell
+									Tokenmaxxing is out. How to minimize AI spend without sacrificing security capability.								
+										Aug 25th 2026 12:00pm, by 									
+Matt Coons
+									AI agents are spreading fast. Their rules are still catching up.								
+										Aug 25th 2026 9:00am, by 									
+Amanda Caswell
+									Ox Alpha’s real mystery isn’t who built it								
+										Aug 24th 2026 3:55pm, by 									
+Janakiram MSV
+									Grok Bot vs. Hermes: Where each draws the security boundary								
+										Aug 24th 2026 1:39pm, by 									
+Janakiram MSV
+									One pull to wipe them all								
+										Aug 23rd 2026 10:00am, by 									
+Zeen Rachidi
+									Shopify's CEO threatened to ban Claude Code. Anthropic had already closed the feature request.								
+										Aug 25th 2026 3:39pm, by 									
+Amanda Caswell
+									CLI or IDE? Build in verification first.								
+										Aug 25th 2026 10:00am, by 									
+Taylor Luttrell-Williams
+									Most coding agent benchmarks skip large-scale refactoring. Not this one.								
+										Aug 21st 2026 7:54am, by 									
+Meredith Shubel
+									Warp wants to make it easier to build your software factory								
+										Aug 20th 2026 1:52pm, by 									
+Meredith Shubel
+									Your coding agent got the onboarding your developers never did								
+										Aug 19th 2026 1:04pm, by 									
+Steve Fenton
+									Edge-forward: Akamai eyes sweet spot between centralized & decentralized AI inference								
+										Apr 1st 2026 7:00am, by 									
+Adrian Bridgwater
+									WebAssembly is now outperforming containers at the edge								
+										Mar 29th 2026 9:00am, by 									
+B. Cameron Gain
+									WebAssembly could solve AI agents' most dangerous security gap								
+										Mar 24th 2026 9:01am, by 									
+B. Cameron Gain
+									How WebAssembly plugins simplify Kubernetes extensibility								
+										Mar 3rd 2026 2:00pm, by 									
+B. Cameron Gain
+									WebAssembly is everywhere. Here's how it works								
+										Feb 25th 2026 11:00am, by 									
+Jessica Wachtel
+						AI Operations					
+						CI/CD					
+						Cloud Services					
+						DevOps					
+						Kubernetes					
+						Observability					
+						Operations					
+						Platform Engineering					
+									Tokenmaxxing is out. How to minimize AI spend without sacrificing security capability.								
+										Aug 25th 2026 12:00pm, by 									
+										Matt Coons									
+									Why real-time AI at scale is so hard								
+										Aug 23rd 2026 12:00pm, by 									
+										Felipe Cardeneti Mendes									
+									Google's AI coding agent just escaped its own IDE								
+										Aug 20th 2026 4:17pm, by 									
+										Amanda Caswell									
+									Claude can now delete your production voice agent from a chat window								
+										Aug 17th 2026 3:51pm, by 									
+										Amanda Caswell									
+									Meta stopped worrying about distillation and just shipped the pipeline								
+										Aug 12th 2026 9:00am, by 									
+										Janakiram MSV									
+									The npm attack that turned provenance attestations into camouflage								
+										Aug 7th 2026 2:31pm, by 									
+										Amanda Caswell									
+									Forget humans “in” the loop. Harness engineering puts humans “on” the loop.								
+										Jul 31st 2026 1:18pm, by 									
+										Jennifer Riggins									
+									"Every few months, a new model made part of our roadmap unnecessary": Why Mendral's founders gave up their startup for Anthropic								
+										Jul 22nd 2026 12:45pm, by 									
+										Amanda Caswell									
+									Your merge gate was a compromise. Coding agents are making it a liability. 								
+										Jul 11th 2026 1:00pm, by 									
+										Arjun Iyer									
+									Why traditional CI/CD fails for LLMs (and the release gates we built to fix it)								
+										Jul 2nd 2026 9:00am, by 									
+										Freddy Daniel Alvarez Pinto									
+									What happens to your indexed data when Mistral flips the switch?								
+										Aug 18th 2026 4:07pm, by 									
+										Amanda Caswell									
+									Your AI agent remembers everything. Here's what happens when its owner changes.								
+										Aug 11th 2026 5:46pm, by 									
+										Amanda Caswell									
+									How I learned to stop worrying and love hyperscaler capex								
+										Aug 11th 2026 4:30pm, by 									
+										Alex Wilhelm									
+									Why CPUs still matter in the age of AI agents								
+										Aug 11th 2026 2:54pm, by 									
+										Frederic Lardinois									
+									CSPM adoption jumped 60%. Tickets stayed open.								
+										Aug 4th 2026 3:48pm, by 									
+										Megan Carnegie									
+									One pull to wipe them all								
+										Aug 23rd 2026 10:00am, by 									
+										Zeen Rachidi									
+									The open mainframe: the keystone of the end-to-end digital enterprise								
+										Aug 22nd 2026 1:00pm, by 									
+										Jason Bloomberg									
+									"If GitHub was stable, these alternatives would not be as interesting": Cursor launches Origin as GitHub goes dark								
+										Aug 18th 2026 3:47pm, by 									
+										Paul Sawers									
+									Platform Engineering ROI: What it costs to build your own platform								
+										Aug 9th 2026 12:00pm, by 									
+										Michael Coté									
+									The npm attack that turned provenance attestations into camouflage								
+										Aug 7th 2026 2:31pm, by 									
+										Amanda Caswell									
+									Kubernetes at the edge has hit a wall. Fleet management is the way through.								
+										Aug 20th 2026 9:00am, by 									
+										Arvind Bhoj and Aarthi Mahesh									
+									AWS deprecated this EKS auth method. 81% of clusters still run it.								
+										Aug 19th 2026 2:59pm, by 									
+										Yannick Struyf and Aarthi Mahesh									
+									Pulling multi-gigabyte container images in seconds on Amazon EKS								
+										Aug 10th 2026 12:00pm, by 									
+										Sri Saran Balaji Vellore Rajakumar and Neelendra Bhandari									
+									Why your KubeVirt VMs can’t move between clusters — and how EVPN fixes it								
+										Aug 8th 2026 10:00am, by 									
+										Miguel Duarte Barroso									
+									Say goodbye to K8s GPU pain: How DRA changes everything								
+										Aug 6th 2026 12:00pm, by 									
+										Dawood Abbas									
+									How telemetry pipelines keep AI agent costs under control								
+										Aug 25th 2026 3:01pm, by 									
+										Megan Carnegie									
+									How to build smarter OpenSearch alerts: Join our live conversation								
+										Aug 20th 2026 1:40pm, by 									
+										Charles Humble									
+									AI skills start on laptops. Enterprises inherit the mess.								
+										Aug 8th 2026 9:00am, by 									
+										David Eastman									
+									Why your company should (try to) build its own AI SRE								
+										Jul 30th 2026 4:30pm, by 									
+										Alex Wilhelm									
+									OpenAI and Elastic are tackling the AI problem enterprises can’t ignore								
+										Jul 30th 2026 2:42pm, by 									
+										Amanda Caswell									
+									GitHub now sees 2.9 billion commits a month -- and it can't keep up								
+										Aug 20th 2026 5:37pm, by 									
+										Frederic Lardinois									
+									Kubernetes at the edge has hit a wall. Fleet management is the way through.								
+										Aug 20th 2026 9:00am, by 									
+										Arvind Bhoj and Aarthi Mahesh									
+									DNS is infrastructure. It’s time to manage it that way.								
+										Jul 30th 2026 11:00am, by 									
+										Venus Kohli									
+									5 steps to build great service architecture and operational resilience								
+										Jul 25th 2026 12:00pm, by 									
+										Debora Cambe									
+									What running Kubernetes across millions of clusters taught AWS about zonal failures								
+										Jul 10th 2026 11:00am, by 									
+										Raghav Tripathi and Sri Saran Balaji Vellore Rajakumar									
+									The open mainframe: the keystone of the end-to-end digital enterprise								
+										Aug 22nd 2026 1:00pm, by 									
+										Jason Bloomberg									
+									How to build smarter OpenSearch alerts: Join our live conversation								
+										Aug 20th 2026 1:40pm, by 									
+										Charles Humble									
+									AWS deprecated this EKS auth method. 81% of clusters still run it.								
+										Aug 19th 2026 2:59pm, by 									
+										Yannick Struyf and Aarthi Mahesh									
+									Per-developer environments were the goal. Agents moved the goalposts.								
+										Aug 15th 2026 10:00am, by 									
+										Arjun Iyer									
+									Platform Engineering ROI: What it costs to build your own platform								
+										Aug 9th 2026 12:00pm, by 									
+										Michael Coté									
+						C++					
+						Developer tools					
+						Go					
+						Java					
+						JavaScript					
+						Programming Languages					
+						Python					
+						Rust					
+						TypeScript					
+									Open source USearch library jumpstarts ScyllaDB vector search								
+										Feb 5th 2026 12:00pm, by 									
+										Jelani Harper									
+									AWS WAF vs. Google Cloud Armor: A Multicloud Security Showdown								
+										Nov 25th 2025 10:00am, by 									
+										Advait Patel									
+									Goodbye Dashboards: Agents Deliver Answers, Not Just Reports								
+										Nov 23rd 2025 9:00am, by 									
+										Ketan Karkhanis									
+									Rust vs. C++: a Modern Take on Performance and Safety								
+										Oct 22nd 2025 2:00pm, by 									
+										Zziwa Raymond Ian									
+									Building a Real-Time System Monitor in Rust Terminal								
+										Oct 15th 2025 7:05am, by 									
+										Tinega Onchari									
+									Shopify's CEO threatened to ban Claude Code. Anthropic had already closed the feature request.								
+										Aug 25th 2026 3:39pm, by 									
+										Amanda Caswell									
+									CLI or IDE? Build in verification first.								
+										Aug 25th 2026 10:00am, by 									
+										Taylor Luttrell-Williams									
+									JetBrains' Junie now runs entirely offline. Can you spare a 64 GB M5 Mac?								
+										Aug 24th 2026 4:56pm, by 									
+										Paul Sawers									
+									Anthropic's Playground vs. OpenAI's: The week-old tool beat the six-year incumbent								
+										Aug 24th 2026 3:30pm, by 									
+										Jessica Wachtel									
+									Spline rebuilt its entire 3D editor. Then it handed the keys to Claude Code.								
+										Aug 21st 2026 3:58pm, by 									
+										Amanda Caswell									
+									Code that passes every test can still break the next AI agent that touches it								
+										Aug 12th 2026 1:00pm, by 									
+										Amanda Caswell									
+									Microsoft joins Google in backing Go for AI agents — OpenAI and Anthropic lag								
+										Jul 11th 2026 10:00am, by 									
+										Paul Sawers									
+									Go Experts: 'I Don't Want to Maintain AI-Generated Code'								
+										Sep 28th 2025 6:00am, by 									
+										David Cassel									
+									How To Run Kubernetes Commands in Go: Steps and Best Practices 								
+										Jun 27th 2025 8:00am, by 									
+										Sunny Yadav									
+									Prepare Your Mac for Go Development								
+										Apr 12th 2025 7:00am, by 									
+										Damon M. Garn									
+									Azul wants to find your unpatched JVMs before AI does								
+										Jun 24th 2026 4:53pm, by 									
+										Darryl K. Taft									
+									Chainguard targets Java's unpatched vulnerability backlog with drop-in remediated libraries								
+										Jun 24th 2026 4:48pm, by 									
+										Darryl K. Taft									
+									Transform your AI coding agent into a deterministic Java Spring expert								
+										Jun 11th 2026 9:00am, by 									
+										Raquel Pau									
+									Spring is 23 years old. AI just made it a security emergency.								
+										Jun 9th 2026 2:48pm, by 									
+										Darryl K. Taft									
+									In the AI age, Java is more relevant than ever								
+										Apr 8th 2026 5:30pm, by 									
+										Mary Branscombe									
+									Cloudflare aqui-hires VoidZero: Did a piece of the open web just stabilize, or become more brittle?								
+										Jun 5th 2026 3:01pm, by 									
+										Adrian Bridgwater									
+									"Real maturity problems": Not every developer is thrilled with Bun after Anthropic acquisition								
+										May 5th 2026 1:03pm, by 									
+										Adrian Bridgwater									
+									TypeScript 6.0 RC arrives as a bridge to a faster future								
+										Mar 14th 2026 9:00am, by 									
+										Darryl K. Taft									
+									WebAssembly is everywhere. Here's how it works								
+										Feb 25th 2026 11:00am, by 									
+										Jessica Wachtel									
+									Wasm vs. JavaScript: Who wins at a million rows?								
+										Feb 22nd 2026 6:00am, by 									
+										Jessica Wachtel									
+									JetBrains kills Kotlin Notebook months after Microsoft's Polyglot exit. But Jupyter is doing just fine.								
+										Jun 29th 2026 1:59pm, by 									
+										Paul Sawers									
+									Trust in Rust: Foundation debuts official training to tackle steep learning curve								
+										Jun 25th 2026 12:30pm, by 									
+										Darryl K. Taft									
+									Who will maintain the web when PHP's veterans retire?								
+										Apr 16th 2026 2:53pm, by 									
+										Darryl K. Taft									
+									Will AI force code to evolve or make it extinct?								
+										Mar 22nd 2026 6:00am, by 									
+										David Cassel									
+									Java 26 lands without an LTS badge. Here's why developers should care anyway.								
+										Mar 18th 2026 9:35am, by 									
+										Darryl K. Taft									
+									Nvidia's NOOA makes an agent one Python class								
+										Aug 4th 2026 10:02am, by 									
+										Meredith Shubel									
+									Spark 4.2 has a feature that could retire your vector database								
+										Jul 19th 2026 12:00pm, by 									
+										Amanda Caswell									
+									JetBrains kills Kotlin Notebook months after Microsoft's Polyglot exit. But Jupyter is doing just fine.								
+										Jun 29th 2026 1:59pm, by 									
+										Paul Sawers									
+									How to build an AI-powered private document search app with RAG, ChromaDB, and memory								
+										Apr 10th 2026 12:00pm, by 									
+										Teri Eyenike									
+									In the AI age, Java is more relevant than ever								
+										Apr 8th 2026 5:30pm, by 									
+										Mary Branscombe									
+									AI-generated Rust compiles perfectly. That's the scary part.								
+										Aug 19th 2026 3:30pm, by 									
+										Amanda Caswell									
+									Grok 4.5 vs. Claude Opus 4.8: Costs and what works, not the spec sheet								
+										Jul 20th 2026 9:38am, by 									
+										Jessica Wachtel									
+									Trust in Rust: Foundation debuts official training to tackle steep learning curve								
+										Jun 25th 2026 12:30pm, by 									
+										Darryl K. Taft									
+									The Rust sidecar pattern that fixes Python AI's biggest weakness								
+										May 14th 2026 9:00am, by 									
+										Boris Chabeda									
+									Nearly half of all companies now use Rust in production, survey finds								
+										Mar 6th 2026 10:45am, by 									
+										Darryl K. Taft									
+									From clobbered drafts to real-time sync								
+										Apr 14th 2026 10:00am, by 									
+										David Moore									
+									TypeScript 6.0 RC arrives as a bridge to a faster future								
+										Mar 14th 2026 9:00am, by 									
+										Darryl K. Taft									
+									Mastra empowers web devs to build AI agents in TypeScript								
+										Jan 28th 2026 11:00am, by 									
+										Loraine Lawson									
+									Inferno Vet Creates Frontend Framework Built With AI in Mind								
+										Dec 10th 2025 11:00am, by 									
+										Loraine Lawson									
+									JavaScript Utility Library Lodash Changing Governance Model								
+										Nov 1st 2025 7:00am, by 									
+										Loraine Lawson									
+		2026-08-20 13:20:31	
+OpenRouter called itself the “Stripe for LLMs” -- now Stripe’s swooped in to buy it
+				AI			
+ / 
+				AI Infrastructure			
+ / 
+				FinOps			
+		OpenRouter called itself the “Stripe for LLMs” — now Stripe’s swooped in to buy it	
+		Stripe has agreed to acquire OpenRouter for a reported $8 billion, its biggest deal yet, as the fintech giant bets big on AI tokenomics.	
+		Aug 20th, 2026 1:20pm by 	
+Paul Sawers
+After weeks of 
+speculation
+, fintech giant Stripe has 
+confirmed
+ that it’s tabled a bid for AI model gateway platform 
+OpenRouter
+, a deal designed to help businesses optimize how they route and spend AI tokens.
+While terms of the deal have not been disclosed, 
+independent reports
+ peg the acquisition price at a cool $8 billion, making it Stripe’s largest known acquisition to date. 
+To a casual observer, the deal marks a somewhat odd combination: why would a payments processor want to own technology that decides which AI model answers a given prompt? Well, it all ultimately comes down to “tokenomics” — the emerging discipline of managing the cost, allocation and consumption of AI tokens.
+On top of that, OpenRouter has previously said that people should think of it as “
+like Stripe for LLMs
+,” owing to the fact that it makes the fragmented AI model market accessible through a single developer-friendly API, much as Stripe did for payments. And that synergy will now culminate in the two companies becoming one.
+Token gesture: ‘making good use of scarce compute resources’
+Stripe became a 
+$159 billion juggernaut
+ as the developer plumbing behind online payments — the infrastructure that lets internet businesses accept money, run subscriptions, and get paid globally. While its core pitch has always been about making it easy for businesses to accept money, AI has become one of the biggest costs those same businesses have to manage, and managing both sides of that ledger is part of Stripe’s job.
+Stripe has been building out 
+AI billing infrastructure
+ long before the OpenRouter deal, 
+previewing LLM token billing and an LLM proxy
+ for routing and metering model calls in 2025. With OpenRouter under its wing, Stripe gains a much more sophisticated routing layer that can choose between hundreds of models and providers based on cost, speed and performance.
+In its 
+announcement on Wednesday
+, Stripe co-founder and CEO 
+Patrick Collison
+ says that “tokens are the central currency for companies building with AI,” adding that the acquisition is ultimately all about the economics of AI.
+“Tokens are the central currency for companies building with AI, and it’s clear that the real-world economic potential will depend on making good use of scarce compute resources.”
+“The real-world economic potential will depend on making good use of scarce compute resources,” he notes. “Stripe is building the economic infrastructure for AI, and together with OpenRouter we’ll help businesses maximize profitability by routing their requests intelligently and spending their tokens efficiently.”
+Open sesame
+OpenRouter itself is a relative newcomer to the technology world. Started in early 2023, and co-founded by former OpenSea CTO 
+Alex Atallah
+, the platform acts as a single front door to the increasingly crowded AI model market. Developers can use one API to access and switch between hundreds of models from dozens of providers, without having to rewrite their applications every time they change models.
+Underneath that common interface, OpenRouter handles much of the messy stuff: routing requests between providers, automatically falling back when one goes down, and optimizing for things such as price, latency and model quality. It generally passes through providers’ inference prices without a markup, instead making money through a 
+5.5% fee
+ on credits purchased through the platform.
+That proposition has helped it gain sizeable traction. OpenRouter now says it serves more than 10 million developers and companies across more than 400 models, processing over 10 trillion tokens per day.
+OpenRouter
+The company is also fresh off the back of a 
+$113 million funding round
+, led by Alphabet’s growth fund, with participation from a slew of high-profile backers including the venture arms of Nvidia, Databricks, Snowflake, MongoDB, and ServiceNow — a strategic bet by some of the biggest names in AI and enterprise software.
+“AI has become the single largest driver of economic growth in the US, and inference is quickly becoming the largest line item for every company.”
+In its own 
+announcement
+ post, penned by founders Alex Atallah, 
+Chris Clark
+, and 
+Louis Vichy
+, OpenRouter positions the deal against a bigger shift in where businesses are spending their money: away from simply building AI products and toward the ongoing cost of running them.
+“AI has become the single largest driver of economic growth in the US, and inference is quickly becoming the largest line item for every company,” they write. 
+As for why Stripe, OpenRouter points to a shared developer-first heritage. Stripe’s APIs became something of a benchmark for developer software, while its payments infrastructure gives it experience handling huge volumes of transactions, fraud and abuse — problems OpenRouter increasingly faces as AI usage grows.
+The company also suggests that remaining independent was a perfectly viable option, and that very few potential buyers could have persuaded it otherwise.
+“There are few companies on earth we would have considered selling to; our mission, our neutrality, and our lead in the market make the story for independence strong,” they write. “We would only join a company if we thought we could do more together, faster, without compromising any of them.”
+For customers, OpenRouter’s message is essentially business as usual. Stripe will own the company once the deal closes, but OpenRouter says its brand, product, roadmap and model-neutral approach will remain as is.
+“There are few companies on earth we would have considered selling to; our mission, our neutrality, and our lead in the market make the story for independence strong.”
+That continuity will likely matter, too, because OpenRouter is far from alone in trying to solve the problem. A 
+slew of companies this year
+ have been investing in their own routing layers, as AI inference costs climb and no single model stays the best or cheapest option for all that long.
+The model-routing rush
+Cursor Router
+Cursor, the AI coding tool 
+now owned by Elon Musk’s SpaceX
+, shipped its own 
+Router back in July
+, claiming savings of 30-50% compared with routing every request through its priciest model. 
+Ramp, the 
+$44 billion spend-management company
+, also debuted its very own model router in July, a product that 
+launched on Wednesday
+ at its own dedicated 
+Router.com
+ domain — the same day Stripe announced its deal with OpenRouter. The company says three years of tuning its own AI spend internally cut its bill by 30% — the pitch to new users now promises a bigger number, an average 40% cut.
+Meta, for its part, is also reportedly building a model router of its own. 
+The Information
+reported in July
+ that it’s planning Switchboard — a project out of an internal incubator called AAI Labs, that scores each request for difficulty and routes the easy ones to cheaper models. It’ll stay internal at first, aimed at cutting Meta’s own AI agent bill, but could eventually ship as an external product too. 
+All this activity speaks to a much broader reckoning over the cost of AI. In June, 
+the Linux Foundation announced the Tokenomics Foundation
+, backed by the likes of Google, Microsoft, IBM and Salesforce, to develop common standards and benchmarks around how AI tokens are produced, consumed and monetized. 
+Model routers are one practical answer to the broader underlying problem: spend less by being smarter about which model gets each job. And with OpenRouter now set to become part of Stripe, those economics are moving directly into the payments giant’s wheelhouse.
+			TRENDING STORIES		
+				YOUTUBE.COM/THENEWSTACK
+				Tech moves fast, don't miss an episode. Subscribe to our YouTube 
+				channel to stream all our podcasts, interviews, demos, and more.
+				SUBSCRIBE
+Group
+Created with Sketch.
+							Paul is an experienced technology journalist covering some of the biggest stories from Europe and beyond, most recently at TechCrunch where he covered startups, enterprise, Big Tech, infrastructure, open source, AI, regulation, and more. Based in London, these days Paul...						
+						Read more from Paul Sawers						
+			SHARE THIS STORY		
+			-->
+			TRENDING STORIES		
+TNS owner Insight Partners is an investor in: Databricks.
+			SHARE THIS STORY		
+			-->
+			TRENDING STORIES		
+TNS DAILY NEWSLETTER
+			Receive a free roundup of the most recent TNS articles in your inbox each day.        
+			SUBSCRIBE
+		The New Stack does not sell your information or share it with 
+		unaffiliated third parties. By continuing, you agree to our 
+Terms of Use
+ and
+Privacy Policy
+.
+				ARCHITECTURE
+						Cloud Native Ecosystem					
+						Containers					
+						Databases					
+						Edge Computing					
+						Infrastructure as Code					
+						Linux					
+						Microservices					
+						Open Source					
+						Networking					
+						Storage					
+				ENGINEERING
+						AI					
+						AI Engineering					
+						API Management					
+						Backend development					
+						Data					
+						Frontend Development					
+						Large Language Models					
+						Security					
+						Software Development					
+						WebAssembly					
+				OPERATIONS
+						AI Operations					
+						CI/CD					
+						Cloud Services					
+						DevOps					
+						Kubernetes					
+						Observability					
+						Operations					
+						Platform Engineering					
+				CHANNELS
+						Podcasts					
+						Ebooks					
+						Events					
+						Webinars					
+						Newsletter					
+						TNS RSS Feeds					
+				THE NEW STACK
+						About / Contact					
+						Sponsors					
+						Advertise With Us					
+						Contributions					
+roadmap.sh				
+					Community created roadmaps, articles, resources and journeys for 
+					developers to help you choose your path and grow in your career.
+				Frontend Developer Roadmap
+				Backend Developer Roadmap
+				Devops Roadmap
+				© The New Stack 2026			
+Disclosures
+Terms of Use
+Advertising Terms & Conditions
+Privacy Policy
+Cookie Policy
+				FOLLOW TNS
+			-->

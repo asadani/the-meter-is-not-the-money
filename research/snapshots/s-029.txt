@@ -1,0 +1,325 @@
+
+-->
+OpenRouter revenue, valuation & funding | Sacra
+        Features
+        Customers
+        Docs
+        Pricing
+          Unlock Full Access
+        Sign In
+ -->
+            Your Feed
+Workspace
+                    Charts
+                    Highlights
+                    Questions
+Explore
+                    Companies
+                    Categories
+                    Reports
+About
+                    Features
+                    Customers
+                    Docs
+                    Pricing
+                    Community
+New Chat
+Your Feed
+Workspace
+Charts
+Highlights
+Questions
+Explore
+Companies
+Categories
+Reports
+Community
+Home
+ > 
+Companies
+ > 
+OpenRouter
+OpenRouter
+ Follow 
+Platform providing a unified API for developers to access and integrate over 400 large language models from various providers
+#ai
+      Revenue
+$140.00M
+2026
+      Valuation
+$500.00M
+2025
+      Funding
+$40.50M
+2025
+View PDF
+Embed PDF
+View Model
+Details
+        Headquarters
+        New York, United States
+        CEO
+Alex Atallah
+        Website
+          openrouter.ai 
+Milestones
+                FOUNDING YEAR
+                2023
+Listed In
+#ai
+          Overview
+          Reports
+          Filings
+      Highlight
+    Unhighlight
+Revenue
+Sacra estimates that 
+OpenRouter
+ hit $140M in annualized revenue in July 2026, up from $50M at the end of 2025.
+OpenRouter
+ monetizes by charging customers about 5% on top of their inference spend. The platform processed over $100M in annualized inference spend by May 2025, up from roughly $19M at the end of 2024. Monthly customer spend reached $8M in May 2025, translating to roughly $400K in monthly revenue for 
+OpenRouter
+.
+Valuation & Funding
+Stripe
+ has agreed to acquire 
+OpenRouter
+ for more than $7 billion, according to people familiar with the matter, just months after the company raised funding at a reported $1.3 billion valuation. The Wall Street Journal previously reported 
+Stripe
+ was in talks to acquire 
+OpenRouter
+ for approximately $10 billion. The final acquisition price could change, and neither company has publicly confirmed the deal.
+OpenRouter
+'s most recent funding round brought total capital raised to more than $150 million. Notable investors include Andreessen Horowitz, Menlo Ventures, Sequoia Capital, CapitalG (one of Alphabet's venture arms), 
+Figma
+, and angel investor Fred Ehrsam. The company previously raised a $28M Series A led by Menlo Ventures in April 2025 and a $12.5M seed round led by Andreessen Horowitz in February 2025.
+Product
+OpenRouter
+ is a universal API that provides developers access to 400+ different large language models from providers like 
+OpenAI
+, 
+Anthropic
+, Google, and 60+ other labs through a single endpoint. Instead of integrating separate SDKs for each AI provider, developers can point their applications to 
+OpenRouter
+'s API and access any model with the same 
+OpenAI
+-compatible request format. The platform now serves 8 million developers.
+The platform works as a smart routing layer that automatically selects the best available endpoint based on price, latency, uptime, and throughput. When a developer sends a request, 
+OpenRouter
+'s edge router analyzes the prompt and routes it to the optimal provider, with automatic failover if the primary endpoint is rate-limited or unavailable. The system adds only 25 milliseconds of overhead while providing 100% uptime through backup providers.
+Developers can specify routing preferences through variants like :nitro for fastest response, :floor for cheapest option, or :online for retrieval-augmented models. The platform normalizes responses across all providers, so whether the request is handled by 
+OpenAI
+, 
+Anthropic
+, or any other lab, developers receive consistent 
+OpenAI
+-style JSON responses. 
+OpenRouter
+ also provides centralized analytics and billing, rolling all AI usage into a single dashboard where teams can track spend per API key and organization in real-time.
+The product serves three main user types: indie hackers who want to experiment with different models without creating multiple accounts, product teams who need a drop-in replacement for 
+OpenAI
+ with automatic failover, and enterprises that require org-wide policies and centralized usage tracking. Primary growth is coming from developers building agentic capabilities into their software, a process that requires infrastructure capable of working across multiple providers and data sources. The platform includes a web-based chatroom for testing models side-by-side and a preset system that lets non-technical team members adjust prompts and routing rules without code changes.
+Business Model
+OpenRouter
+ operates as a B2B API platform with a usage-based monetization model, taking a 5% commission on all inference spend that flows through its routing layer. Unlike client-side libraries where customers manage their own API keys and routing logic, 
+OpenRouter
+ handles the entire request flow—developers replace their 
+OpenAI
+ API calls with 
+OpenRouter
+ endpoints and pay 
+OpenRouter
+ directly.
+The business model creates a flywheel effect where increased usage generates better routing intelligence. With 8.4 trillion tokens processed monthly across 2.5 million users, 
+OpenRouter
+ accumulates performance data that feeds back into its routing algorithms, creating network effects that competitors lack. This data advantage helps 
+OpenRouter
+ make smarter routing decisions about which endpoints offer the best price-performance trade-offs.
+OpenRouter
+'s edge-based architecture allows it to scale efficiently without significant infrastructure costs per additional request. The platform runs routing logic at points of presence close to both users and providers, minimizing latency while maximizing throughput. This asset-light model enables rapid geographic expansion and high gross margins on the 5% take rate.
+The company offers both pay-as-you-go pricing for smaller developers and enterprise plans with volume commitments and advanced features like bring-your-own-key support, where customers can use their existing provider relationships while still benefiting from 
+OpenRouter
+'s routing and analytics capabilities. This flexibility allows 
+OpenRouter
+ to serve everyone from individual developers to large enterprises with complex compliance requirements.
+Competition
+Universal API providers
+Direct competitors like Portkey, Martian, and Not Diamond offer similar AI model routing capabilities, though with different approaches to the market. Portkey focuses heavily on observability and DevOps features, positioning itself as the monitoring layer for LLM applications. Martian emphasizes cost optimization and smart routing algorithms. These players compete primarily on routing intelligence, model coverage, and developer experience rather than pure scale.
+The competitive dynamic centers on who can provide the most reliable routing with the lowest latency overhead. 
+OpenRouter
+'s advantage lies in its data network effects from processing 8.4 trillion tokens monthly, which provides superior routing intelligence compared to smaller competitors. However, the technical barriers to entry remain relatively low, as the core functionality involves API proxying and load balancing.
+Cloud hyperscalers
+AWS Bedrock, Google Vertex AI, and Azure OpenAI Service represent the most significant competitive threat by bundling multiple AI models within their existing cloud ecosystems. These platforms offer dozens of third-party and open-source models alongside their own infrastructure, creating a one-stop shop for enterprises already committed to a particular cloud provider.
+The hyperscalers compete on convenience and integration rather than model breadth. An enterprise already using AWS for compute and storage can access multiple AI models through Bedrock without adding another vendor relationship. This bundling strategy puts pressure on independent routing platforms like 
+OpenRouter
+, especially for large enterprise deals where procurement simplification matters more than having access to every available model.
+Vertically integrated inference providers
+Companies like 
+Together AI
+, 
+Fireworks AI
+, and 
+Groq
+ are building their own inference infrastructure optimized for specific model types or hardware architectures. 
+Together AI
+ raised over $500M to build its own AI acceleration cloud, while 
+Groq
+ leverages custom silicon for ultra-low latency inference. These players compete by offering superior performance for specific use cases rather than universal access.
+This vertical integration strategy poses a long-term risk to routing platforms. If providers can offer significantly better performance or pricing through their own infrastructure, developers might choose direct relationships over routing through intermediaries. However, the trend toward multi-model applications still favors platforms that can aggregate multiple specialized providers.
+TAM Expansion
+Enterprise and regulated verticals
+OpenRouter
+'s biggest expansion opportunity lies in moving upmarket to serve large enterprises with complex compliance and governance requirements. The platform's data policy filtering capabilities, which allow routing only to providers that meet specific privacy standards, position it well for regulated industries like healthcare, finance, and government.
+Large organizations prefer consolidated billing and centralized analytics over managing relationships with dozens of AI providers, and strong enterprise adoption momentum reflects that preference. 
+OpenRouter
+'s bring-your-own-key functionality allows enterprises to maintain their existing provider relationships while gaining routing intelligence and unified observability.
+Payments and fintech integration
+A pending acquisition by 
+Stripe
+ signals a strategic convergence between AI infrastructure and payments. Embedding 
+OpenRouter
+'s routing layer within 
+Stripe
+'s payments platform could unlock new use cases around AI-powered fraud detection, intelligent checkout optimization, and cost-efficient AI features for 
+Stripe
+'s millions of business customers—markets not previously accessible to a standalone API platform.
+Multimodal and specialized AI services
+The current focus on text-based large language models represents just the beginning of 
+OpenRouter
+'s addressable market. As AI expands into image generation, voice synthesis, video processing, and specialized domains like code generation or scientific computing, 
+OpenRouter
+ can extend its universal API approach to these new modalities. Each new modality increases the complexity of managing multiple providers, strengthening the value proposition for a unified routing layer.
+Geographic expansion and edge optimization
+OpenRouter
+'s edge-based architecture positions it well for international expansion, particularly in regions with AI sovereignty requirements or data residency regulations. The platform's ability to route requests to geographically appropriate endpoints becomes increasingly valuable as countries implement AI governance frameworks. This geographic expansion also opens opportunities to integrate with local AI providers and cloud infrastructure that may not be available globally.
+Risks
+Acquisition uncertainty
+: A pending agreement for 
+Stripe
+ to acquire 
+OpenRouter
+ has not been publicly confirmed, and the final price could change. Until the deal closes, uncertainty around ownership, integration plans, and leadership continuity could slow enterprise sales cycles and developer adoption.
+Provider concentration
+: 
+OpenRouter
+'s business depends heavily on major AI providers like 
+OpenAI
+ and 
+Anthropic
+ continuing to allow third-party access to their models. If these providers restrict API access or offer direct pricing incentives that eliminate the cost advantage of routing, 
+OpenRouter
+'s value proposition could be undermined.
+Commoditization pressure
+: As AI model routing becomes more standardized, low technical barriers to entry could drive price competition that erodes 
+OpenRouter
+'s 5% commission. Open-source alternatives like LiteLLM allow enterprises to self-host routing infrastructure, while cloud providers bundle similar functionality into existing platforms, reducing willingness to pay for standalone routing services.
+              News
+Previous
+Next
+DISCLAIMERS
+    This report is for information purposes only and is not to be used or considered as an offer or the solicitation of an offer to sell or to buy or subscribe for securities or other financial instruments.  Nothing in this report constitutes investment, legal, accounting or tax advice or a representation that any investment or strategy is suitable or appropriate to your individual circumstances or otherwise constitutes a personal trade recommendation to you. 
+    This research report has been prepared solely by Sacra and should not be considered a product of any person or entity that makes such report available, if any.
+    Information and opinions presented in the sections of the report were obtained or derived from sources Sacra believes are reliable, but Sacra makes no representation as to their accuracy or completeness.  Past performance should not be taken as an indication or guarantee of future performance, and no representation or warranty, express or implied, is made regarding future performance.  Information, opinions and estimates contained in this report reflect a determination at its original date of publication by Sacra and are subject to change without notice.
+    Sacra accepts no liability for loss arising from the use of the material presented in this report, except that this exclusion of liability does not apply to the extent that liability arises under specific statutes or regulations applicable to Sacra.  Sacra may have issued, and may in the future issue, other reports that are inconsistent with, and reach different conclusions from, the information presented in this report.  Those reports reflect different assumptions, views and analytical methods of the analysts who prepared them and Sacra is under no obligation to ensure that such other reports are brought to the attention of any recipient of this report.
+    All rights reserved.  All material presented in this report, unless specifically indicated otherwise is under copyright to Sacra.  Sacra reserves any and all intellectual property rights in the report.   All trademarks, service marks and logos used in this report are trademarks or service marks or registered trademarks or service marks of Sacra.  Any modification, copying, displaying, distributing, transmitting, publishing, licensing, creating derivative works from, or selling any report is strictly prohibited.  None of the material, nor its content, nor any copy of it, may be altered in any way, transmitted to, copied or distributed to any other party, without the prior express written permission of Sacra.  Any unauthorized duplication, redistribution or disclosure of this report will result in prosecution.
+Filings
+Name
+Type
+Filed At
+Actions
+                        No filings found.
+            Create a free account, or log in.
+            Gain access to limited free reports, models, datasets, interviews and memos.
+      Continue with Google
+or
+Email
+Continue
+By continuing, you agree to our 
+Privacy Policy
+ and 
+Terms of Service
+.
+Free article limit reached.
+Upgrade your account to get unlimited access to all reports, interviews, and community features.
+                Upgrade
+Cancel anytime. No commitment required.
+By continuing, you agree to our 
+Privacy Policy
+ and 
+Terms of Service
+.
+Standard membership required.
+Upgrade your account to get unlimited access to all reports, interviews, and community features
+                Upgrade
+Cancel anytime. No commitment required.
+By continuing, you agree to our 
+Privacy Policy
+ and 
+Terms of Service
+.
+            Standard membership required.
+            Sign up or log in to your Standard account to get unlimited access to all reports, interviews, and community features
+      Continue with Google
+or
+Email
+Continue
+By continuing, you agree to our 
+Privacy Policy
+ and 
+Terms of Service
+.
+Upload files or images
+View PDF
+Embed PDF
+View Model
+Details
+        Headquarters
+        New York, United States
+        CEO
+Alex Atallah
+        Website
+          openrouter.ai 
+Milestones
+                FOUNDING YEAR
+                2023
+Listed In
+#ai
+      Outline
+                    Revenue
+                    Valuation & Funding
+                    Product
+                    Business Model
+                    Competition
+                    TAM Expansion
+                    Risks
+                    News
+                    Embed Document PDF
+                        Embed code is missing!
+                        Embed options
+                                Height
+                                Width
+                    By embedding Sacra content on your site, you are agreeing to 
+ Sacra Terms of Service 
+ Copy 
+The private markets research you need to be a better investor.
+Privacy Policy
+ | 
+Terms of Service
+Sacra 2025 © All Rights Reserved
+                            Home
+                            Features
+                            Customers
+                            Pricing
+                            About
+                            Sign Up
+                            Login
+                            Support
+                            Companies
+                            Categories
+                            Reports
+                            Q&A
+                            Search
+                            Docs
+                            Integrations
+                Join the Sacra community and get private markets research and data straight to your inbox.
+Join

@@ -1,0 +1,440 @@
+Jump to main content
+
+Search
+
+TOPICS
+
+Security
+
+All Security
+
+Cyber-crime
+
+Patches
+
+Research
+
+CSO
+
+Off-Prem
+
+All Off-Prem
+
+Edge and IoT
+
+Channel
+
+PaaS and IaaS
+
+SaaS
+
+On-Prem
+
+All On-Prem
+
+Systems
+
+Storage
+
+Networks
+
+HPC
+
+Personal Tech
+
+Cx0
+
+Public Sector
+
+Software
+
+All Software
+
+AI and ML
+
+Applications
+
+Databases
+
+DevOps
+
+OS Platforms
+
+Virtualization
+
+Offbeat
+
+All Offbeat
+
+Columnists
+
+Science
+
+BOFH
+
+Legal
+
+Site News
+
+About Us
+
+Special Features
+
+All Special Features
+
+Cloud Infrastructure Month 2026
+
+HPE: AI Explainers
+
+Agentic AI
+
+The Future of the Datacenter
+
+AWS:Reinvent
+
+Nvidia GTC
+
+Supercomputing Month
+
+Computex 2026
+
+AI Infrastructure Month 2026
+
+The State of Storage 2026
+
+RSA Conference
+
+Vendor Voice
+
+All Vendor Voice
+
+Modernizing Financial Services with FIS and AWS
+
+Barco
+
+Infinidat
+
+Everpure
+
+Rubrik
+
+Make it real with Capgemini and AWS
+
+Money Movement Hub
+
+ZTE
+
+Nutanix: Scale Kubernetes. Not Chaos.
+
+AWS New Horizon
+
+Digicert
+
+Netscout
+
+Resources
+
+Intelligence
+
+Webinars & Events
+
+Newsletters
+
+Search
+
+Sign in
+
+AI
+
+Security
+
+AWS
+
+Microsoft
+
+Developer
+
+Open Source
+
+BOFH
+
+Who, Me?
+
+On Call
+
+Podcasts
+
+REG AD
+
+AI + ML
+
+The big AI companies are going to see their margins disappear
+
+AI will indeed eat the world – if your world involves software-size margins
+
+Thomas Claburn
+
+Thomas
+Claburn
+
+Published
+mon 18 May 2026 // 23:33 UTC
+
+OPINION The future of AI is unwritten, but the writing is on the wall – your margin is my opportunity.
+
+Amazon founder Jeff Bezos said as much more than a decade ago in support of the e-souk's low-price, low-margin sales strategy.
+
+That opportunity exists in the AI training and inference business. But perhaps not for long.
+
+REG AD
+
+Two leading American AI companies, Anthropic and OpenAI, are not actually profitable at this point, but their pitch to investors is something along the lines of "just hang in there a few more years and keep sending cash."
+
+REG AD
+
+MORE CONTEXT
+
+Uncle Sam's next big supercomputer might use something more exotic than GPUs
+
+Yes, you can serve a website from a $1 microcontroller
+
+Linux kernel flaw opens root-only files to unprivileged users
+
+Europe tests laser links as satellite comms outgrow radio
+
+Given reports that Claude Code subscribers paying $200 a month can potentially consume $5,000 worth of tokens and that OpenAI is also losing money on subscriptions, it starts to become a bit clear why Anthropic, OpenAI, Google, and Microsoft have already started pushing customers toward metered usage pricing. AI revenue needs to go up for frontier model makers to survive. And then AI adoption needs to grow.
+
+Government agencies and large corporations that don't keep a close eye on fees may be terrified enough of AI-enabled exploitation to pay a premium for models like Anthropic's Mythos and OpenAI's GPT-5.5.
+
+But more price-sensitive folk may shop for cheaper tokens. And they're likely to find them.
+
+Benedict Evans, among the more astute industry observers, expects AI models will be commoditized. In his recently updated presentation, "AI eats the world," he suggests that the AI supply/demand imbalance will ease and the pricing power of leading AI labs will dissipate.
+
+He argues that models will become commodity infrastructure and that innovation and pricing power will have to move up the stack.
+
+That's already evident in Anthropic's efforts to keep developers interacting through its own tools like the Claude Code CLI and desktop app, and through services that sit atop its models like Claude Cowork, Claude Design, and Claude for Creative Work.
+
+But it's more apparent in US companies lobbying for regulatory intervention as a defense against competition from China, some of which has taken the form of copying AI models via a process called distillation.
+
+Zilan Qian, a research associate at the Oxford China Policy Lab, recently explored how software developers in China are acquiring AI tokens for pennies on the dollar. She writes that despite the fact that leading US model makers try to prevent people in China from using US models, everyone who wants access can get it through API proxies.
+
+REG AD
+
+"The logs they generate may have become a commodity, traded for purposes ranging from model training to targeted fraud," Qian wrote. "Meanwhile, every layer of control frontier US AI companies have added (geoblocking, phone verification, credit card requirements, and now live biometric KYC checks) has produced a corresponding layer of evasion infrastructure."
+
+This process may not be savory or sustainable – Qian posits these token sellers are just trying to acquire customers and obtain data – but it points to the difficulty US firms will have maintaining their margins and their exclusivity.
+
+Open weight models like GLM-5.1, Kimi K2.6, DeepSeek V4-Pro, and Qwen3-Coder-Next are already adequate for less demanding software development work and some, like Qwen3.6-27B, run quite well on suitably provisioned local hardware.
+
+US companies are estimated to have a lead of about seven months on Chinese AI companies. But that race will not go on forever. Even if US AI models continue to improve at their current pace, open weight models from China and elsewhere should match current leaders Claude Opus 4.7 and OpenAI GPT-5.5 by the end of 2026.
+
+At that point, better benchmarks will no doubt be welcomed, but they won't be necessary. Commodity AI will be good enough for enterprise and entrepreneurial software development. And maybe other uses will emerge, but coding right now is what people are paying for.
+
+As noted by Andreessen Horowitz, annualized AI spending by enterprises reached $3 billion annually for coding. In other categories (legal $500 million, support $400M, and medical/health $300M), adoption is significantly less.
+
+Looking at Evans's "AI eats the world" figures, promoting AI adoption will be a challenge. The tech industry is the only US workplace sector where more than 25 percent use AI on a daily basis. In finance, professional services, healthcare, retail, manufacturing, and government, there's less daily usage. And in the consumer space, only five percent of ChatGPT’s 900 million-plus weekly users pay for the privilege.
+
+Among software developers, most of those using AI are not trying to apply it to cutting-edge research or to develop complex attack chains. They're using it for fairly well understood software applications and workflows, or they're experimenting with AI agents. And increasingly, it looks like they can buy tokens at a discount if that matters.
+
+REG AD
+
+Anthropic and OpenAI need pricing and adoption to go up in order to thrive. Their margin is their vulnerability. They're going to strike deals with incumbents to make their models available on desktop and mobile hardware, particularly given the space and power constraints of phones. That will come at a cost.
+
+The likely winners will be the companies that control software distribution and delivery – operating system vendors like Apple, Google, and Microsoft, and cloud service providers like Amazon, Google, and Microsoft.
+
+Absent regulatory or legal barriers, supply constraints, or practical obstacles, prices face downward pressure where margins are high. And when you're many billions in the hole like Anthropic and OpenAI, that makes escape more difficult.
+
+In his presentation, Evans observes, "Sometimes software eats the world, and sometimes it only nibbles."  ®
+
+commoditization
+artificial intelligence
+anthropic
+ai + ml
+ai
+software development
+opinion
+openai
+
+REG AD
+
+OFFBEAT
+
+SpaceX plans to plant $100B Starbase on Louisiana coast
+
+Plans to break ground in 2027, produce own propellent, power in 'self-sustaining' spaceport. All before Starship ships v1.0 orbit
+
+OFFBEAT
+
+UK supermarket scales go 404 on shoppers
+
+Tesco produce not found? But beware the forbidden scales...
+
+devops
+
+Platform Engineering 2.0: your platform was built for a different era. AI just exposed it
+
+PARTNER CONTENT: Platform engineering won the argument. Now it has to grow up fast and evolve for the AI era.
+
+AI and ML
+
+Debian polls its developers on whether to burn the bots, tame the bots, or let 'em loose
+
+Eight-way ballot on AI code puts the distro's fractious democracy through its paces
+
+columnists
+
+Software should work, and talking about it needn't be boring
+
+Bingeing the boxed set of binary bafflement
+
+public sector
+
+Sopra Steria's £370M Capita spat heads for 2028 courtroom showdown
+
+French SI still crying foul over shared services contract, alleges bid was 42% under DWP's own cost model
+
+TOP STORIES
+
+SAAS
+
+Salesforce partners not seeing meaningful revenue from Agentforce AI platform, report says
+
+security
+
+Security vets rally around $4 paper password books for sale in Australia
+
+SAAS
+
+GitHub blames 8-hour outage on autoscaling fail and VS Code retry storm
+
+security
+
+Expired credit cards revived by researchers to make unauthorized payments
+
+ofbeat
+
+NASA estimates the size of the hole SpaceX made in the moon
+
+virtualization
+
+Microsoft ends one of the last ways to buy VMware without big bundles
+
+AI
+
+AI and ML
+
+Debian polls its developers on whether to burn the bots, tame the bots, or let 'em loose
+
+Eight-way ballot on AI code puts the distro's fractious democracy through its paces
+
+ON-PREM
+
+EPA to drop requirement for public notice of polluting datacenters
+
+State and local regulators would decide whether the public gets a say on minor-source permits
+
+SYSTEMS
+
+OpenAI's upcoming Jalapeño chip looks like it'll be an inference beast
+
+128 chips, 1.7 exaFLOPS, and 27 TB of HBM give Altman and crew a leg up over Blackwell, and maybe even Rubin
+
+SYSTEMS
+
+What Nvidia's first Groq 3 LPU benchmarks tell us about its $20B gamble
+
+Gemma 4 31B performance tests offer a best-case scenario for next-gen dataflow accelerators
+
+ON-PREM
+
+US datacenters tripled their water footprint in 10 years
+
+... and those are figures from the start of the AI boom. It can only be worse now. Silo-ed reporting isn't helping
+
+Infosec
+
+Security
+
+Russians are posing as Signal support to launch phishing attacks
+
+PLUS: US takes down Iranian propaganda sites; Marketing company asks 'Why Do We Have Your Information?' And more!
+
+Security
+
+Microsoft patches failed to fix on-prem SharePoint, which is now under zero-day attack
+
+PLUS: China upgrades smartphone surveillance tools; Ring eases anti-snooping stance; and more
+
+Black Hat and DEF CON
+
+DEF CON Franklin project enlists hackers to harden critical infrastructure
+
+Voting village reports have been so successful, says Jeff Moss, that the whole of DEF CON will now be included
+
+Security
+
+EQT buys majority share in Swiss cybersecurity biz Acronis
+
+Went at equivalent of $3.5B+ valuation for entire firm, though portion sold not specified
+
+Malware Month
+
+Ten years since the first corp ransomware, Mikko Hyppönen sees no end in sight
+
+On the plus side, infosec's a good bet for a long, stable career
+
+FOSS
+
+Emperor Penguin Linus Torvalds banishes a bug – with a bot
+
+The lad himself finds and fixes a tricky one… or does he?
+
+FOSS smashed one Microsoft monopoly. After 20 years of failure, it's time to smash another
+
+Word up
+
+GNOME can look like Windows – and Flashback can do it without extensions
+
+New 'Simple-taskbar' is an option, but there's a simpler, stabler way
+
+A moment of silence, please, for the final release of Debian on x86-32
+
+New Debian versions hit FOSSland in the form of 13.6 and 12.15
+
+Baddies caught exploiting extensions bugs with perfect 10 scores on vulnerable Joomla websites
+
+Flaws in iCagenda, Balbooa Forms extensions can impact open source CMS that powers a million sites worldwide
+
+Frame: A new X11 server – implemented directly in assembly
+
+Joins yserver, Phoenix, and of course XLibre – and outlier Arcan
+
+Biting the hand that feeds IT
+
+About Us
+
+Contact us
+Advertise with us
+Who we are
+Newsletter
+
+Our Websites
+
+The Next Platform
+DevClass
+Blocks and Files
+Situation Publishing
+
+Your Privacy
+
+Cookies Policy
+Privacy Policy
+Ts & Cs
+Do not share my personal information
+Your Consent Options
+
+Archives
+
+27 years of articles
+
+Copyright. All rights reserved © 1998-2026.

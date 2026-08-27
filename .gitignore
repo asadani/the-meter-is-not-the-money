@@ -1,0 +1,28 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# book-forge build cache (cover page, staged PDFs)
+.bf-cache/
+*.staged
+*.new.pdf
+
+# The typeset PDF is distributed from Ko-fi, not from this repository.
+*.pdf
+
+# Working input, not part of the book. The .docx is registered in the ledger as
+# s-027 (tier T4, provenance unknown, no claim rests on it); its extracted text
+# is published as research/snapshots/s-027.txt, which is what the audit trail
+# needs. The 3 MB binary itself is not distributed.
+AI Routing Ecosystem Analysis.docx
+
+# A generic research-methodology document that predates this book and has
+# nothing to do with routing. Nothing here draws on it.
+deep-research-report.md
