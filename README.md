@@ -1,24 +1,53 @@
 # The Meter Is Not the Money
 
-*How AI compute gets priced, metered, and paid for* — Anuj Sadani, 2026.
+<p align="center">
+  <img src="assets/the-meter-is-not-the-money-cover.png"
+       alt="Book cover reading THE METER IS NOT THE MONEY, subtitled how AI compute gets priced, metered, and paid for, by Anuj Sadani."
+       width="330">
+</p>
 
-A short book arguing that tokens are a meter reading rather than a unit of
-account, that every AI credit is a conversion layer over dollars, and that this
-explains what a payments company bought when it bought a router.
+<p align="center">
+  <strong><a href="https://tech.anujsadani.in/the-meter-is-not-the-money/">Read online</a></strong>
+  &nbsp;&middot;&nbsp;
+  <strong><a href="https://ko-fi.com/s/0f1f4f72ad">Get the typeset PDF on Ko-fi</a></strong>
+  &nbsp;&middot;&nbsp;
+  <a href="SUMMARY.md">The argument in five minutes</a>
+</p>
 
-Built with [book-forge](../book-forge), theme `sheet-oxblood` — the same
-pipeline and look as the other books.
+---
+
+In August 2026 a payments company agreed to buy a router for a price it never
+disclosed. Its chief executive explained the purchase by calling tokens the
+central currency of companies building with AI.
+
+He was half right, and the wrong half is the interesting one. Every credit
+balance in this market — including the one belonging to the company that was
+bought — is denominated in dollars, because a token's price is not fixed when
+you buy it, varies by a factor of three between suppliers of an identical
+product, and moves in opposite directions depending on which vendor served the
+request.
+
+**A token is a meter reading, not a unit of account.** Every AI credit that
+ships is a per-model conversion layer over dollars, which is why the position
+worth owning is the exchange desk rather than the mint.
+
+Thirty pages, six sections. Built with [book-forge](../book-forge), theme
+`sheet-oxblood`.
 
 ## Layout
 
 ```
 meta.yaml          book-forge configuration
 book.html.in       the manuscript, hand-authored HTML
+SUMMARY.md         the condensed argument, in five minutes
+summary/           the same, as a standalone page
 assets/            cover art
 research/          the verified source ledger this book is built on
-index.html                       built — screen edition
-the-meter-is-not-the-money.pdf   built — 30pp, A4, folio-stamped
+index.html         built — screen edition
 ```
+
+The typeset PDF is built locally and sold on Ko-fi; `*.pdf` is gitignored, so
+it is not distributed from this repository.
 
 ## Build
 
@@ -71,8 +100,10 @@ Each is disclosed in the section that depends on it, not only here.
 
 ## Notes
 
-`deep-research-report.md` in this directory is a generic research-methodology
-document, not routing material, and nothing in the book draws on it.
-`AI Routing Ecosystem Analysis.docx` is registered in the ledger as `s-027` at
-tier T4 with its provenance flagged — no named author, and its footnote
-markers resolve to nothing — so no claim rests on it either.
+Two working files sit in the local directory and are deliberately not tracked.
+`deep-research-report.md` is a generic research-methodology document that
+predates this book and has nothing to do with routing. `AI Routing Ecosystem
+Analysis.docx` is registered in the ledger as `s-027` at tier T4 with its
+provenance flagged — no named author, and its footnote markers resolve to
+nothing — so no claim rests on it; its extracted text ships as
+`research/snapshots/s-027.txt`, which is what the audit trail needs.

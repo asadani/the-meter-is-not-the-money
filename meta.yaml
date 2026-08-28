@@ -20,7 +20,7 @@ page:
   size: A4
 
 cover:
-  art: assets/routingmaxxing-cover.png
+  art: assets/the-meter-is-not-the-money-cover.png
   fit: crop
   trim_top_share: 0.47
   dpi: 300

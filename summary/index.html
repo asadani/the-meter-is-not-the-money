@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Meter Is Not the Money — the argument in brief</title>
+<meta name="author" content="Anuj Sadani">
+<meta name="description" content="The condensed argument: a token is a meter reading, not a unit of account, and every AI credit is a conversion layer over dollars. Five minutes; the full book is 30 pages.">
+<link rel="canonical" href="https://tech.anujsadani.in/the-meter-is-not-the-money/summary/">
+<meta property="og:title" content="The Meter Is Not the Money — the argument in brief">
+<meta property="og:description" content="Everyone calls tokens a currency. Every credit balance in the market is denominated in dollars. The condensed argument, in five minutes.">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#FFFFFF; --wash:#F7F5F2; --ink:#161A21; --soft:#4E5665;
+  --faint:#7C8593; --rule:#E2E6EC; --accent:#9E2B3A; --accent-wash:#F6E9EB;
+  --serif:"Source Serif 4",Georgia,serif;
+  --sans:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#12151A; --wash:#171B21; --ink:#E7EBF0; --soft:#B4BCC7;
+    --faint:#828C9A; --rule:#2A313B; --accent:#E4737F; --accent-wash:#241419;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#12151A; --wash:#171B21; --ink:#E7EBF0; --soft:#B4BCC7;
+  --faint:#828C9A; --rule:#2A313B; --accent:#E4737F; --accent-wash:#241419;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; padding:0 1.3rem 5rem; background:var(--paper); color:var(--ink);
+  font-family:var(--serif); font-size:1.06rem; line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:40rem;margin:0 auto}
+
+header{padding:3.4rem 0 0}
+.eyebrow{
+  font-family:var(--mono); font-size:.72rem; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--faint); margin:0 0 1.3rem;
+  display:flex; gap:.6rem; align-items:center; flex-wrap:wrap;
+}
+.eyebrow .dot{color:var(--rule)}
+h1{
+  font-family:var(--sans); font-weight:700; font-size:clamp(1.9rem,5.4vw,2.7rem);
+  line-height:1.08; letter-spacing:-.02em; margin:0 0 .5rem; text-wrap:balance;
+}
+.sub{
+  font-family:var(--sans); font-weight:500; font-size:1.02rem; color:var(--soft);
+  margin:0 0 2rem;
+}
+.claim{
+  margin:0 0 2.6rem; padding:1.15rem 1.35rem;
+  background:var(--accent-wash); border-left:3px solid var(--accent);
+  font-size:1.16rem; line-height:1.5; color:var(--ink);
+}
+.claim b{font-weight:600}
+
+h2{
+  font-family:var(--sans); font-weight:600; font-size:1.02rem;
+  letter-spacing:.02em; margin:2.9rem 0 .1rem; color:var(--ink);
+}
+h2 .n{
+  font-family:var(--mono); font-size:.78rem; color:var(--accent);
+  margin-right:.55rem; font-weight:500;
+}
+h2+p{margin-top:.7rem}
+p{margin:0 0 1rem}
+strong{font-weight:600}
+em{font-style:italic}
+
+.pull{
+  font-family:var(--sans); font-weight:600; font-size:1.06rem; line-height:1.45;
+  color:var(--ink); margin:1.5rem 0; padding-left:1rem;
+  border-left:2px solid var(--accent);
+}
+
+ul{margin:0 0 1rem; padding-left:1.15rem}
+li{margin:0 0 .5rem}
+li::marker{color:var(--accent)}
+
+.crit{list-style:none; padding:0; margin:.9rem 0 1.2rem; counter-reset:c}
+.crit li{
+  counter-increment:c; position:relative; padding-left:2.1rem;
+  margin:0 0 .75rem; font-size:1rem;
+}
+.crit li::before{
+  content:counter(c); position:absolute; left:0; top:.12rem;
+  font-family:var(--mono); font-size:.75rem; color:var(--accent);
+  border:1px solid var(--rule); border-radius:50%;
+  width:1.45rem; height:1.45rem; display:grid; place-items:center;
+}
+.crit b{font-family:var(--sans); font-size:.97rem}
+
+.caveat{
+  margin:2.6rem 0 0; padding:1.1rem 1.3rem; background:var(--wash);
+  border:1px solid var(--rule); font-size:.97rem; color:var(--soft);
+}
+.caveat h3{
+  font-family:var(--sans); font-size:.8rem; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--faint); margin:0 0 .6rem; font-weight:600;
+}
+.caveat p:last-child{margin-bottom:0}
+
+.next{
+  margin-top:3.2rem; padding-top:1.8rem; border-top:2px solid var(--ink);
+}
+.next h3{
+  font-family:var(--sans); font-size:1.05rem; margin:0 0 .35rem; font-weight:600;
+}
+.next .why{color:var(--soft); font-size:.97rem; margin:0 0 1.3rem}
+.actions{display:flex; flex-wrap:wrap; gap:.7rem}
+.btn{
+  display:inline-flex; align-items:center; gap:.5rem;
+  font-family:var(--mono); font-size:.82rem; font-weight:500;
+  text-decoration:none; padding:.72rem 1.15rem; border-radius:26px;
+  border:1px solid var(--rule); color:var(--ink); background:var(--paper);
+  transition:border-color .15s ease, background .15s ease;
+}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--accent); border-color:var(--accent); color:#fff}
+.btn.primary:hover{background:#822430}
+.btn .ar{opacity:.8}
+.btn:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+footer{
+  margin-top:2.6rem; font-family:var(--mono); font-size:.74rem;
+  line-height:1.7; color:var(--faint);
+}
+footer a{color:var(--faint)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">
+    <span>The argument in brief</span><span class="dot">&middot;</span>
+    <span>5 min</span><span class="dot">&middot;</span>
+    <span>full book 30 pp</span>
+  </p>
+  <h1>The Meter Is Not the Money</h1>
+  <p class="sub">How AI compute gets priced, metered, and paid for.</p>
+</header>
+
+<p class="claim">
+  <b>A token is a meter reading, not a unit of account.</b> Every AI credit that
+  ships is a per-model conversion layer over dollars &mdash; which is why the
+  position worth owning is the exchange desk rather than the mint.
+</p>
+
+<h2><span class="n">01</span>What set this off</h2>
+<p>
+  In August 2026 Stripe agreed to acquire OpenRouter for a price it never
+  disclosed. Its chief executive explained the purchase in one sentence:
+  <strong>&ldquo;Tokens are the central currency for companies building with
+  AI.&rdquo;</strong>
+</p>
+<p>
+  The company that was bought does not agree, in the only place that counts. Its
+  own documentation says the credit system&rsquo;s base currency is
+  <strong>US dollars</strong>. Vercel bills against a dollar balance at the
+  provider&rsquo;s list price. Stripe&rsquo;s own billing product lets a business
+  define an &ldquo;AI Credit&rdquo; and configure how each model&rsquo;s usage
+  <em>converts</em> to it.
+</p>
+<p class="pull">
+  Every serious system in this market meters in tokens and settles in dollars.
+  Nobody has built one that does otherwise, and it is not for want of ambition.
+</p>
+
+<h2><span class="n">02</span>Why a token cannot hold still</h2>
+<p>
+  A unit of account has one non-negotiable property: it means the same thing to
+  both parties at the moment they agree to a trade. A token fails this four ways,
+  all documented by vendors on pages their own customers read.
+</p>
+<p>
+  <strong>Price depends on who serves it.</strong> For open-weight models the
+  weights and the hardware come apart. OpenRouter&rsquo;s own worked example spans
+  $1, $2 and $3 per million tokens for the same model.
+</p>
+<p>
+  <strong>You do not choose which one.</strong> The documented default
+  load-balances on price, weighting candidates by the inverse square of cost
+  &mdash; nine times likelier for the cheapest than the dearest, so roughly one
+  request in ten still goes to a costlier supplier.
+</p>
+<p>
+  <strong>Not all tokens are the same kind of token.</strong> A cache write costs
+  1.25x an ordinary input token on recent OpenAI models; a cache read costs a
+  quarter or a half of one.
+</p>
+<p>
+  <strong>The multipliers do not point the same way.</strong> Anthropic carries a
+  <em>negative</em> discount on cache writes &mdash; a surcharge &mdash; and a
+  positive one on reads. Cache reads are 0.1x at Anthropic, 0.25x at Bedrock,
+  0.25x or 0.5x at OpenAI. There is no shared sign convention to appeal to.
+</p>
+<p class="pull">
+  At the instant you press send, the price of a request is a distribution rather
+  than a number. It does not resolve until the work is done.
+</p>
+<p>
+  LiteLLM&rsquo;s documentation carries a section headed &ldquo;Cost does not
+  match your provider bill?&rdquo; and names three ways your own meter can
+  disagree with your supplier&rsquo;s. Metering AI spend is a genuinely hard
+  measurement problem, and the software that does it best says so.
+</p>
+
+<h2><span class="n">03</span>What a payments company saw</h2>
+<p>
+  Reported prices run from more than $7bn through $7.5bn to $8bn, with $10bn
+  floated during talks. None is a disclosure, and averaging them produces a number
+  nobody reported.
+</p>
+<p>
+  The structural fact is the fee. OpenRouter takes <strong>no markup on
+  inference</strong> and charges <strong>5.5% when you purchase credits</strong>.
+  That is a take rate &mdash; a percentage of money moved, the economic signature
+  of a processor rather than a software vendor. It scales with how much money you
+  put in, not with how much compute you use.
+</p>
+<p>
+  Stripe had already shipped the meter, in Token Billing. What it lacked was the
+  thing that knows, request by request, which of eighty providers served the work
+  and what that provider charged.
+</p>
+
+<h2><span class="n">04</span>But the fee is not a rent</h2>
+<p>
+  Five firms sell the same function four incompatible ways. OpenRouter charges
+  5.5% of funds loaded. Vercel charges no markup and no platform fee on tokens.
+  Portkey charges $49 a month. Cloudflare charges nothing. LiteLLM is free
+  open-source software you run yourself.
+</p>
+<p>
+  That dispersion makes the take rate a <strong>business-model choice rather than
+  a property of the position</strong>. A processor&rsquo;s fee is defended by
+  licensing and settlement obligations. A routing fee has neither, and two
+  well-capitalized firms have already set it to zero because they monetize
+  elsewhere.
+</p>
+
+<h2><span class="n">05</span>The strongest case against</h2>
+<p>
+  Semafor&rsquo;s reading is that routing is <em>destined</em> for
+  commoditization, and that this is the point: Stripe can afford zero routing
+  margin because it monetizes billing, tax, fraud, stablecoin settlement and
+  treasury around it. On that account the routing layer is not the valuable
+  position but the entry point to valuable positions, none of which is routing.
+</p>
+<p>
+  A second reading has the deal as expense management rather than payments, in a
+  category Databricks, Rippling and Ramp had already entered. And the arithmetic
+  is unkind either way: at the figure floated during talks, roughly
+  <strong>70x annualized revenue</strong>.
+</p>
+<p>
+  These counter-readings dispute <em>where the value accrues</em>, not the
+  mechanism. Nobody argues the mess is imaginary.
+</p>
+
+<h2><span class="n">06</span>What can be built</h2>
+<p>
+  The conversion layer already ships. When Claude is sold through cloud
+  marketplaces, Anthropic rates usage <strong>in USD first</strong>, then converts
+  to Claude Consumption Units at one cent each. The dollars are not derived from
+  the units; the units are derived from the dollars.
+</p>
+<p>
+  What does not ship is a transferable balance. Gifted AI access is plan-shaped
+  and closed-loop. The obstacle is not payments plumbing &mdash; both legs already
+  terminate at Stripe, since Buy Me a Coffee runs on it &mdash; but that a balance
+  spendable across unaffiliated vendors is a regulated instrument.
+  FinCEN&rsquo;s 2011 rule renamed &ldquo;stored value&rdquo; to &ldquo;prepaid
+  access&rdquo; and keeps closed loop as a lighter-touch category. Open loop is
+  not.
+</p>
+
+<div class="caveat">
+  <h3>What this argument is not</h3>
+  <p>
+    The mechanism is documented; the <strong>magnitude is not measured</strong>.
+    Nobody has published data on how much the price distribution actually moves
+    for a typical workload, and it is possible the practical answer is a trailing
+    average and no further worry.
+  </p>
+  <p>
+    Five prices are not a market survey. Every figure on the purchase price
+    reaches the book secondhand, because the original reporting is paywalled. And
+    the regulatory section stops at a federal rulemaking &mdash; state licensing,
+    Regulation E and every non-US regime are unresearched, and the book says so in
+    the text rather than here.
+  </p>
+</div>
+
+<div class="next">
+  <h3>Read the full inquiry</h3>
+  <p class="why">
+    30 pages. 38 sources captured and hashed, 77 claims bound to exact quotations,
+    each machine-checked against a stored copy before the sentence citing it was
+    written. Every source is archived alongside it, so you can check any claim
+    yourself.
+  </p>
+  <div class="actions">
+    <a class="btn primary" href="../"><span class="ar">&rarr;</span> Read the full book &middot; 30 pp</a>
+    <a class="btn" href="https://ko-fi.com/s/0f1f4f72ad" target="_blank" rel="noopener"><span class="ar">&nearr;</span> Typeset PDF on Ko-fi</a>
+  </div>
+</div>
+
+<footer>
+  38 sources captured and hashed. 77 claims bound to exact quotation, every one
+  checked against a stored copy before the sentence citing it was written.<br>
+  Full book and source archive: <a href="../">tech.anujsadani.in/the-meter-is-not-the-money</a>
+</footer>
+
+</div>
+</body>
+</html>
