@@ -141,7 +141,7 @@ footer a{color:var(--faint)}
 <header>
   <p class="eyebrow">
     <span>The argument in brief</span><span class="dot">&middot;</span>
-    <span>5 min</span><span class="dot">&middot;</span>
+    <span>3 min</span><span class="dot">&middot;</span>
     <span>full book 30 pp</span>
   </p>
   <h1>The Meter Is Not the Money</h1>
@@ -154,149 +154,91 @@ footer a{color:var(--faint)}
   position worth owning is the exchange desk rather than the mint.
 </p>
 
-<h2><span class="n">01</span>What set this off</h2>
+<h2><span class="n">01</span>The sentence, and the price page</h2>
 <p>
-  In August 2026 Stripe agreed to acquire OpenRouter for a price it never
-  disclosed. Its chief executive explained the purchase in one sentence:
-  <strong>&ldquo;Tokens are the central currency for companies building with
-  AI.&rdquo;</strong>
+  In August 2026 Stripe agreed to buy OpenRouter for a price it never disclosed.
+  Its chief executive explained the purchase in one line:
+</p>
+<p class="pull">
+  &ldquo;Tokens are the central currency for companies building with AI.&rdquo;
 </p>
 <p>
-  The company that was bought does not agree, in the only place that counts. Its
-  own documentation says the credit system&rsquo;s base currency is
-  <strong>US dollars</strong>. Vercel bills against a dollar balance at the
-  provider&rsquo;s list price. Stripe&rsquo;s own billing product lets a business
+  It is a good sentence. It is also contradicted by the documentation of the
+  company Stripe was buying, which answers the only question that matters &mdash;
+  in what unit is the balance held? &mdash; without ceremony:
+</p>
+<p class="pull">
+  &ldquo;OpenRouter uses a credit system where the base currency is US
+  dollars.&rdquo;
+</p>
+<p>
+  Not tokens. Dollars. And the reason is measurement rather than caution. A unit
+  of account has to mean the same thing to both parties at the moment they agree
+  to a trade, and a token does not. Providers serving the identical open-weight
+  model differ threefold in price. The router picks between them with a draw
+  weighted by the inverse square of cost, so roughly one request in ten still
+  goes to a costlier supplier. A cache write can cost <em>more</em> than an
+  ordinary input token, and whether that adjustment is a discount or a surcharge
+  depends on which vendor you asked.
+</p>
+<p>
+  Which means the price of a request is not a number when you press send. It is a
+  distribution, and it does not resolve until the work is done. You cannot quote a
+  fixed price for a request before it is routed &mdash; not because the tooling is
+  young, but because there is no fixed price there to quote. The clearest
+  admission of what that costs in practice sits in the documentation of LiteLLM,
+  the open-source gateway thousands of teams use to track spend, under a heading
+  it does not euphemise:
+</p>
+<p class="pull">
+  &ldquo;Cost does not match your provider bill?&rdquo;
+</p>
+
+<h2><span class="n">02</span>The unit already exists, and it is worth a cent</h2>
+<p>
+  So the interesting question is not why nobody minted a token currency. It is
+  what the people closest to the problem built once they worked out they could
+  not. The answer is already shipping, and almost nobody has noticed it.
+</p>
+<p>
+  When Claude is sold through the AWS and Azure marketplaces, Anthropic does not
+  bill in tokens. A cloud marketplace needs one countable line item and cannot
+  express &ldquo;1.25x base input price for a five-minute cache write,&rdquo; so
+  the vendor rates the usage in dollars and then invents a unit to report:
+</p>
+<p class="pull">
+  &ldquo;rates your token usage in USD at standard per-model, per-feature rates,
+  applies any negotiated discount, converts the result to CCUs at $0.01 per
+  CCU.&rdquo;
+</p>
+<p>
+  A Claude Consumption Unit is worth a penny. Note the direction of travel: usage
+  is priced <strong>in USD first</strong>, then converted. The dollars are not
+  derived from the units. The units are derived from the dollars &mdash; which is
+  the whole argument of this book, running in production as a billing integration,
+  for reasons that have nothing to do with any acquisition.
+</p>
+<p>
+  Stripe&rsquo;s own product does the same thing one layer up, letting a business
   define an &ldquo;AI Credit&rdquo; and configure how each model&rsquo;s usage
-  <em>converts</em> to it.
-</p>
-<p class="pull">
-  Every serious system in this market meters in tokens and settles in dollars.
-  Nobody has built one that does otherwise, and it is not for want of ambition.
-</p>
-
-<h2><span class="n">02</span>Why a token cannot hold still</h2>
-<p>
-  A unit of account has one non-negotiable property: it means the same thing to
-  both parties at the moment they agree to a trade. A token fails this four ways,
-  all documented by vendors on pages their own customers read.
-</p>
-<p>
-  <strong>Price depends on who serves it.</strong> For open-weight models the
-  weights and the hardware come apart. OpenRouter&rsquo;s own worked example spans
-  $1, $2 and $3 per million tokens for the same model.
-</p>
-<p>
-  <strong>You do not choose which one.</strong> The documented default
-  load-balances on price, weighting candidates by the inverse square of cost
-  &mdash; nine times likelier for the cheapest than the dearest, so roughly one
-  request in ten still goes to a costlier supplier.
-</p>
-<p>
-  <strong>Not all tokens are the same kind of token.</strong> A cache write costs
-  1.25x an ordinary input token on recent OpenAI models; a cache read costs a
-  quarter or a half of one.
-</p>
-<p>
-  <strong>The multipliers do not point the same way.</strong> Anthropic carries a
-  <em>negative</em> discount on cache writes &mdash; a surcharge &mdash; and a
-  positive one on reads. Cache reads are 0.1x at Anthropic, 0.25x at Bedrock,
-  0.25x or 0.5x at OpenAI. There is no shared sign convention to appeal to.
-</p>
-<p class="pull">
-  At the instant you press send, the price of a request is a distribution rather
-  than a number. It does not resolve until the work is done.
-</p>
-<p>
-  LiteLLM&rsquo;s documentation carries a section headed &ldquo;Cost does not
-  match your provider bill?&rdquo; and names three ways your own meter can
-  disagree with your supplier&rsquo;s. Metering AI spend is a genuinely hard
-  measurement problem, and the software that does it best says so.
-</p>
-
-<h2><span class="n">03</span>What a payments company saw</h2>
-<p>
-  Reported prices run from more than $7bn through $7.5bn to $8bn, with $10bn
-  floated during talks. None is a disclosure, and averaging them produces a number
-  nobody reported.
-</p>
-<p>
-  The structural fact is the fee. OpenRouter takes <strong>no markup on
-  inference</strong> and charges <strong>5.5% when you purchase credits</strong>.
-  That is a take rate &mdash; a percentage of money moved, the economic signature
-  of a processor rather than a software vendor. It scales with how much money you
-  put in, not with how much compute you use.
-</p>
-<p>
-  Stripe had already shipped the meter, in Token Billing. What it lacked was the
-  thing that knows, request by request, which of eighty providers served the work
-  and what that provider charged.
-</p>
-
-<h2><span class="n">04</span>But the fee is not a rent</h2>
-<p>
-  Five firms sell the same function four incompatible ways. OpenRouter charges
-  5.5% of funds loaded. Vercel charges no markup and no platform fee on tokens.
-  Portkey charges $49 a month. Cloudflare charges nothing. LiteLLM is free
-  open-source software you run yourself.
-</p>
-<p>
-  That dispersion makes the take rate a <strong>business-model choice rather than
-  a property of the position</strong>. A processor&rsquo;s fee is defended by
-  licensing and settlement obligations. A routing fee has neither, and two
-  well-capitalized firms have already set it to zero because they monetize
-  elsewhere.
-</p>
-
-<h2><span class="n">05</span>The strongest case against</h2>
-<p>
-  Semafor&rsquo;s reading is that routing is <em>destined</em> for
-  commoditization, and that this is the point: Stripe can afford zero routing
-  margin because it monetizes billing, tax, fraud, stablecoin settlement and
-  treasury around it. On that account the routing layer is not the valuable
-  position but the entry point to valuable positions, none of which is routing.
-</p>
-<p>
-  A second reading has the deal as expense management rather than payments, in a
-  category Databricks, Rippling and Ramp had already entered. And the arithmetic
-  is unkind either way: at the figure floated during talks, roughly
-  <strong>70x annualized revenue</strong>.
-</p>
-<p>
-  These counter-readings dispute <em>where the value accrues</em>, not the
-  mechanism. Nobody argues the mess is imaginary.
-</p>
-
-<h2><span class="n">06</span>What can be built</h2>
-<p>
-  The conversion layer already ships. When Claude is sold through cloud
-  marketplaces, Anthropic rates usage <strong>in USD first</strong>, then converts
-  to Claude Consumption Units at one cent each. The dollars are not derived from
-  the units; the units are derived from the dollars.
-</p>
-<p>
-  What does not ship is a transferable balance. Gifted AI access is plan-shaped
-  and closed-loop. The obstacle is not payments plumbing &mdash; both legs already
-  terminate at Stripe, since Buy Me a Coffee runs on it &mdash; but that a balance
-  spendable across unaffiliated vendors is a regulated instrument.
-  FinCEN&rsquo;s 2011 rule renamed &ldquo;stored value&rdquo; to &ldquo;prepaid
-  access&rdquo; and keeps closed loop as a lighter-touch category. Open loop is
-  not.
+  <em>converts</em> to it. That verb is carrying the argument. A credit is a
+  synthetic unit whose exchange rate against real tokens is set per model and
+  changed at will by whoever sells it. The complexity does not vanish; it moves
+  behind an interface, where one business absorbs it so its customers never look
+  at it.
 </p>
 
 <div class="caveat">
-  <h3>What this argument is not</h3>
+  <h3>What the book does that this page cannot</h3>
   <p>
-    The mechanism is documented; the <strong>magnitude is not measured</strong>.
-    Nobody has published data on how much the price distribution actually moves
-    for a typical workload, and it is possible the practical answer is a trailing
-    average and no further worry.
+    It presents the strongest case <em>against</em> its own thesis &mdash; that
+    routing is meant to become worthless, and that a buyer can afford zero routing
+    margin because it monetises billing, tax, fraud and settlement around it
+    &mdash; with no rebuttal appended, because the research could not build one.
   </p>
   <p>
-    Five prices are not a market survey. Every figure on the purchase price
-    reaches the book secondhand, because the original reporting is paywalled. And
-    the regulatory section stops at a federal rulemaking &mdash; state licensing,
-    Regulation E and every non-US regime are unresearched, and the book says so in
-    the text rather than here.
+    It also marks its own limits: the mechanism is documented, the magnitude is
+    not measured, and the regulatory section stops at a federal rulemaking.
   </p>
 </div>
 

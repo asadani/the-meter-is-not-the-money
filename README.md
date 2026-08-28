@@ -11,7 +11,7 @@
   &nbsp;&middot;&nbsp;
   <strong><a href="https://ko-fi.com/s/0f1f4f72ad">Get the typeset PDF on Ko-fi</a></strong>
   &nbsp;&middot;&nbsp;
-  <a href="SUMMARY.md">The argument in five minutes</a>
+  <a href="SUMMARY.md">The argument in brief</a>
 </p>
 
 ---
@@ -39,7 +39,7 @@ Thirty pages, six sections. Built with [book-forge](../book-forge), theme
 ```
 meta.yaml          book-forge configuration
 book.html.in       the manuscript, hand-authored HTML
-SUMMARY.md         the condensed argument, in five minutes
+SUMMARY.md         the condensed argument, in two angles
 summary/           the same, as a standalone page
 assets/            cover art
 research/          the verified source ledger this book is built on
