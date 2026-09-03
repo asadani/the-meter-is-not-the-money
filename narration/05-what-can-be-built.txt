@@ -1,0 +1,63 @@
+What can be built.
+
+Prepaid credits, gifted compute, and the regulatory line that explains why you cannot buy a friend a hundred thousand tokens.
+
+The practical question underneath all of this is whether you can sell someone a quantity of AI compute the way you can sell them a quantity of anything else. A gift card. A prepaid balance. A coffee bought for a stranger on the internet.
+
+The answer turns out to be yes, with a conversion layer, inside a closed loop, and the three qualifications are doing all the work.
+
+The unit everybody invents
+
+By now the pattern should be familiar, but it is worth seeing how far it extends, because the conversion layer is not a Stripe peculiarity. It is what everyone builds when they need a stable number.
+
+Stripe's billing product, as established, lets a business define an AI Credit and configure how each model's usage converts into it, then sell prepaid packs of that unit. The metering underneath tracks model and token type including cached tokens, and the product was not yet generally available at the time of writing.
+
+Anthropic has already shipped the same idea, and almost nobody has noticed. When Claude is sold through the AWS or Azure marketplaces, Anthropic rates the token usage in USD at standard per-model rates, applies any negotiated discount, and converts the result to Claude Consumption Units at one cent each. A CCU is worth a penny. It exists because a cloud marketplace needs a single countable line item and cannot express a charge such as 1.25x base input price for a five-minute cache write, so the vendor rates everything in dollars, converts to a synthetic unit at a fixed rate, and reports a quantity.
+
+That is the whole thesis of this book, shipped as a production billing integration by a model vendor, for reasons that have nothing to do with any acquisition. Dollars are the unit of account. The synthetic unit is a presentation layer over dollars, invented because the underlying quantity would not sit still. And note the direction of the conversion, usage is rated in USD first, then converted. The dollars are not derived from the units. The units are derived from the dollars.
+
+Anyone building a credit product is going to reinvent this, and should. The design question is not whether to have a conversion layer but who absorbs the risk in it. If you sell a credit today and the underlying provider reprices tomorrow, either your margin moves or your customer's balance quietly buys less than it did. Someone eats that. Fixing the exchange rate is a promise about a price you do not control, and Section 3 is a long argument for why you should be nervous about making it.
+
+There is a second feature of every prepaid AI product currently shipping, and it is one customers dislike: the value goes away.
+
+OpenRouter's terms provide for expiry of unused credits after one year of purchase. Anthropic's gift subscriptions expire 365 days after the purchase date. These are not outliers; they are the standard shape.
+
+Buying someone else compute
+
+Which brings us to the consumer version, and the reason it is harder than it looks.
+
+The patronage model is well established and boringly profitable. Buy Me a Coffee charges a 5% transaction fee, creators keep 95% of the earnings, and payouts go directly to a bank account. It is a thin layer over a payment processor, and the processor is Stripe: the platform states that payment processing is handled by Stripe and Wise.
+
+So the obvious product suggests itself. Instead of buying a writer a coffee, buy them the inference to write with. Both legs already exist and both already terminate at the same company, the patronage rail runs on Stripe, and Stripe supplies the token-metering primitive. There is no missing infrastructure.
+
+And yet nobody sells it, while two adjacent things do ship. Anthropic will sell you a gift, but the gift is a plan: you choose a tier and a duration, and the recipient receives full access to the features of the selected plan. It is a subscription with a bow on it, not a balance. You cannot gift someone eighty thousand tokens and let them spend it where they like.
+
+The reason is not technical, and I think it is not squeamishness about the product either. It is that a transferable balance spendable across unaffiliated vendors is a different kind of object in law from a subscription to one vendor's service.
+
+The line that actually matters
+
+Here I have to correct a framing I nearly used, because it is the sort of error that survives in a book for years.
+
+The natural place to reach for is FinCEN's guidance on stored value, which held that the agency does not currently interpret the definition of stored value to include closed system products such as a mall-wide gift card program. That is a clean statement of the closed-versus-open distinction, and it is tempting to quote and move on.
+
+It is also from 2003, the same document warns that FinCEN intends to engage in further rulemaking on the definition of stored value, and, decisively, that rulemaking happened. FinCEN's 2011 final rule amended the Bank Secrecy Act regulations by renaming stored value as prepaid access, defining that term, and deleting the terms issuer and redeemer of stored value. The vocabulary the 2003 ruling operates in no longer exists in the regulations. The rule was framed as addressing regulatory gaps that had resulted from the proliferation of prepaid innovations over the preceding twelve years, precisely the category a cross-vendor compute credit would fall into.
+
+The 2011 regime imposes suspicious activity reporting and recordkeeping requirements on both providers and sellers of prepaid access, plus registration for providers, while exempting certain lower-risk categories from certain requirements, and it retains closed loop prepaid access as a defined category.
+
+The shape of the answer is therefore visible even from outside: closed loop is treated as lower risk and carries lighter obligations; open loop does not. A gift card for one vendor's service sits comfortably on one side of that line. A transferable balance spendable across eighty inference providers sits on the other, or at minimum sits close enough to it that you would need a lawyer before you shipped.
+
+What would change my mind
+
+The argument of this book comes down to one claim: that tokens are a meter reading, that every credit is a conversion layer over dollars, and that the interesting position is therefore the exchange desk rather than the mint.
+
+Here is what would falsify it, and what I would watch.
+
+If a vendor began quoting a fixed price per token guaranteed at submission time, absorbing the routing variance itself, the way an insurer absorbs risk, the central mechanical claim would weaken considerably. The variance would still exist; it would simply have found someone willing to be paid to hold it, which is a real product and one I would expect to see before I expect to see a token currency.
+
+If a transferable, cross-vendor balance shipped and survived, the argument in this section is wrong, and the constraint I have attributed to regulation was really just nobody having bothered.
+
+If the cache multipliers converged across vendors, if 0.1x and 0.25x and 0.5x became one number the way transaction fees converged into a band, then a common unit becomes tractable, and the mess described in Section 3 turns out to have been an artifact of an immature market rather than a structural feature.
+
+And the single most informative thing, the one that costs nothing to observe: whether OpenRouter's commitment that routing decisions will remain driven by what is best for the user holds under its new ownership. If in three years the router quietly prefers providers that settle through its parent's rails, then the exchange desk was the point, and it was worth more than the eight billion dollars nobody will confirm was paid for it.
+
+If it does not, then Section 5 was right, and I will have written a book about the plumbing of a business that turned out to be about something else. That would be a fine outcome. The plumbing is real either way, and the bills still have to be reconciled by someone on a Tuesday afternoon, holding two numbers that do not match.

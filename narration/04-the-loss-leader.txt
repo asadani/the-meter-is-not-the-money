@@ -1,0 +1,51 @@
+The loss leader.
+
+The strongest case against this book, presented without a rebuttal appended, because I could not build one.
+
+Everything so far has built toward a conclusion: that the routing layer matters because it is where compute becomes a billable quantity, and that a payments company bought it for that reason. This section sets out the strongest case that the conclusion is wrong, or at least that it is right for reasons that make it far less interesting than it sounds.
+
+I am not going to answer it. I could not, with the evidence I gathered, and appending a rebuttal I cannot support would be worse than leaving it standing.
+
+The case that routing is meant to be worthless
+
+Start with the version Semafor published two days after the announcement, which is the sharpest reading of the deal I have seen anywhere.
+
+The observation is that OpenRouter's business could be destined for commoditization, and that this is actually kind of the point. The reasoning follows from the market structure described in Section 4 rather than contradicting it. If routing collapses into finding the cheapest provider that clears a quality and reliability bar, then routing is a solved problem with a shrinking margin, and everyone in it is heading for zero. But zero is survivable, attractive, even, if you are not trying to earn there: Stripe can afford to let routing become low-margin, because it can monetize everything surrounding it, from billing and tax and fraud through to stablecoin settlement, treasury and possibly financing.
+
+Take that seriously and the thesis of this book inverts. The routing layer is not the valuable position; it is the entry point to a set of valuable positions, none of which is routing. Stripe does not need a take rate on inference because it has billing, tax, fraud, settlement and treasury waiting on the other side of the relationship, all of which are businesses it already knows how to run at scale. Under this reading, buying OpenRouter is buying distribution into every AI-native company's financial stack, and the fact that the acquired product happens to route tokens is almost incidental.
+
+Notice what this does to Section 4's argument. I presented the four-way price dispersion as a problem for the payments framing, evidence that the fee is contested and might go to zero. Semafor's reading takes the identical fact and calls it the plan. Under this account the 5.5% is not a rent to be defended but a legacy price that a rational owner will happily compete away, because the customer relationship is worth more than the fee ever was. The same evidence, pointing the opposite direction. I do not have a way to distinguish the two from outside.
+
+The case that it is an expense-management deal
+
+The second reading is less dramatic and possibly more likely.
+
+TechCrunch noted that Stripe's large acquisitions had historically been about helping companies collect and manage incoming money, and that this one looked different, a move to the other side of the ledger, into expense management, beginning with AI expenses.
+
+That reframes the deal as being about cost control software, which is a real and large category with nothing much to do with payment rails. And the competitive evidence supports it, because that category was already filling up before Stripe arrived: Databricks developed its own AI gateway, Rippling launched one focused on employee AI spend, and Ramp launched one for AI expense management too.
+
+Rippling and Ramp are not infrastructure companies. They are spend-management companies, and they built AI gateways because AI spend is a line item their customers cannot see clearly. If the natural competitor set for this product is Ramp rather than Cloudflare, then the position Stripe bought is a seat in the expense-management market, and the elaborate argument about units of account is a description of a technical problem rather than an explanation of a purchase.
+
+The uncomfortable part, for me, is that this reading explains the price better than mine does. Expense management is a proven category with known multiples and an obvious buyer synergy. Owning the settlement layer for a future compute economy is a story that requires several things to happen that have not happened yet.
+
+The case that the price was simply too high
+
+And then there is the arithmetic, which is unkind whichever story you prefer.
+
+At the figure floated during the talks, Stripe would have been paying roughly seventy times OpenRouter's annualized revenue. Seventy times. The same reporting describes that price as high compared to other AI acquisitions when calculated as a multiple of forward revenue.
+
+The defense is that the unit economics are unusually good for the category, and they are, Section 2 set out the margin structure. But a strong margin on $140 million of revenue does not obviously justify a price several dozen times that revenue unless you believe the revenue is about to become very much larger, which brings you back to needing the strategic story to be true.
+
+There is also a piece of evidence about the buyer's state of mind that is hard to categorize and too good to omit. A leaked letter from Stripe's founders to investors explained the company's operating posture by saying it had decided that 1 January marked the beginning of the singularity and it had been operating on that basis. The reporting is careful to note the phrase is tongue-in-cheek and that Patrick Collison had used it in that spirit publicly. I am not going to build an argument on a joke in a letter. But a firm operating on an explicitly stated assumption that the technological curve has gone vertical is a firm whose acquisition multiples should be read in that light, and it is at least worth knowing that the assumption was written down.
+
+What would have to be true for this book to be right
+
+Set the three counter-readings side by side and the honest position is that all of them are consistent with the evidence I have.
+
+For the argument in this book to hold, the metering-and-settlement position has to be worth more than the expense-management seat, and the router has to remain the place where the metering happens rather than being reduced to a commodity component inside somebody else's billing stack. Neither is established. Both are assertions about a market that is roughly eighteen months old.
+
+What I can say is that the counter-arguments are about where the value accrues, not about the mechanism. Nothing in this section disputes that the token is a poor unit of account, that prices are nondeterministic at submission, or that the credit is a conversion layer over dollars. Semafor, TechCrunch and PYMNTS are arguing about who captures the value created by that mess. They are not arguing that the mess is imaginary.
+
+So the mechanical claims of Sections 1 and 3 survive this section intact. The commercial claim of Section 2, that this was a payments acquisition in the meaningful sense rather than the metaphorical one, does not survive it cleanly, and I would not want a reader to finish this book believing it had been demonstrated. It is the reading I find most persuasive. It is not the only one the facts allow.
+
+One small thing cuts the other way, and it deserves a mention because it is the only piece of post-deal evidence anyone has. OpenRouter's own announcement commits to neutrality in unusually specific language: routing decisions will remain driven by one thing, which is what is best for the user. If routing were merely a funnel into a financial-services relationship, that commitment would be an odd thing to make and an expensive one to keep.

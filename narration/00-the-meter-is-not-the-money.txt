@@ -1,0 +1,57 @@
+The meter is not the money.
+
+A chief executive says tokens are a currency. His own company's products are built as though they are not.
+
+On 19 August 2026, Stripe announced it had agreed to acquire OpenRouter. The press release described the target in a single line, a platform that routes and optimizes token usage across more than four hundred models from more than eighty providers, and then handed the microphone to Patrick Collison, who explained what the company thought it was buying.
+
+Tokens are the central currency for companies building with AI, and it's clear that the real-world economic potential will depend on making good use of scarce compute resources.
+
+It is a good sentence, and I suspect it is the sentence that sold the deal internally. It is also wrong in a specific way that the rest of this book is about, and the strange thing is that Stripe's own products appear to know it, because not one of them is built as though it were true.
+
+Consider the thing Stripe just paid billions for. OpenRouter runs a credit system: you load money in, you spend it down on inference. In what unit is that balance held? The documentation answers without ceremony. OpenRouter uses a credit system in which the base currency is US dollars.
+
+The competition does the same. Vercel's AI Gateway sells credits too, and bases its rates on the provider's list price, with charges deducted from a dollar balance. And Stripe's own AI billing product, which shipped before this acquisition, is the clearest tell of all: it lets a business define an "AI Credit" and then configure how usage of each model converts to credits. Converts. From one thing into a different thing, at a rate somebody has to set. That verb is carrying the entire argument.
+
+Every serious system in this market meters in tokens and settles in dollars. Nobody has built one that does otherwise, and it is not for want of ambition. The token is the meter. The dollar is still the money.
+
+What a currency has to do
+
+The reason is less about finance than about measurement, and it starts with a property so basic that it usually goes unstated: a unit of account has to mean the same thing to both parties at the moment they agree to a trade.
+
+A dollar is a dollar when you commit to spend it. A kilowatt-hour is a kilowatt-hour, which is why your electricity bill works, you do not know in advance how many you will burn, but you know what one is, and you know its price before you use it. That is the whole trick of a meter. The quantity floats; the unit does not.
+
+A token fails this, and it fails it in four different ways at once, none of them exotic and all of them documented by the vendors themselves in the pages they expect their own customers to read.
+
+The first is that a token's price depends on who serves it. For open-weight models the weights and the hardware come apart: a lab publishes a model, and then dozens of companies run it on their own machines, at their own prices, with their own throughput. The output is identical. The invoice is not. OpenRouter's routing documentation puts the spread in its own worked example, Provider A at one dollar per million tokens, Provider B at two, Provider C at three. A factor of three, for the same tokens out of the same model.
+
+The second is that you do not get to choose which of them serves you, and neither, quite, does the router. You might reasonably assume it picks the cheapest and moves on. It does not. The documented default is to load balance requests across providers, prioritizing price, balance, note, not minimize, and the balancing is probabilistic, with candidates weighted by the inverse square of their price. In the documentation's own example that makes the cheapest provider nine times likelier to be selected than the dearest.
+
+Nine times more likely still sends roughly one request in ten to a costlier supplier. The die is loaded; it remains a die. Which means that at the instant you press send, the price of that request is not yet a number, it is a distribution, and it will not collapse into a number until after the work is done.
+
+This is the load-bearing fact of the book and it is worth slowing down for, because it is stronger than the thing people usually say. The complaint is not that AI pricing is hard to predict, or that it varies by workload. It is that the price does not exist yet at the moment of purchase. It gets settled afterwards, by a draw you neither control nor observe.
+
+There is a good reason for the design, and it is worth stating plainly rather than treating the nondeterminism as a flaw somebody should fix. Routing every request to the single cheapest provider would pile load onto one supplier, wreck tail latency, and hand that supplier the power to reprice at will. Spreading traffic across a price-weighted field is how a router keeps its own supply side honest. The nondeterminism is deliberate, and it is load-bearing for the market's health. It is simply fatal to using the token as a unit of account.
+
+The third failure is that not all tokens are the same kind of token. Prompt caching lets a provider hold part of your context so that repeated calls do not reprocess it, which makes it the single largest lever on real-world inference cost, and which splits one token into several priced categories. On recent OpenAI models, cache writes are charged at 1.25 times the price of the original input pricing. Cache reads are charged at a quarter or a half of it, depending on the model. So a token going into the cache costs a quarter more than an ordinary input token, and the same token coming back out costs a half or a quarter of one. Same word, same model, same request, three prices, decided by which side of a cache boundary it happened to fall on.
+
+If those categories were at least consistent between vendors, a conversion table would rescue the situation. They are not, and that is the fourth failure. The same documentation records that some providers, Anthropic among them, carry a negative discount on cache writes and a positive one on cache reads. A negative discount is a surcharge. One vendor's cache write is a rebate and another's is a penalty, with no shared sign convention to appeal to. And because caching and routing are entangled, the router pins a session to a provider only when that provider's cache-read price beats its ordinary prompt price, the caching behavior changes the routing, which changes the price, which changes whether the caching was worth doing.
+
+Put the four together and you arrive somewhere uncomfortable: you cannot quote a fixed price for a request before it is routed. Not because the tooling is young. Because there is no fixed price there to quote.
+
+Anyone who has tried to reconcile an AI bill has already met this, usually without having a name for it. The most honest acknowledgment I have found sits in the documentation of LiteLLM, the open-source gateway that a great many teams use to track their spend. It carries a section headed, without euphemism, "Cost does not match your provider bill?", and beneath it a debugging workflow instructing you to align time ranges, compare token categories including cache, and then decide whether the gap is ingestion, formula, or model-map pricing.
+
+Read that last clause again. Three named ways your own meter can disagree with your supplier's, catalogued by a mature tool that does this for a living. Metering AI spend is a genuinely hard measurement problem rather than a solved one waiting on a better implementation, and the software that does it best is candid about that.
+
+The cost of getting this wrong is rarely a catastrophe. It is a slow tax, and it comes due in four places. Budgets drift, because a forecast built on average cost per token moves as the routing mix moves, and the drift is invisible, since the token count was right all along. Margins erode quietly: if you resell inference at a fixed price per unit while your own cost is a distribution, you have written somebody an option and handed it over for free. Reconciliation becomes permanent, a monthly ritual of comparing two numbers that will never agree and deciding how much disagreement is tolerable. And optimization goes after the wrong quarry, because cutting token count is not the same as cutting cost once cache reads are a quarter price and cache writes are a surcharge. Teams tune the meter when they meant to tune the bill.
+
+None of that is exotic. It is just what happens when you denominate something in a unit that will not hold still.
+
+What got built instead
+
+So the interesting question is not why nobody has minted a token currency. It is what the people closest to the problem built once they worked out that they could not.
+
+They built a conversion layer. Stripe's billing product does not sell tokens; it lets a business define an abstract AI Credit, specify how each model's usage converts into that unit, and then sell prepaid packs of it. The metering underneath is fine-grained enough to carry every distinction this section has been describing, segmented by model and by token type including cached tokens.
+
+That is the right architecture, and it concedes the whole argument. The credit is a synthetic unit rather than a token, with an exchange rate against real tokens that is configured per model and can be changed by whoever is selling it. The complexity does not vanish. It moves behind an interface, where one business absorbs it so that its customers never have to look at it. At the time of writing, that product was not generally available; access sat behind a waiting list. The idea has run further ahead than the shipping.
+
+If you take one thing into your own systems from this section, make it the discipline of keeping the two units apart. Store budgets in dollars and derive tokens, never the reverse, any internal system holding a budget as a token count has a bug that will stay hidden until the routing mix shifts under it. Stamp an access date on every price you rely on, because vendors reprice without changelogs and a price page is evidence about a day rather than a standing fact. Capture the cached-versus-uncached split in your own telemetry from the beginning, since retrofitting it after a surprising invoice means reprocessing logs that may never have kept the field. And decide in advance how much drift between your meter and your supplier's you are willing to accept, then write the number down, teams that skip this end up settling it during a month-end close, where the answer gets decided by whoever is most tired.

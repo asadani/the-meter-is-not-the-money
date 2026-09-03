@@ -1,0 +1,45 @@
+The router as price maker.
+
+A component that selects suppliers by price, at volume, is not observing a market. It is setting one.
+
+A router looks like plumbing. Requests arrive, requests leave, and the interesting work is assumed to be happening at the ends. That framing survives right up until you notice that the router is choosing, on every single request, which supplier gets paid, and that it makes the choice on price.
+
+Once a component selects suppliers by price and controls enough volume, it stops being a passive observer of a market. Supplier revenue is now a function of the router's weighting. That is the argument of this section, and the way to see it is to look closely at what the routing decision actually involves, because there are far more priced dimensions in it than most people building on top of it realize.
+
+More dials than anyone expects
+
+Start with the one from Section 1: provider selection weighted by the inverse square of price, so that the cheapest candidate is nine times likelier than the dearest in the documentation's own three-provider example. That alone makes the cost of a request a distribution rather than a number.
+
+But price is only the default sort. A caller can filter on measured performance first and then sort on price, and the filtering is empirical rather than advertised, OpenRouter will select hosts that have sustained at least 40 tokens per second for 90% of requests over the last five minutes, and route to the cheapest provider within that qualified group. That is a rolling five-minute window over a ninetieth percentile. The set of providers eligible to serve you changes continuously, based on how they have been performing against other people's traffic in the last few minutes. Two identical requests, sent ninety seconds apart, can face different candidate sets and therefore different price distributions, without anything in your code changing and without any provider having announced a price change.
+
+Then consider what else carries a multiplier once you look beyond the router at the vendors underneath.
+
+Latency tolerance is priced. Amazon Bedrock offers selected models for batch inference at a 50% lower price than on-demand inference. Half price, for agreeing to wait. If your workload can tolerate a delay and you have not told anyone, you are paying twice what you need to.
+
+Geography is priced. Anthropic applies a 1.1x multiplier across all token pricing categories when a caller specifies US-only inference. Not a surcharge on a line item, a ten percent uplift across input, output, cache writes and cache reads alike. A compliance requirement, expressed as a coefficient.
+
+The cache is the economy
+
+Section 1 gave the OpenAI figures: cache writes at 1.25x input on recent models, cache reads at a quarter or a half. Those figures belong to one vendor rather than to the industry, and the others differ.
+
+Anthropic's published table runs on three multipliers rather than two, because it sells cache duration as a product. A five-minute cache write costs 1.25x base input price. A one-hour cache write costs 2x. A cache read costs 0.1x. Bedrock, meanwhile, prices cache reads at 75% below its on-demand input price, a 0.25x multiplier, which is neither Anthropic's 0.1x nor the 0.5x that some OpenAI models carry.
+
+Three vendors, three different discounts for the identical operation of reading a cached token. There is no convergence here and no sign of any, which means a tool that wants to predict cost across vendors cannot hold a single number for "cache read." It has to hold a table, and keep it current, against vendors who reprice without changelogs.
+
+Anthropic, to its credit, publishes the break-even directly: caching pays off after one cache read for the five-minute duration, or after two cache reads for the one-hour duration. That is an unusually honest piece of documentation and it is worth dwelling on, because it makes the decision structure visible. Whether to cache is not a performance question with a cost side effect. It is a bet on reuse. Write to the five-minute cache and you need one hit to break even. Buy the hour and you need two. Get the reuse pattern wrong and caching costs you money, which is the opposite of how almost everyone describes caching in every other part of computing.
+
+Now couple that back to routing, because the two are not independent. A cache lives on a specific provider's hardware. To benefit from it, subsequent requests have to reach the same provider, which is why the router pins sessions, and pins them conditionally, activating sticky routing only when the provider's cache-read price beats its ordinary prompt price. The router is running the break-even calculation on your behalf and changing its routing policy based on the answer.
+
+The entanglement produces failure modes that look like nothing at all in a diff. Changing a model slug mid-conversation, appending a latency-oriented variant suffix, say, invalidates the sticky key. A one-word change to a configuration string, made to improve latency, silently discards a warm cache and re-routes the conversation. The latency probably does improve. The bill moves in a direction nobody predicted, because the person who made the change was reasoning about speed and the system was also reasoning about cache residency.
+
+What this makes the router
+
+Assemble the dials: price-weighted probabilistic selection, rolling throughput filters, batch tiers, geographic multipliers, three-way cache multipliers that differ per vendor, and sticky sessions that engage conditionally on a price comparison. Every one of those is a lever on what a request costs, and the router holds most of them.
+
+A component holding that many pricing levers over that much volume is not a neutral pipe. When a router weights by inverse square of price, it is not merely finding the cheap provider, it is manufacturing demand elasticity. A provider that drops its price does not simply win the requests where it is cheapest; it wins a larger share of a probabilistic draw across the whole eligible set, immediately, with no sales cycle and no contract renegotiation. And a provider that raises its price does not lose its customers, because it never had customers in the retail sense. It loses weight in a distribution.
+
+That is a real market mechanism, and it is a better one than the alternative in most respects. It is also, from the perspective of anyone trying to answer "what will this cost," an active adversary. The very properties that make the routing layer good at disciplining suppliers are the properties that make a fixed price impossible to quote.
+
+What the mechanism does establish is where the leverage sits. If a supplier's revenue depends on a weighting function held by an intermediary, the intermediary is the most commercially valuable component in the chain, regardless of whether it charges anything for the privilege. Which raises the question the next section has to answer: given that position, what does the market actually charge for standing in it?
+
+The answer turns out to be four incompatible things at once.

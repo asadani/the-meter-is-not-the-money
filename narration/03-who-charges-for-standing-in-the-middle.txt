@@ -1,0 +1,43 @@
+Who charges for standing in the middle.
+
+Five firms, one function, and prices that range from 5.5% of everything you spend to nothing at all.
+
+If the routing layer is as valuable a position as the last two sections suggest, the market should agree on what it is worth. Markets usually do converge on a price for a well-understood function, even a contested one, card acquiring settled into a band, cloud storage settled into a band, and you can predict what a new entrant will charge to within a few basis points.
+
+The AI gateway market has not converged. It has not even nearly converged. The same function, sit between an application and a set of model providers, route the request, meter the spend, is monetized four incompatible ways by five serious companies, and the prices are not close.
+
+OpenRouter charges a share of the money you load: 5.5% on the pay-as-you-go plan.
+
+Vercel charges nothing on the tokens. Its documentation states plainly that the AI Gateway charges no markup and no platform fee on tokens, with the customer paying the provider's list price and Vercel deducting from a credit balance.
+
+Portkey charges a subscription. Its production plan is $49 a month with a quota of 100,000 recorded logs, a software license with usage-based logging, entirely decoupled from how much inference flows through it. Below that sits a permanently free tier, explicitly not suitable for production workloads.
+
+Cloudflare charges nothing at all. Its AI Gateway's core features are offered free on all plans, and the core it names is not a stub: dashboard analytics, caching, and rate limiting.
+
+And beneath all of them, LiteLLM gives the metering away as open-source software you run yourself, tracking spend for keys, users, and teams across more than a hundred models.
+
+Five providers. A percentage of funds, zero, a flat monthly fee, zero again, and free source code.
+
+What a spread like that means
+
+A price dispersion this wide is not noise. It is a signal that the participants disagree about what business they are in.
+
+Take a percentage of money loaded and you have declared yourself a financial intermediary whose revenue scales with customer spend. Charge a flat subscription and you have declared yourself a software vendor whose revenue scales with customer count. Charge nothing and you have declared the gateway a feature of something else you sell, hosting, in Vercel's case; the broader network, in Cloudflare's. Publish the source and you have declared it infrastructure that should not be a business at all.
+
+Those are four different businesses wearing the same coat. And it means the 5.5% is not the market price for routing. It is one firm's answer to a question the market has not settled, and it is the highest answer on the board by a wide margin, infinitely higher than three of the four alternatives, which charge nothing for the gateway itself.
+
+I want to be careful about what this does and does not establish. It does not establish that the 5.5% is doomed. Prices persist above zero-priced alternatives all the time, for reasons that are perfectly rational: switching costs, breadth of model coverage, reliability, the fact that the free options make you operate them yourself. OpenRouter's fee buys access to a catalogue and an operational burden somebody else carries, and plenty of teams will consider that a bargain at 5.5% of spend. The presence of a free competitor does not refute a paid one; if it did, nobody would sell databases.
+
+What it does establish is that the fee is a business-model choice rather than a property of the position. Occupying the routing layer does not entitle you to a take rate. Two of the largest firms in this list occupy the same layer and have decided the correct rent is nothing, because they monetize elsewhere and would rather have the traffic.
+
+And it complicates the payments framing from Section 2 in a specific way. A payment processor's take rate is defensible because moving regulated money at scale is genuinely hard, genuinely licensed, and genuinely not something a competitor can give away as a loss leader. A routing fee has none of those protections. Cloudflare can zero it out on Tuesday and absorb the cost inside a network business, and there is no regulator, no license, and no settlement obligation standing in the way.
+
+The competitive squeeze is the visible half. The other half is that the thing being charged for does not work perfectly, and its own practitioners say so.
+
+Section 1 quoted LiteLLM's documentation on reconciliation. Read in the context of this section that admission carries more weight. If metering were both hard and reliable, it would be a defensible service. If it were easy and reliable, it would be a commodity but at least a working one. What the documentation describes is a capability that is available for free and does not fully work, which is close to the worst possible configuration for anyone hoping to charge rent on it.
+
+Sacra's analysis of OpenRouter names the pressure directly, observing that open-source alternatives such as LiteLLM let enterprises self-host routing infrastructure, reducing willingness to pay for standalone routing. That is a private-market research firm modeling a company it does not have access to, so treat it as a considered opinion rather than a finding. But it is the same conclusion the price list arrives at from the other direction.
+
+What can be said with the evidence in hand is narrower and still useful. The fee at this layer is contested, several well-capitalized firms have set it to zero, the underlying capability is available as free software, and that software concedes it does not always agree with the invoice. Whatever Stripe bought, it was not an uncontested toll booth.
+
+Which leads directly to the strongest argument against this entire book, the possibility that everyone involved already knows all of this, and that the routing fee going to zero was never the point.

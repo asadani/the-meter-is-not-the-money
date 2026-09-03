@@ -1,0 +1,47 @@
+What a payments company saw.
+
+Four reported prices, none of them disclosed, and one fee structure that explains the interest better than any of them.
+
+Nobody knows what Stripe paid for OpenRouter.
+
+That is worth stating flatly at the outset, because the number gets repeated in conversation as though it were settled, and it is not. Stripe disclosed no terms. What exists instead is four figures from four outlets, each citing a source it does not name. Bloomberg reported more than seven billion dollars. The New York Times, via CNBC, put it at about $7.5 billion, with $1.5 billion of that allocated to OpenRouter's founders. Semafor said eight billion. And earlier, while the talks were still running, The Information had the figure at ten billion.
+
+The temptation is to average these and move on. Resist it. They are not four measurements of one quantity, and averaging them would produce a number that nobody reported and no document supports. They are snapshots of a negotiation taken at different moments by different people with different access. If you need a number for an argument, use a range and say whose it is. If your argument only works at eight billion, it is a weaker argument than you think, because eight billion is the loosest of the four.
+
+What is not in dispute is the shape of the jump. Less than three months before the acquisition, OpenRouter had raised $113 million at a valuation of about $1.3 billion. Whatever the closing figure, the company was worth something on the order of five to six times more in August than it had been in May, and nothing about the product had changed in the interval.
+
+One more thing was true at the time of writing and may not be by the time you read this: the acquisition had not closed. It remained subject to customary closing conditions, with the parties expecting to close within weeks. Everything in this book describes an agreed deal rather than a completed one.
+
+So the question is what the buyer saw.
+
+The shape of the take
+
+The usual answer is distribution: OpenRouter sits in front of a great deal of traffic, and traffic is valuable. That is true but incomplete, and it misses the detail that should make a payments company sit up.
+
+Look at how OpenRouter actually earns. It does not mark up inference. Its documentation is explicit that there is no markup on inference pricing, and that it charges a fee when you purchase credits instead. What you pay for tokens is what the underlying provider charges for tokens. The business is instead a percentage taken at the moment money enters the system: the published platform fee on the pay-as-you-go plan is 5.5%. For customers bringing their own provider keys the arrangement shifts but does not change character, free up to $25,000 of list-price inference per month, then a 5% fee above that.
+
+Sit with the structure rather than the numbers. A software company charges for the software. A reseller buys wholesale and sells retail, and lives on the spread. OpenRouter does neither. It passes the goods through at cost and takes a percentage of the money moved.
+
+That is a take rate. It is the economic signature of a payment processor, and it is a genuinely unusual thing to find in an infrastructure company. The fee does not scale with how much compute you consume, or how many models you call, or how many seats you have. It scales with how much money you put in. Whether you spend that balance on one enormous batch job or ten million small requests, whether you burn it in a day or leave it sitting for a quarter, the 5.5% was collected at the door.
+
+A company whose entire business is understanding money at the door would recognize that instantly.
+
+The economics that come with it are the kind payments people find familiar. OpenRouter was reported to be generating roughly $140 million in annualized revenue by mid-2026, with the cost of serving the routing product at 28.5% of revenue and gross margin around 70%. That margin is not the product of clever pricing on inference, because there is no pricing on inference. It is what falls out of taking a percentage of transaction value while paying only for the infrastructure that moves the transaction.
+
+The part that was already there
+
+The strongest evidence that Stripe understood this is that Stripe had already started building it.
+
+The press release says so, in a clause that reads like housekeeping and is not: since the previous year, Stripe had been working to help companies optimize their token costs and route tokens efficiently, having launched products including Token Billing. Before any of this, Stripe was already metering AI tokens as a billing primitive. It had shipped the meter. What it lacked was the thing that knows, request by request, which of eighty providers served the work and what that provider charged, and that knowledge is not something you can build from the outside, because it lives in the routing decision itself.
+
+Read the acquisition that way and it stops looking like a payments company wandering into AI infrastructure. It looks like a metering business acquiring the instrument its meter was missing.
+
+There is a further clue in how Stripe describes the difficulty. The release frames the problem not as cost but as combinatorial complexity, which model to use for which tasks, at which speed and at what price, and notes that the challenge is exacerbated by the pace at which models are released and repriced. That is a description of an unstable unit of account written by someone who has clearly stared at the problem. And the stated ambition is to help businesses maximize profitability by routing their requests intelligently and spending their tokens efficiently. Revenue and cost. Money in and money out. The two sides of a ledger, which is the one thing Stripe has always sold.
+
+Where the argument gets uncomfortable
+
+All of which supports the reading that this was a payments acquisition, and I think that reading is right. But it does not support the further claim that gets attached to it, that the token is therefore becoming a currency, and that owning the router is owning the mint.
+
+The same company that charges a payment processor's take rate settles it in dollars. OpenRouter's credit balance has US dollars as its base currency. The 5.5% is levied on dollars entering, not on tokens leaving. At no point in the flow does a token function as money. It functions as the thing being measured so that dollars can be moved correctly, which is exactly what a meter is for.
+
+What follows from it is a question rather than a conclusion. If the position is genuinely a payments position, the 5.5% should be defensible, rents at a chokepoint usually are. Section 4 tests that, and finds the picture considerably messier than the number suggests. Before that, though, it is worth understanding what the router is actually doing when it decides where your request goes.
