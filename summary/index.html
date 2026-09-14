@@ -133,7 +133,10 @@ li::marker{color:var(--accent)}
   font-family:var(--sans); font-size:1.05rem; margin:0 0 .35rem; font-weight:600;
 }
 .next .why{color:var(--soft); font-size:.97rem; margin:0 0 1.3rem}
+.next .why a{color:var(--accent); text-decoration:none; border-bottom:1px solid var(--rule)}
+.next .why a:hover{border-color:var(--accent)}
 .actions{display:flex; flex-wrap:wrap; gap:.7rem}
+.top-actions{margin-top:1.6rem}
 .btn{
   display:inline-flex; align-items:center; gap:.5rem;
   font-family:var(--mono); font-size:.82rem; font-weight:500;
@@ -175,6 +178,11 @@ footer a{color:var(--faint)}
   </p>
   <h1>The Meter Is Not the Money</h1>
   <p class="sub">How AI compute gets priced, metered, and paid for.</p>
+  <div class="actions top-actions">
+    <a class="btn primary" href="../"><span class="ar">&rarr;</span> Read the full book &middot; free</a>
+    <a class="btn" href="../#bookaudio"><span class="ar">&#9654;</span> Listen to the book &middot; free</a>
+    <a class="btn" href="https://ko-fi.com/s/0f1f4f72ad" target="_blank" rel="noopener"><span class="ar">&nearr;</span> Buy the PDF on Ko-fi</a>
+  </div>
 </header>
 
 <p class="claim">
@@ -272,17 +280,11 @@ footer a{color:var(--faint)}
 </div>
 
 <div class="next">
-  <h3>Read the full inquiry</h3>
-  <p class="why">
-    30 pages. 38 sources captured and hashed, 77 claims bound to exact quotations,
+  <h3>What's in the full inquiry</h3>
+  <p class="why">30 pages. 38 sources captured and hashed, 77 claims bound to exact quotations,
     each machine-checked against a stored copy before the sentence citing it was
     written. Every source is archived alongside it, so you can check any claim
-    yourself.
-  </p>
-  <div class="actions">
-    <a class="btn primary" href="../"><span class="ar">&rarr;</span> Read the full book &middot; 30 pp</a>
-    <a class="btn" href="https://ko-fi.com/s/0f1f4f72ad" target="_blank" rel="noopener"><span class="ar">&nearr;</span> Typeset PDF on Ko-fi</a>
-  </div>
+    yourself. <a href="../">Read it &rarr;</a> or <a href="../#bookaudio">listen to it &rarr;</a>.</p>
 </div>
 
 <footer>
